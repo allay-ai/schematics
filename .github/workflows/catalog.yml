@@ -47,7 +47,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           if [ -z "$OPENROUTER_API_KEY" ]; then echo "::warning::no OPENROUTER_API_KEY: new builds stay without descriptions"; exit 0; fi
-          if [ "${{ github.event_name }}" = "schedule" ]; then python3 -I tools/describe.py --collect; else python3 -I tools/describe.py; fi
+          # A pending batch is picked up whatever started the run: an hourly one, a push, or a hand.
+          if [ -f .describe/pending.json ]; then python3 -I tools/describe.py --collect; fi
+          python3 -I tools/describe.py
       - run: python3 -I tools/build.py
       - name: Commit
         run: |
