@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/boeing-c-17-globemaster-iii/",
   "license": "unrestricted",
   "rating": 116,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Boeing C-17 Globemaster III",
+      "ru": "Боинг C-17 Globemaster III",
+      "es": "Boeing C-17 Globemaster III",
+      "pt": "Boeing C-17 Globemaster III",
+      "de": "Boeing C-17 Globemaster III"
+    },
+    "description": "A large stone-brick replica of the Boeing C-17 Globemaster III military transport aircraft, with a wide fuselage, swept wings, and a tail section, built mostly from stone bricks with black wool and carpet accents. It measures about 65 blocks wide, 26 high, and 69 deep, using around 4,200 blocks. The model includes a few functional parts such as a beacon, chests, a furnace, hoppers, and a control panel, and the source notes it is interactive, though the details of how it works are not described.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "airplane",
+        "aircraft",
+        "c-17",
+        "boeing",
+        "military transport",
+        "plane model",
+        "stone brick",
+        "interactive"
+      ]
+    },
+    "for": "47e2137afce35bd39143a9e684bb8b8d0912b71c3085d4e8c135ef6ae168e479",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

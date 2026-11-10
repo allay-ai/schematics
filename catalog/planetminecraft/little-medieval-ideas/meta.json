@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/little-medieval-ideas/",
   "license": "unrestricted",
   "rating": 104,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Little Medieval Ideas",
+      "ru": "Маленькие средневековые идеи",
+      "es": "Pequeñas ideas medievales",
+      "pt": "Pequenas ideias medievais",
+      "de": "Kleine mittelalterliche Ideen"
+    },
+    "description": "A medieval-style build made mostly of stone bricks, mossy stone bricks, cobblestone, and oak planks, with oak logs and fences, and blue wool accents. It is roughly 53 by 49 by 115 blocks, about 60,700 blocks in total, and is spread out along its long depth. The interior includes a record player and signs.",
+    "tags": {
+      "type": [
+        "village"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "medieval",
+        "stone brick",
+        "oak",
+        "village",
+        "record player",
+        "blue wool",
+        "sign",
+        "cobblestone"
+      ]
+    },
+    "for": "2d236fe278f215de687eeadb1570239ad5eb7885832c4eb410ac7662b2c895fd",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

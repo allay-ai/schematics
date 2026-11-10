@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/empire-state-building-v2/",
   "license": "unrestricted",
   "rating": 82,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Empire State Building",
+      "ru": "Эмпайр-стейт-билдинг",
+      "es": "Empire State Building",
+      "pt": "Empire State Building",
+      "de": "Empire State Building"
+    },
+    "description": "A tall replica of the Empire State Building in pale sandstone and stone brick, with a stepped Art Deco setback profile, a slender spire, and gray wool accents on the upper floors. It is about 52 blocks wide, 255 blocks high, and 86 blocks deep, built from roughly 100,000 blocks. The interior is solid, with no rooms or block entities.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "empire state building",
+        "skyscraper",
+        "new york",
+        "sandstone tower",
+        "art deco",
+        "city",
+        "replica",
+        "tall building"
+      ]
+    },
+    "for": "6657dbbef07124be52452c89758bbac01a76c4d719aaa78c42a59864673ef561",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

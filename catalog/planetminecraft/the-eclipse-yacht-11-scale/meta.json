@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/the-eclipse-yacht-11-scale/",
   "license": "unrestricted",
   "rating": 76,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Eclipse Megayacht Interior",
+      "ru": "Интерьер мегаяхты Eclipse",
+      "es": "Interior del megayate Eclipse",
+      "pt": "Interior do megaiate Eclipse",
+      "de": "Eclipse Megayacht Innenraum"
+    },
+    "description": "A large modern megayacht built at roughly 1:1 scale, about 165 blocks long, 48 high and 23 deep, with a full interior. Its hull and superstructure use white quartz, light gray and cyan terracotta, black wool and black glass, with jungle wood decks and iron trim. The build sits on water and includes a beacon, control room, flower pots and signs inside.",
+    "tags": {
+      "type": [
+        "ship",
+        "interior"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "yacht",
+        "megayacht",
+        "ship",
+        "boat",
+        "interior",
+        "quartz",
+        "modern",
+        "1:1 scale"
+      ]
+    },
+    "for": "b8bdcf3252177a2c49d7e992fb5098a021079881fcc1910724bb3d56aca58090",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

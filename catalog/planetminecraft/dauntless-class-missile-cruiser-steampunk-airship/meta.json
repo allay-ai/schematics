@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/dauntless-class-missile-cruiser-steampunk-airship/",
   "license": "unrestricted",
   "rating": 77,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Dauntless Steampunk Missile Airship",
+      "ru": "Дерзкий стимпанк-ракетный дирижабль",
+      "es": "Dirigible Steampunk Crucero Misilero",
+      "pt": "Dirigível Steampunk Cruzador de Mísseis",
+      "de": "Dauntless Steampunk Raketen-Luftschiff"
+    },
+    "description": "A long steampunk airship modeled as a missile cruiser, built mostly from light gray and brown wool with oak planks, iron blocks and fence railings. It is about 25 blocks wide, 34 high and 120 deep, with a pointed nose, a stepped central hull and a flared tail. The interior holds chests, furnaces, signs and a few red beds, and glowstone lights the hull.",
+    "tags": {
+      "type": [
+        "ship",
+        "other"
+      ],
+      "style": [
+        "steampunk"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "airship",
+        "steampunk airship",
+        "missile cruiser",
+        "zeppelin",
+        "flying ship",
+        "battleship",
+        "wool",
+        "iron"
+      ]
+    },
+    "for": "536948a18ae4ba011c534a152307c53718ecc89cea442ee1aeaa05ed347383b3",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

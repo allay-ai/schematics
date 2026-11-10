@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/arc-de-triomphe-paris-11/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Arc de Triomphe, Paris",
+      "ru": "Триумфальная арка, Париж",
+      "es": "Arco del Triunfo de París",
+      "pt": "Arco do Triunfo de Paris",
+      "de": "Triumphbogen von Paris"
+    },
+    "description": "A 1:1 scale replica of the Arc de Triomphe in Paris, built mostly from stone, stone bricks and cobblestone with iron bars and a few glass panes. It stands about 61 blocks wide, 60 high and 42 deep, with a large central archway flanked by smaller side arches and a flat roof. The source notes no interior features beyond a small furnace and sign.",
+    "tags": {
+      "type": [
+        "statue",
+        "other"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "snowy",
+        "forest"
+      ],
+      "keywords": [
+        "arc de triomphe",
+        "paris",
+        "monument",
+        "stone arch",
+        "replica",
+        "landmark",
+        "triumphal arch",
+        "france"
+      ]
+    },
+    "for": "4c5f713d38e5a615683d0955c631b9785fa37fbf8db1bef6c8f71a90bccfa6fe",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

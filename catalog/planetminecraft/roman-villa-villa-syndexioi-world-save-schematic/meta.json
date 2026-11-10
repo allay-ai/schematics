@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/roman-villa---villa-syndexioi-world-save-schematic/",
   "license": "unrestricted",
   "rating": 81,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Roman Villa Syndexioi",
+      "ru": "Римская вилла Синдексиои",
+      "es": "Villa Romana Syndexioi",
+      "pt": "Villa Romana Syndexioi",
+      "de": "Römische Villa Syndexioi"
+    },
+    "description": "A large Roman-style villa built mostly from light gray wool, brick, and brick slabs, set on a dirt and grass platform with a sandy stone courtyard and a tall stone-walled section. It spans about 86 by 86 blocks and is 16 blocks high, with a spruce and birch tree-lined area and interior details like chests, furnaces, a record player, and signs.",
+    "tags": {
+      "type": [
+        "house",
+        "garden"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "roman villa",
+        "villa",
+        "large mansion",
+        "brick",
+        "courtyard",
+        "garden",
+        "roman house",
+        "schematic"
+      ]
+    },
+    "for": "59effdeff244fcf257aa878e4c0867c70501eab9098619b8f3fe5858c0531356",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

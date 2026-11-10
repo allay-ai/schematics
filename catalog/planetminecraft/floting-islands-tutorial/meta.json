@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/floting-islands-tutorial/",
   "license": "unrestricted",
   "rating": 112,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Floating Islands Tutorial",
+      "ru": "Парящие острова: туториал",
+      "es": "Islas flotantes: tutorial",
+      "pt": "Ilhas flutuantes: tutorial",
+      "de": "Schwebende Inseln: Tutorial"
+    },
+    "description": "A tutorial build of several floating islands made mostly of stone, with grass tops, oak trees, leaves, and small waterfalls and ponds on a few of them. It is a large structure, about 187 by 88 by 156 blocks, with a sky-island look and no interior or block entities. Good as a reference for building floating terrain.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "floating islands",
+        "sky islands",
+        "tutorial",
+        "stone",
+        "oak trees",
+        "waterfall",
+        "terrain",
+        "aerial"
+      ]
+    },
+    "for": "9f08352cbd3357bbe3deeb121414ee871a8e2e0fe6f5d6d0c3667b6955dc21c8",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

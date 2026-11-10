@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/sony-tower-3186720/",
   "license": "unrestricted",
   "rating": 57,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Sony Tower",
+      "ru": "Башня Sony",
+      "es": "Torre Sony",
+      "pt": "Torre Sony",
+      "de": "Sony-Turm"
+    },
+    "description": "A very tall modern tower built mainly from stone with blue wool and light blue stained glass accents, topped with a beacon and iron block details. It measures 49 wide, 174 high, and 45 deep, with about 96,000 blocks in total. The source gives no description, so the design details beyond the materials and block entities are unknown.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "city"
+      ],
+      "keywords": [
+        "sony tower",
+        "modern tower",
+        "tall skyscraper",
+        "blue glass tower",
+        "beacon tower",
+        "stone tower",
+        "city building",
+        "large tower"
+      ]
+    },
+    "for": "88044e80a27c0e2ec5fcf9e170372625811fa9ae793db1beb181100d03de6258",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

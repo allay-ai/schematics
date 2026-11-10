@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/colonial-mansion-2552833/",
   "license": "unrestricted",
   "rating": 120,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Colonial Estate Mansion",
+      "ru": "Колониальное поместье",
+      "es": "Mansión colonial",
+      "pt": "Mansão colonial",
+      "de": "Koloniales Herrenhaus"
+    },
+    "description": "A large colonial-style mansion with quartz and sandstone walls, stone brick and spruce accents, green wool and iron bar details, and oak-leaf-covered grounds set around a water feature. It spans about 94 by 70 blocks and stands roughly 31 blocks high, with a few chests, furnaces, and signs inside.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "colonial estate",
+        "quartz",
+        "sandstone",
+        "large house",
+        "manor",
+        "plantation",
+        "villa"
+      ]
+    },
+    "for": "0a43266db4ea7d261751a80d66e321b904617b9761d70b1c0f25cbed5241250d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

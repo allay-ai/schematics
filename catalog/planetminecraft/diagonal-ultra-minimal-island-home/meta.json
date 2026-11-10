@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/diagonal-ultra-minimal-island-home/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Diagonal Acacia Island Home",
+      "ru": "Диагональный акациевый островной домик",
+      "es": "Casa isleña diagonal de acacia",
+      "pt": "Casa de ilha diagonal de acácia",
+      "de": "Diagonales Akazien-Inselhaus"
+    },
+    "description": "A very minimal, low house on an island, built with a diagonal stepped shape from acacia stairs and acacia planks. It is 17 blocks wide, 2 high, and 4 deep, and uses 102 blocks in total (68 acacia stairs, 34 acacia planks). It has no block entities or interior details.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "minimal",
+        "acacia",
+        "island",
+        "small house",
+        "diagonal",
+        "stairs",
+        "simple",
+        "modern home"
+      ]
+    },
+    "for": "128aef3a9f566dfed05d24413cc4a4a46637cb4382a380d4cfc1d4452f2f04f5",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

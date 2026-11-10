@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/the-scintillate-airship/",
   "license": "unrestricted",
   "rating": 75,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Scintillate Airship",
+      "ru": "Воздушный корабль Scintillate",
+      "es": "Dirigible Scintillate",
+      "pt": "Dirigível Scintillate",
+      "de": "Luftschiff Scintillate"
+    },
+    "description": "A large white-and-wood airship built as a floating vessel with two symmetrical side wings and a long central hull, seen from the front as a twin-hulled shape with a wide, flat deck. It is made mostly of white wool, oak planks, spruce logs and oak fencing, with glass windows, iron block accents and glowstone lighting. At about 63 wide, 67 high and 112 deep, it is a big showpiece build; the interior holds chests, bookshelves, a furnace, a record player and signs.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "airship",
+        "flying ship",
+        "zeppelin",
+        "blimp",
+        "sky ship",
+        "wool",
+        "vehicle",
+        "floating"
+      ]
+    },
+    "for": "d2a9237c9cdfa05906a7e0eefebbe3a3ada278cc7c616d2fc2bff04fd9cfe303",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

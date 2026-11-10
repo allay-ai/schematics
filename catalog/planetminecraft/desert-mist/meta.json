@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/desert-mist/",
   "license": "unrestricted",
   "rating": 94,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Desert Mist House",
+      "ru": "Дом в пустынной дымке",
+      "es": "Casa Bruma del Desierto",
+      "pt": "Casa da Névoa do Deserto",
+      "de": "Haus im Wüstennebel"
+    },
+    "description": "A large desert-style house built mostly from stone, sand, and sandstone, with gray and lime wool accents, smooth quartz trim, and birch and oak details. It is roughly 50 wide, 24 high, and 59 deep, with a flat-roofed main block and terraced sections rising over sand and gravel ground. Interior details include chests, furnaces, a beacon, a cauldron, a record player, and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "desert",
+        "other"
+      ],
+      "biome": [
+        "desert",
+        "plains"
+      ],
+      "keywords": [
+        "desert house",
+        "sandstone",
+        "stone house",
+        "large house",
+        "mushroom stem",
+        "beacon",
+        "record player",
+        "sand build"
+      ]
+    },
+    "for": "6d5746a1e18a94a179d38413ed9423a2e34c6ac15567135901c40fdfd3878f41",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

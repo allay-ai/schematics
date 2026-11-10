@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/the-spires-of-forsrithe---a-steampunk-build-in-the-sky/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Spires of Frosrithe Steampunk Sky City",
+      "ru": "Шпили Фросрита: стимпанк-город в небе",
+      "es": "Agujas de Frosrithe: ciudad steampunk en el cielo",
+      "pt": "Torres de Frosrithe: cidade steampunk no céu",
+      "de": "Türme von Frosrithe: Steampunk-Himmelsstadt"
+    },
+    "description": "A steampunk sky build of stacked stone-brick spires, cobblestone walls, and oak log and fence details, with a few water features and redstone lamps for lit accents. It is a large, tall structure about 71 blocks in each direction, built from roughly 9,300 blocks, and it reads as a floating or hovering town rather than a single house. The source gives no description of interior contents, and no block entities are present.",
+    "tags": {
+      "type": [
+        "village",
+        "other"
+      ],
+      "style": [
+        "steampunk",
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "steampunk",
+        "sky city",
+        "floating spires",
+        "stone brick",
+        "oak",
+        "redstone lamps",
+        "tower",
+        "minecraft build"
+      ]
+    },
+    "for": "8aa2a741aa69ed3d4046cf6fa0f159e3e9be35a4fe685f82f67455c329ce4ca4",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

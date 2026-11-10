@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/epic-tree-3094495/",
   "license": "unrestricted",
   "rating": 63,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Epic Jungle Tree",
+      "ru": "Эпическое дерево в джунглях",
+      "es": "Árbol épico de la selva",
+      "pt": "Árvore épica da selva",
+      "de": "Epischer Dschungelbaum"
+    },
+    "description": "A huge, free-standing tree built mostly from jungle leaves wrapped around a thick trunk and branches of oak logs, with a small dirt base. It is very large, about 82 blocks wide, 77 high and 72 deep, made of roughly 27,000 blocks, and it has no interior or block entities to explore.",
+    "tags": {
+      "type": [
+        "other",
+        "decoration"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "jungle",
+        "forest",
+        "plains"
+      ],
+      "keywords": [
+        "giant tree",
+        "jungle tree",
+        "oak tree",
+        "leaves",
+        "landmark",
+        "nature",
+        "epic tree",
+        "statue"
+      ]
+    },
+    "for": "06646d653fc24dcfba7660bc2493e9af3c7ed943cb1c720919d717ae5ecd3395",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

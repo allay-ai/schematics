@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/alazar---factions-server-spawn-with-download/",
   "license": "unrestricted",
   "rating": 66,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Alazar Factions Server Spawn",
+      "ru": "Спавн фракций Alazar",
+      "es": "Spawn de facciones Alazar",
+      "pt": "Spawn de facções Alazar",
+      "de": "Alazar Fraktionen-Spawn"
+    },
+    "description": "A large, dark spawn hub for a factions-style Minecraft server, built mostly from gray, black, and purple wool, stone bricks, and purple stained glass, with cobblestone walls and some water. It measures about 157 by 84 by 157 blocks, with a tiered, spiky main structure and a round-looking layout from above. The source has no description, and the block list shows no block entities, so no interior details are confirmed.",
+    "tags": {
+      "type": [
+        "other",
+        "castle"
+      ],
+      "style": [
+        "gothic",
+        "fantasy"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "factions spawn",
+        "server spawn",
+        "minecraft hub",
+        "purple",
+        "dark",
+        "large build",
+        "stone brick",
+        "download"
+      ]
+    },
+    "for": "bd656652331177e4d71d3ecf494318ce949decbf3f7225ae79de82a23baa9d90",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

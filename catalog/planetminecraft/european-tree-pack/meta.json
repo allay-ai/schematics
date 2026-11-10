@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/european-tree-pack/",
   "license": "unrestricted",
   "rating": 110,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "European Tree Pack",
+      "ru": "Набор европейских деревьев",
+      "es": "Paquete de árboles europeos",
+      "pt": "Pacote de árvores europeias",
+      "de": "Europäisches Baumpaket"
+    },
+    "description": "A large collection of stylized trees of mixed species, built mainly from white and red wool with birch, oak, spruce and jungle leaves, plus logs, vines, gravel and a few cobblestone walls and oak fences. It spans about 94 by 98 blocks and 25 blocks high, with the trees scattered across a flat grassy area rather than forming a single structure. The source has no description, so this is inferred from the block list and layout only.",
+    "tags": {
+      "type": [
+        "decoration",
+        "garden"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "trees",
+        "tree pack",
+        "european trees",
+        "birch",
+        "oak",
+        "spruce",
+        "landscape",
+        "decoration"
+      ]
+    },
+    "for": "edc2d4c9f7036ff730d2ff419f93d058cc7749f62e0e0da3d22c0916338ac1e4",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

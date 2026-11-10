@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/war-brig/",
   "license": "unrestricted",
   "rating": 90,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Red Baron War Brig",
+      "ru": "Военный бриг Красный Барон",
+      "es": "Bergantín de guerra Red Baron",
+      "pt": "Bergantim de guerra Red Baron",
+      "de": "Kriegsbrigg Red Baron"
+    },
+    "description": "A large sailing warship named Red Baron, built with oak and spruce hulls, white wool sails, and gray and black terracotta trim, with a red terracotta accent. It is about 31 blocks wide, 72 high, and 83 long, with the tall masts and rigging rising above a broad hull; it is meant to float on water, and the build includes a large water area. No interior blocks or block entities are recorded.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "brig",
+        "warship",
+        "pirate ship",
+        "sailing ship",
+        "war ship",
+        "galleon",
+        "boat",
+        "naval"
+      ]
+    },
+    "for": "a6ca3285a874e8deb27223373db51493f7205c4a104f99da7c6c47111f556a63",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

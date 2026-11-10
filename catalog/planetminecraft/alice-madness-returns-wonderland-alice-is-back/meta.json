@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/alice-madness-returns-wonderland-alice-is-back/",
   "license": "unrestricted",
   "rating": 94,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Alice Madness Returns Wonderland Build",
+      "ru": "Страна чудес из Alice Madness Returns",
+      "es": "Construcción del País de las Maravillas de Alice",
+      "pt": "Construção do País das Maravilhas de Alice",
+      "de": "Wunderland-Bau aus Alice Madness Returns"
+    },
+    "description": "A large, rugged floating-island style Wonderland scene inspired by Alice: Madness Returns, built mostly from stone, oak leaves, and grass with white and gray wool accents, glowstone lighting, and red mushroom blocks. It spans about 222 by 93 by 144 blocks and has a chest, furnace, and sign inside a few spots. Water, vines, and dandelions add a whimsical, overgrown feel.",
+    "tags": {
+      "type": [
+        "other",
+        "decoration"
+      ],
+      "style": [
+        "fantasy",
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "wonderland",
+        "alice",
+        "madness returns",
+        "floating islands",
+        "stone",
+        "mushroom",
+        "glowstone",
+        "fantasy"
+      ]
+    },
+    "for": "62c0ead8d99a23dae309c28608b87efe58e0a227e9df7c47225139743ebcb3c2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

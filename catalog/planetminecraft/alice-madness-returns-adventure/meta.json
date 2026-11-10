@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/alice-madness-returns-adventure/",
   "license": "unrestricted",
   "rating": 89,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Alice Madness Returns Cardbridge Adventure",
+      "ru": "Приключение Алисы из Madness Returns",
+      "es": "Aventura de Alice Madness Returns",
+      "pt": "Aventura Alice Madness Returns",
+      "de": "Alice Madness Returns Abenteuer"
+    },
+    "description": "A large fantasy adventure build inspired by Alice: Madness Returns, with a cardboard-cutout bridge and scattered islands of stone, white wool, grass, and oak trees. It spans roughly 213 by 93 by 162 blocks and uses about 70,600 blocks, mostly stone, white wool, and grass. It contains a few chests and signs along its paths and platforms.",
+    "tags": {
+      "type": [
+        "other",
+        "bridge"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "alice",
+        "madness returns",
+        "adventure map",
+        "cardbridge",
+        "fantasy",
+        "wool",
+        "floating islands",
+        "stone"
+      ]
+    },
+    "for": "c729558787c4242ebff8b0c4facfae7851dbcdd1c84201fb8cbe5bfb65eba4bf",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

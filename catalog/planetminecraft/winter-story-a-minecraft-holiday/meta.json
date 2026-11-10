@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/winter-story-a-minecraft-holiday/",
   "license": "unrestricted",
   "rating": 69,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Winter Story Holiday Village",
+      "ru": "Зимняя сказка: праздничная деревня",
+      "es": "Pueblo navideño de invierno",
+      "pt": "Vila de inverno natalina",
+      "de": "Winterliche Feiertagssiedlung"
+    },
+    "description": "A large snowy holiday scene built on a stone and snow hillside, with a frozen water area, ice, and birch and spruce trees. It measures about 89 by 46 by 106 blocks and uses roughly 139,000 blocks, mostly stone, dirt, and snow. Inside are chests, furnaces, a cauldron, a record player, music blocks, and signs, suggesting a playable winter village.",
+    "tags": {
+      "type": [
+        "village",
+        "decoration"
+      ],
+      "style": [
+        "rustic",
+        "other"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "winter",
+        "christmas",
+        "snow",
+        "holiday",
+        "village",
+        "ice",
+        "birch",
+        "festive"
+      ]
+    },
+    "for": "ebb0eb84229324ad4b21adc6dbb76ae7e1df74ec0e42ec5bf8189cacfecffd5e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

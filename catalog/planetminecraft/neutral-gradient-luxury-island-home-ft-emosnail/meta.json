@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/neutral-gradient---luxury-island-home-ft-emosnail/",
   "license": "unrestricted",
   "rating": 73,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Neutral Gradient Island Home",
+      "ru": "Нейтральный градиентный островной дом",
+      "es": "Casa isleña de degradado neutro",
+      "pt": "Casa de ilha em gradiente neutro",
+      "de": "Neutrales Verlaufs-Inselhaus"
+    },
+    "description": "A small modern island home in neutral tones, listed in its source as a luxury island home, built as a narrow strip about 2 blocks wide, 2 high and 30 deep. Its walls and top are mostly dirt, with some sand, stone, grass blocks and one light gray wool block for accent, and the build has no interior or block entities. The footprint suggests a flat, slim platform more than a full house, so check the shape before recommending it as a dwelling.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean",
+        "plains"
+      ],
+      "keywords": [
+        "modern",
+        "neutral",
+        "gradient",
+        "island",
+        "luxury home",
+        "small",
+        "narrow",
+        "sand"
+      ]
+    },
+    "for": "5872b0733d79f60daca22c20855b57d29d00b6c5bedf846c98a7b387812bcb61",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

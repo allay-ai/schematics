@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/bridge-pack/",
   "license": "unrestricted",
   "rating": 76,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Wooden Railway Bridge",
+      "ru": "Деревянный железнодорожный мост",
+      "es": "Puente ferroviario de madera",
+      "pt": "Ponte ferroviária de madeira",
+      "de": "Hölzerne Eisenbahnbrücke"
+    },
+    "description": "A long wooden bridge carrying a rail track, built mainly from spruce logs for the supports and oak planks, fences, stairs, and trapdoors for the deck and railings. Glowstone adds lighting along the span. It measures 11 blocks wide, 46 blocks high, and 320 blocks deep, with no interior or block entities.",
+    "tags": {
+      "type": [
+        "bridge"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "river"
+      ],
+      "keywords": [
+        "railway bridge",
+        "wooden bridge",
+        "spruce bridge",
+        "train bridge",
+        "rail track",
+        "glowstone lights",
+        "long bridge",
+        "oak railing"
+      ]
+    },
+    "for": "e70f232cd71f78d7a6adca5da576e1680ba050fbc69a7abbb958477ff0453e02",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

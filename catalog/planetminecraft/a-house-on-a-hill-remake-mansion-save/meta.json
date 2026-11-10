@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/a-house-on-a-hill-remake-mansion-save/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Hilltop Mansion Remake",
+      "ru": "Особняк на холме",
+      "es": "Mansión en la colina",
+      "pt": "Mansão no Alto da Colina",
+      "de": "Herrenhaus auf dem Hügel"
+    },
+    "description": "A large symmetrical mansion built on a raised grassy hill, remaking the author's earlier House on a Hill. It uses oak planks, stone, cobblestone, and glass, with a sand-and-stone courtyard layout and tall pitched roofs. At roughly 37 by 19 by 27 blocks, it is a sizeable mansion-style home; the interior has bookshelves, chests, a furnace, a record player, and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "hill house",
+        "oak",
+        "stone",
+        "remake",
+        "large house",
+        "survival base",
+        "interior"
+      ]
+    },
+    "for": "fd8951d564f50c4d659f9f9b51384b3484ec8f6ad3ca8d639aeeec348dba993a",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

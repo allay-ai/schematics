@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/french-country-mansion-2tmawok/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "French Country Chateau",
+      "ru": "Французский загородный замок",
+      "es": "Château de campo francés",
+      "pt": "Château de campo francês",
+      "de": "Französisches Landschloss"
+    },
+    "description": "A large French country chateau with a tall roof, white wool walls, and stone brick and sandstone trim, set among trees and gardens. It spans about 63 by 66 blocks and rises 26 blocks high, built from roughly 23,000 blocks. The interior includes block entities such as furnaces, hoppers, cauldrons, a beacon, and signs.",
+    "tags": {
+      "type": [
+        "house",
+        "castle"
+      ],
+      "style": [
+        "classical",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "chateau",
+        "french mansion",
+        "country house",
+        "manor",
+        "white wool",
+        "large castle",
+        "grand house",
+        "countryside"
+      ]
+    },
+    "for": "05b880c0b9eacb2311e411f464737366fd316c47929dbf1f3e8f5c2cb3a4df9d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

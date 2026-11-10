@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/nether-fleet-battleship/",
   "license": "unrestricted",
   "rating": 72,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Nether Fleet Battleship",
+      "ru": "Линкор Адского флота",
+      "es": "Acorazado de la Flota del Nether",
+      "pt": "Encouraçado da Frota do Nether",
+      "de": "Schlachtschiff der Nether-Flotte"
+    },
+    "description": "A large battleship built from obsidian and red wool, styled as a nether-themed warship with a long hull, a raised superstructure and a few stern and bow details. It stands about 129 blocks wide, 53 high and 73 deep, and contains an interior with chests, furnaces, a bookshelf, beds, an enchanting table and a record player. It is made of roughly 37,500 blocks, with most of the mass in obsidian and nether bricks.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "nether",
+        "ocean"
+      ],
+      "keywords": [
+        "battleship",
+        "nether fleet",
+        "obsidian ship",
+        "warship",
+        "red wool",
+        "nether bricks",
+        "large ship",
+        "interior"
+      ]
+    },
+    "for": "ec483bb34b461ef64537e195fe35cf7c92b081b145e2dca96ce82d71159d478f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

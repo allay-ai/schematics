@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/jade-modern-house/",
   "license": "unrestricted",
   "rating": 59,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Jade Modern House",
+      "ru": "Современный дом Jade",
+      "es": "Casa moderna Jade",
+      "pt": "Casa moderna Jade",
+      "de": "Modernes Haus Jade"
+    },
+    "description": "A modern house built mostly from quartz slabs and blocks, with glass panes, spruce and birch planks, and stone slabs, set in a grassy landscape with oak and jungle leaves, dandelions, poppies, and a small water feature. It spans about 74 wide, 25 high, and 65 deep, with roughly 15,400 blocks. The source has no written description, so the interior layout is not documented.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "modern house",
+        "quartz house",
+        "glass house",
+        "modern villa",
+        "plains house",
+        "large house",
+        "grass build",
+        "water pond"
+      ]
+    },
+    "for": "65176d69204dccd9c41de26ab6241dbdfc40bc219ff1e3df661f1e99c70f684d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

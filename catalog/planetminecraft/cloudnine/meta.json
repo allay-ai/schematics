@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/cloudnine/",
   "license": "unrestricted",
   "rating": 98,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Cloudnine Superyacht",
+      "ru": "Суперяхта Cloudnine",
+      "es": "Superyate Cloudnine",
+      "pt": "Superiate Cloudnine",
+      "de": "Cloudnine Superyacht"
+    },
+    "description": "A large luxury superyacht about 540 feet long, built mostly from light gray and black terracotta with spruce planks, snow, and ice for a polished, frosty look. It sits on water and is roughly 25 blocks wide, 35 high, and 165 deep, with a stepped superstructure over a hull, and contains a few functional elements such as chests, furnaces, hoppers, a beacon, and signs.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean",
+        "snowy"
+      ],
+      "keywords": [
+        "superyacht",
+        "yacht",
+        "boat",
+        "ship",
+        "terracotta",
+        "luxury",
+        "ocean",
+        "snow"
+      ]
+    },
+    "for": "2a4fc53ded4be0775fdbb221b966d4053a6345d07d36c6a9d677728b841431b5",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

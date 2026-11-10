@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/-modern-mansion--pixellicious/",
   "license": "unrestricted",
   "rating": 109,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Mansion Series 1",
+      "ru": "Современный особняк, серия 1",
+      "es": "Mansión Moderna Serie 1",
+      "pt": "Mansão Moderna Série 1",
+      "de": "Moderne Villa Serie 1"
+    },
+    "description": "A large modern mansion built mostly from dirt, stone, sandstone and white wool, with oak leaves and birch accents, set in a grassy landscape with sand, gravel and a water feature. It measures 72 by 26 by 59 blocks and uses about 28,000 blocks. The interior includes chests, furnaces, an enchanting table, a beacon, a cauldron, a record player, music blocks and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "mansion",
+        "modern mansion",
+        "large house",
+        "villa",
+        "sandstone",
+        "white wool",
+        "interior",
+        "series 1"
+      ]
+    },
+    "for": "8f1c29a1da79a2eb5f3f445ac7bc00c80911525ae0acf7ecd16939e6a56139e1",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

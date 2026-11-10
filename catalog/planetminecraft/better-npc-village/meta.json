@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/better-npc---village/",
   "license": "unrestricted",
   "rating": 117,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Better NPC Village",
+      "ru": "Деревня с NPC",
+      "es": "Aldea Better NPC",
+      "pt": "Vila Better NPC",
+      "de": "Better NPC Dorf"
+    },
+    "description": "A village built into a stony hillside, with stone and stone brick houses, oak and spruce trees, and a grassy dirt base. It measures about 54 wide, 39 high and 64 deep, and includes chests, furnaces, signs, a music block and a skull as block entities. The source gives no description, so this is based only on the block data and layout.",
+    "tags": {
+      "type": [
+        "village"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "forest",
+        "hills"
+      ],
+      "keywords": [
+        "village",
+        "npc village",
+        "stone village",
+        "hillside village",
+        "spruce",
+        "oak",
+        "stone brick",
+        "minecraft village"
+      ]
+    },
+    "for": "686e29ac0a5559740c4cd7f0123233f7361c39a9243b189bc60a01b3241af876",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

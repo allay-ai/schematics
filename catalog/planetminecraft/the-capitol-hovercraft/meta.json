@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/the-capitol-hovercraft/",
   "license": "unrestricted",
   "rating": 63,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Capitol Hovercraft",
+      "ru": "Капитолийский воздушный корабль",
+      "es": "Aerodeslizador del Capitolio",
+      "pt": "Aerodeslizador do Capitólio",
+      "de": "Kapitol-Luftkissenfahrzeug"
+    },
+    "description": "A large, streamlined hovering vehicle built mostly from gray wool and gray terracotta, with white terracotta accents and black stained glass windows along its sides. It is about 47 blocks wide, 9 high and 50 deep, with a tapered, sloped hull that gets thicker toward the middle and narrows to a point at the nose. Inside it has a few interactive details such as chests, a jukebox, a record player, beacons, and redstone levers and pressure plates.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "hovercraft",
+        "airship",
+        "flying vehicle",
+        "sci-fi ship",
+        "capitol",
+        "gray",
+        "redstone",
+        "hover"
+      ]
+    },
+    "for": "d8c66d7e7ebc511d0196f53a8cebd6a3a211262d966a34cde33b1d23cb8de59d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

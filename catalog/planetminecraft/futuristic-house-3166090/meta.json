@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/futuristic-house-3166090/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Futuristic Snow Tower House",
+      "ru": "Футуристичный дом-башня в снегу",
+      "es": "Casa futurista de torre nevada",
+      "pt": "Casa futurista com torre na neve",
+      "de": "Futuristisches Haus mit Turm im Schnee"
+    },
+    "description": "A tall, sleek futuristic house built mostly from quartz blocks, quartz slabs and black stained glass, with dark oak accents and a beacon on top. It stands roughly 57 by 63 blocks across and 29 blocks high, with a stepped, multi-tier layout that sits on dirt, snow and podzol. The build has a furnace and a beacon as block entities and no interior details are described in the source.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "futuristic",
+        "modern"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "futuristic house",
+        "quartz house",
+        "modern house",
+        "glass tower",
+        "beacon",
+        "snow house",
+        "sci-fi",
+        "white modern"
+      ]
+    },
+    "for": "a521de38608e1377c8bd82a6b7b5e083f64681257b84474cd9988f7b092ba1dd",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/11-space-needle/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "1:1 Space Needle",
+      "ru": "Космическая игла 1:1",
+      "es": "Aguja Espacial 1:1",
+      "pt": "Agulha Espacial 1:1",
+      "de": "1:1 Space Needle"
+    },
+    "description": "A large-scale replica of a space-needle style observation tower, standing on four legs with a wide quartz saucer-shaped top section and a slender central spire. Built mostly from gray wool, stone slabs, quartz blocks and glass, with glowstone accents and a few oak details. Roughly 53 by 53 blocks across and 185 blocks tall, with about 16,000 blocks in total; the observation deck is a rounded top ring with windows, and the inside is not documented.",
+    "tags": {
+      "type": [
+        "tower",
+        "other"
+      ],
+      "style": [
+        "futuristic",
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "flat"
+      ],
+      "keywords": [
+        "space needle",
+        "observation tower",
+        "1:1 replica",
+        "futuristic tower",
+        "quartz",
+        "landmark",
+        "saucer",
+        "giant tower"
+      ]
+    },
+    "for": "49d4ddfa9ce8ecf2d934363233387b69ce497de34b371966644ce3c1af648d6a",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

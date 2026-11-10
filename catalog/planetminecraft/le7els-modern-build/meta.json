@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/le7els---modern-build/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Le7els Build",
+      "ru": "Современное здание Le7els",
+      "es": "Construcción moderna Le7els",
+      "pt": "Construção moderna Le7els",
+      "de": "Modernes Le7els-Gebäude"
+    },
+    "description": "A modern-style multi-level building made mostly of stone, smooth stone, dirt and gray wool, with jungle plank floors, red wool accents, spruce leaves and a few glass panes. It measures 34 wide, 13 high and 31 deep, and the top-down view shows a stepped layout with a central block and some small tower-like sections. Inside are a furnace, a sign and a skull as block entities, and there is a small water feature with sugar cane, sand and snow.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "modern",
+        "stone",
+        "multi-level",
+        "wool",
+        "jungle wood",
+        "furnace",
+        "sugar cane",
+        "snow"
+      ]
+    },
+    "for": "ec9b2ef9ebe371b180e7fd9c549c5dde20120fcd6fa203a519fc4bfe1fb8702f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/baroque-clock-tower/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Baroque Clock Tower",
+      "ru": "Барочная башня с часами",
+      "es": "Torre del reloj barroca",
+      "pt": "Torre do relógio barroca",
+      "de": "Barocker Uhrturm"
+    },
+    "description": "A tall, ornate baroque clock tower built mostly from sandstone and smooth quartz, with gray stained glass windows, spruce plank floors, and gold block accents. It stands about 80 blocks high on a 25 by 25 footprint, with a stepped base, a wide middle section, and a narrower top with a clock face and wool details. It is a decorative landmark with no block entities, so the inside is mostly open floors and ledges rather than working rooms.",
+    "tags": {
+      "type": [
+        "tower",
+        "decoration"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "desert",
+        "forest"
+      ],
+      "keywords": [
+        "clock tower",
+        "baroque",
+        "quartz tower",
+        "sandstone tower",
+        "tall tower",
+        "town clock",
+        "gold accents",
+        "landmark"
+      ]
+    },
+    "for": "bcd01eff996af4345a497442c0daaeac560cef715898a9f0dd4d7e6752dada1e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

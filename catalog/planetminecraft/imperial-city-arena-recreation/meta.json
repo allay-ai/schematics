@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/imperial-city-arena-recreation/",
   "license": "unrestricted",
   "rating": 99,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Imperial City Arena",
+      "ru": "Имперская арена Города",
+      "es": "Arena de la Ciudad Imperial",
+      "pt": "Arena da Cidade Imperial",
+      "de": "Arena der Kaiserstadt"
+    },
+    "description": "A large recreation of the Imperial City Arena from The Elder Scrolls, built mostly from stone and cobblestone with mossy accents, oak and spruce details, and iron block trim. It is a wide, low-domed oval with tiered walls and a central sunken floor, around 85 by 86 blocks across and 44 high. Inside you will find a few chests and signs, with sand, water and lava features in the layout.",
+    "tags": {
+      "type": [
+        "other",
+        "wall"
+      ],
+      "style": [
+        "fantasy",
+        "classical"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "colosseum",
+        "arena",
+        "elder scrolls",
+        "imperial city",
+        "stone amphitheater",
+        "large build",
+        "cyrodiil",
+        "ruin"
+      ]
+    },
+    "for": "6b2c66e048dad73e5f31b30b61f56d014c9bf55fb4e996d2b14b2990ce289b99",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

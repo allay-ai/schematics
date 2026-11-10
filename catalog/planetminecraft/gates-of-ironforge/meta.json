@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/gates-of-ironforge/",
   "license": "unrestricted",
   "rating": 85,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Gates of Firetree",
+      "ru": "Врата Файртри",
+      "es": "Puertas de Firetree",
+      "pt": "Portões de Firetree",
+      "de": "Tore von Firetree"
+    },
+    "description": "A massive fantasy gateway with two tall flanking towers and a wide central arch, built from bedrock, obsidian, iron and gold blocks, spruce logs and snow, with lava and soul sand accents and red, black and green wool trim. It is about 57 blocks wide, 86 high and 25 deep, and it is a solid facade with no interior or block entities.",
+    "tags": {
+      "type": [
+        "gate"
+      ],
+      "style": [
+        "fantasy",
+        "gothic"
+      ],
+      "biome": [
+        "snowy"
+      ],
+      "keywords": [
+        "gate",
+        "fortress entrance",
+        "obsidian",
+        "lava",
+        "iron",
+        "gold",
+        "snow",
+        "large"
+      ]
+    },
+    "for": "22a1fc6c698b6a2d9bc1fbcb6f505f9343139fc893794d898ccb733a70223dee",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

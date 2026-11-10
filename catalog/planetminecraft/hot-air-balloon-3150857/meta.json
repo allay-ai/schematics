@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/hot-air-balloon-3150857/",
   "license": "unrestricted",
   "rating": 74,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Hot Air Balloon",
+      "ru": "Воздушный шар",
+      "es": "Globo aerostático",
+      "pt": "Balão de ar quente",
+      "de": "Heißluftballon"
+    },
+    "description": "A hot air balloon built from white and red wool with gray wool rigging, blue and light blue wool bands, and a wooden basket of birch, dark oak, and spruce with a beacon inside. The round envelope rises about 32 blocks high and is 27 blocks wide, with a small 21-block-deep footprint. It is a decorative flying-machine build with no functional interior beyond the basket.",
+    "tags": {
+      "type": [
+        "decoration",
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "desert"
+      ],
+      "keywords": [
+        "hot air balloon",
+        "balloon",
+        "airship",
+        "wool",
+        "flying machine",
+        "sky build",
+        "beacon basket",
+        "aircraft"
+      ]
+    },
+    "for": "a196d4a06ec9b84b71989beb9648ee07e0389ea2bb1bd5dfeaf9c45310c6024f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

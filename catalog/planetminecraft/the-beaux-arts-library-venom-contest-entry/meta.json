@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/the-beaux-arts-library-venom-contest-entry/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "The Beaux-Arts Library",
+      "ru": "Библиотека в стиле Бо-Ар",
+      "es": "La Biblioteca Beaux-Arts",
+      "pt": "A Biblioteca Beaux-Arts",
+      "de": "Die Beaux-Arts-Bibliothek"
+    },
+    "description": "A large Beaux-Arts style library built mostly from terracotta, sand, and stone brick, with sandstone stair details, a tall central mass, and stacked terraces. It stands about 43 wide, 70 high, and 59 deep, and contains bookshelves, a beacon, a cauldron, chests, and signs inside its halls.",
+    "tags": {
+      "type": [
+        "house",
+        "interior"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "library",
+        "beaux-arts",
+        "terracotta",
+        "sandstone",
+        "large building",
+        "public building",
+        "bookshelves",
+        "waiting lobby"
+      ]
+    },
+    "for": "34d926fb9e210e38325cc34fb2c8b5069ea6d883141ba0ee23312e44689d5252",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

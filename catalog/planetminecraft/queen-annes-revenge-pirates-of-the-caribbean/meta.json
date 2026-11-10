@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/queen-annes-revenge---pirates-of-the-caribbean/",
   "license": "unrestricted",
   "rating": 108,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Queen Anne's Revenge Pirate Ship",
+      "ru": "Корабль «Месть королевы Анны»",
+      "es": "Barco pirata Venganza de la Reina Ana",
+      "pt": "Navio pirata Vingança da Rainha Ana",
+      "de": "Piratenschiff Rache der Königin Anne"
+    },
+    "description": "A pirate ship modeled on the Queen Anne's Revenge from Pirates of the Caribbean, built mainly from oak planks, oak logs, and oak fences, with black and red wool accents and a water-filled hull. It stands about 35 blocks wide, 89 high, and 103 deep, and is built on water, with a few chests and a trapdoor-and-button detail inside.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "pirate ship",
+        "queen anne's revenge",
+        "pirates of the caribbean",
+        "galleon",
+        "black sails",
+        "oak ship",
+        "sailing ship",
+        "ocean"
+      ]
+    },
+    "for": "a8a89354e5943e82999e065f039fb1c4797b72df741720e41ddbb1d36d016308",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/victorian-style-home/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Victorian Style Home",
+      "ru": "Дом в викторианском стиле",
+      "es": "Casa de estilo victoriano",
+      "pt": "Casa em estilo vitoriano",
+      "de": "Viktorianisches Wohnhaus"
+    },
+    "description": "A two-story Victorian-style house with a steep cyan wool roof, oak plank and stone brick walls, and a tall pointed tower on one side. It measures about 33 blocks wide, 24 high and 30 deep, built from roughly 5,500 blocks, mostly dirt and grass for the grounds. The interior is not described, though the build includes a sign and a few glowstone lights.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "victorian",
+        "house",
+        "cyan roof",
+        "wool roof",
+        "tower",
+        "oak",
+        "mansion",
+        "two story"
+      ]
+    },
+    "for": "f6fd04ccb382c4ab7a92cbffc3b745a0bbbb6fc280d2e1b9702d6b627980952e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

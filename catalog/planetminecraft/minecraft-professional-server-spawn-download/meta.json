@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/minecraft---professional-server-spawn-download/",
   "license": "unrestricted",
   "rating": 60,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Server Spawn Hub",
+      "ru": "Спавн-хаб сервера",
+      "es": "Centro de aparición del servidor",
+      "pt": "Hub de spawn do servidor",
+      "de": "Server-Spawn-Hub"
+    },
+    "description": "A large server spawn area built from sandstone, stone bricks, and chiseled quartz, with glowstone lighting, birch and spruce planks, and oak trim. It is about 104 wide, 67 high, and 103 deep, roughly a round, ringed plaza with a sunken central area and corner towers. Inside are a few chests, an ender chest, furnaces, and signs.",
+    "tags": {
+      "type": [
+        "village",
+        "other"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "server spawn",
+        "spawn hub",
+        "lobby",
+        "sandstone",
+        "quartz",
+        "glowstone",
+        "circular plaza",
+        "multiplayer hall"
+      ]
+    },
+    "for": "20e65a44fe686ddf14e9e03392d5c9e53f108363e940c9c7a5533b4f4e57fe9c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

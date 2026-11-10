@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/twilight-town-train-station-kingdom-of-hearts/",
   "license": "unrestricted",
   "rating": 94,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Twilight Town Train Station",
+      "ru": "Вокзал Сумеречного города",
+      "es": "Estación de Tren de Twilight Town",
+      "pt": "Estação de Trem de Twilight Town",
+      "de": "Bahnhof von Twilight Town"
+    },
+    "description": "A large recreation of the Twilight Town train station from Kingdom Hearts, built mostly from sandstone, stone bricks, and sand with gold and obsidian accents. The build is roughly 80 wide, 193 high, and 201 deep, with a tall tower-like front and a wide platform area. It contains a few interactive blocks such as an enchanting table, a record player, chests, and signs.",
+    "tags": {
+      "type": [
+        "other",
+        "house"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "desert",
+        "plains"
+      ],
+      "keywords": [
+        "train station",
+        "kingdom hearts",
+        "twilight town",
+        "sandstone",
+        "game recreation",
+        "fantasy station",
+        "large build",
+        "gold accents"
+      ]
+    },
+    "for": "71bfa7f32e150af16f859312d098679018368848177cf3c6a6996985bc725187",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

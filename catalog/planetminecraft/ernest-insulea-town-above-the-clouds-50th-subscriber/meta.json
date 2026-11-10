@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/ernest-insulea-town-above-the-clouds-50th-subscriber/",
   "license": "unrestricted",
   "rating": 118,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Town Above the Clouds",
+      "ru": "Город над облаками",
+      "es": "Pueblo sobre las nubes",
+      "pt": "Cidade acima das nuvens",
+      "de": "Stadt über den Wolken"
+    },
+    "description": "A floating-island village built on stone and grass cliffs, with a town of oak houses, wool-roofed buildings, ladders, fences and stair-stepped roofs spread across a wide mountainous base. The build is about 91 wide, 47 high and 94 deep, with roughly 21,900 blocks, and includes a single furnace as its only block entity. Its materials are mostly stone, oak and wool, with orange and white accents.",
+    "tags": {
+      "type": [
+        "village"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "mountain"
+      ],
+      "keywords": [
+        "floating island",
+        "sky town",
+        "above clouds",
+        "oak village",
+        "stone cliffs",
+        "wool roofs",
+        "fantasy village",
+        "mountain town"
+      ]
+    },
+    "for": "3bea1693bc51fadfe3a4ca053bcddf5c7ab83dbbfc0a8c7ca98b70d371af5903",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

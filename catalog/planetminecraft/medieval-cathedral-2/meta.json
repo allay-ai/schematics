@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/medieval-cathedral-2/",
   "license": "unrestricted",
   "rating": 85,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Cathedral St. Edgar",
+      "ru": "Средневековый собор Святого Эдгара",
+      "es": "Catedral medieval San Edgar",
+      "pt": "Catedral medieval São Edgar",
+      "de": "Mittelalterliche Kathedrale St. Edgar"
+    },
+    "description": "A large medieval cathedral built mostly from stone bricks, stone brick stairs and slabs, with a tall central spire and a long nave rising from a wide flared base. Spruce and dark oak accents, red and gray wool, and blue and black stained glass windows add color and detail to the walls. At about 53 wide, 77 high and 75 deep, it is a massive landmark, with a sign as its only block entity and no interior furnishings listed.",
+    "tags": {
+      "type": [
+        "castle",
+        "house"
+      ],
+      "style": [
+        "medieval",
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "cathedral",
+        "church",
+        "medieval",
+        "stone",
+        "spire",
+        "gothic",
+        "stained glass",
+        "large"
+      ]
+    },
+    "for": "b96c6959d30f3c6438f3b5ec14d32764d9c53b6ec1da7196165405a9dbd7eb8c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

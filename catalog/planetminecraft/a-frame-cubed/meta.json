@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/a-frame---cubed/",
   "license": "unrestricted",
   "rating": 105,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Cubed A-Frame Snow Lodge",
+      "ru": "Кубический A-образный снежный дом",
+      "es": "Casa A-Frame cúbica nevada",
+      "pt": "Casa A-Frame cúbica nevada",
+      "de": "Kubisches A-Frame-Schneehaus"
+    },
+    "description": "A large A-frame build with a 66 by 66 block footprint and a height of 28 blocks, sitting on a thick stone and dirt base. Its peaked dark oak and gray terracotta gables are dusted with snow, with black stained glass windows and a light gray carpet interior. Inside are a beacon, furnaces, hoppers, signs, flower pots and skulls, so it reads as a lodge or a base rather than an empty shell.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "nordic"
+      ],
+      "biome": [
+        "snowy",
+        "mountain"
+      ],
+      "keywords": [
+        "a-frame",
+        "snow lodge",
+        "large house",
+        "stone base",
+        "dark oak",
+        "beacon",
+        "cabin",
+        "winter"
+      ]
+    },
+    "for": "2aa2d742a8a35c23cd3ee6a1d4c457948af2db5f3f3f9ef03218b62feae5b21a",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

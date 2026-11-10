@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/teulon-airship/",
   "license": "unrestricted",
   "rating": 72,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Teulon Airship",
+      "ru": "Воздушный корабль Теулон",
+      "es": "Dirigible Teulon",
+      "pt": "Dirigível Teulon",
+      "de": "Teulon-Luftschiff"
+    },
+    "description": "A large floating airship built from obsidian, stone bricks, black wool and gold blocks, with a dark hull, a long bow and fins at the rear. It is about 152 blocks wide, 137 high and 71 deep, and includes a beacon, chests, an enchanting table, furnaces, a record player and signs inside the structure.",
+    "tags": {
+      "type": [
+        "ship",
+        "other"
+      ],
+      "style": [
+        "fantasy",
+        "steampunk"
+      ],
+      "biome": [
+        "plains",
+        "ocean"
+      ],
+      "keywords": [
+        "airship",
+        "flying ship",
+        "obsidian",
+        "floating",
+        "gold",
+        "dirigible",
+        "sky ship",
+        "large build"
+      ]
+    },
+    "for": "44cf2eb9ccf9f4b7ced82b45ebcb4441ebf3ea59cc7c1a551a24e386aa715b33",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

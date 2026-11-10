@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/lambridge-castle-cephyr-plot-build/",
   "license": "unrestricted",
   "rating": 98,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Lambridge Castle Plot Build",
+      "ru": "Замок Ламбридж",
+      "es": "Castillo Lambridge",
+      "pt": "Castelo Lambridge",
+      "de": "Lambridge-Burg"
+    },
+    "description": "A large stone castle built on a hill, with a tall central keep, round corner towers, and a sheltered courtyard, made mostly of stone bricks, cobblestone, quartz, and lapis blocks with some ice and oak accents. It measures about 50 blocks wide, 75 high, and 50 deep, and contains a beacon and a furnace inside.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "snowy"
+      ],
+      "keywords": [
+        "castle",
+        "stone castle",
+        "keep",
+        "lapis",
+        "quartz",
+        "medieval fortress",
+        "beacon",
+        "plot build"
+      ]
+    },
+    "for": "899ed2231931ec633b808004d5547dade0a3cdf87c7272c98f566af923e17eb0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

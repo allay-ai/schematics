@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/the-home-of-a-pokmon----the-pokball/",
   "license": "unrestricted",
   "rating": 63,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Pokéball Home",
+      "ru": "Дом-покебол",
+      "es": "Casa Pokébola",
+      "pt": "Casa Pokébola",
+      "de": "Pokéball-Haus"
+    },
+    "description": "A giant Pokéball-shaped house built as a home for a Pokémon, with a red and white sphere shell, a gray center band, and a black-and-gray button detail. It sits on a grassy dirt base with a small water pond around it, and it is about 66 blocks wide, 105 high, and 130 deep. Inside it has a chest, a furnace, and a sign, and it is decorated with glass, lapis, and glowstone accents.",
+    "tags": {
+      "type": [
+        "house",
+        "decoration"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "pokemon",
+        "pokeball",
+        "giant sphere",
+        "red and white",
+        "pokemon house",
+        "fan build",
+        "round house",
+        "home"
+      ]
+    },
+    "for": "ab8a378881b6647c96a9e5cfb436928b8d9d215753f9262b173ff20a109784b2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

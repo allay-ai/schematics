@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/colonial-mansion-1-architecture-tmb/",
   "license": "unrestricted",
   "rating": 94,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Colonial Mansion with Garden",
+      "ru": "Колониальный особняк с садом",
+      "es": "Mansión colonial con jardín",
+      "pt": "Mansão colonial com jardim",
+      "de": "Koloniales Herrenhaus mit Garten"
+    },
+    "description": "A large colonial-style mansion built from quartz, stone brick, and bricks, with a green-wool roof, pillared facade, and a surrounding grassy and podzol garden with a pond. Measuring about 82 blocks wide, 32 high, and 125 deep, it is a big estate-scale build. The interior is furnished with chests, furnaces, a beacon, cauldrons, flower pots, and a record player.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "colonial mansion",
+        "mansion",
+        "estate",
+        "quartz",
+        "large house",
+        "garden",
+        "pillars",
+        "green roof"
+      ]
+    },
+    "for": "8a737e61e4cb0c617ccf8af62906b716328e356b72e61f5347f1f72b0d2a41fd",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

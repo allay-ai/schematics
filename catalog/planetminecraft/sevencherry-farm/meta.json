@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/sevencherry-farm/",
   "license": "unrestricted",
   "rating": 66,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "SevenCherry Farm",
+      "ru": "Ферма SevenCherry",
+      "es": "Granja SevenCherry",
+      "pt": "Fazenda SevenCherry",
+      "de": "SevenCherry-Farm"
+    },
+    "description": "A large farm build, about 54 blocks wide, 16 high and 64 deep, made mostly of grass blocks, sandstone, cobblestone and oak, with some spruce and oak leaves for trees and dandelion and poppy flowers as decoration. Its grassy fields are framed by stepped sandstone and stone block edges, and it contains a few chests, a furnace and signs. The source has no written description, so the layout details here come only from the block data.",
+    "tags": {
+      "type": [
+        "farm"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "farm",
+        "sandstone farm",
+        "grass farm",
+        "oak farm",
+        "cobblestone",
+        "flower farm",
+        "survival farm",
+        "chest furnace"
+      ]
+    },
+    "for": "fa937d3a85f0c268bbb0a43f5ea39b08d51ebda35b188f8aa3511d6a315f75ef",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

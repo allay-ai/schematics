@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/medieval-series-warhammer-mansion/",
   "license": "unrestricted",
   "rating": 116,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Warhammer Mansion",
+      "ru": "Средневековый особняк Warhammer",
+      "es": "Mansión medieval Warhammer",
+      "pt": "Mansão medieval Warhammer",
+      "de": "Mittelalterliche Warhammer-Villa"
+    },
+    "description": "A medieval-style mansion built from cobblestone, stone bricks, brick stairs, and oak with white and red wool accents, set on a grassy dirt base. It measures about 33 wide, 37 high, and 64 deep, with a roughly 8,000-block footprint and a chest inside. The source gives no description, so the Warhammer theme comes only from the title.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "medieval",
+        "warhammer",
+        "manor",
+        "stone",
+        "castle house",
+        "large house",
+        "chest"
+      ]
+    },
+    "for": "a4399a4eafa94c36afb19bbece5bb0b8484e37192300e3d0ea6a0c85e2340fa2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

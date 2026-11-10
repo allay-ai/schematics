@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/battlestar---ranger-class-light-frigate/",
   "license": "unrestricted",
   "rating": 70,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Ranger Class Light Frigate",
+      "ru": "Легкий фрегат класса Рейнджер",
+      "es": "Fragata ligera clase Ranger",
+      "pt": "Fragata leve classe Ranger",
+      "de": "Leichte Fregatte der Ranger-Klasse"
+    },
+    "description": "A large sci-fi style starship modeled as a light frigate from the Battlestar-inspired TTC build line, with a long hull, a blue glass window band, and a dark cockpit section. It is built mostly from stone bricks, stone slabs, and cobblestone with black wool and dark oak accents, and it is about 124 blocks wide, 23 high, and 51 deep. The interior is not documented, and no block entities are present.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "futuristic",
+        "other"
+      ],
+      "biome": [
+        "other"
+      ],
+      "keywords": [
+        "starship",
+        "frigate",
+        "spaceship",
+        "battlestar",
+        "sci-fi",
+        "warship",
+        "stone brick",
+        "space"
+      ]
+    },
+    "for": "77dcb7dd2b57d3bd976a9ca19e3e12e7eb815887e4731ea03ce71cfe7228c389",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

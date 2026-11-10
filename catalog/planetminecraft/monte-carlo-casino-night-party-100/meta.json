@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/monte-carlo-casino-night-party-100/",
   "license": "unrestricted",
   "rating": 103,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Monte Carlo Casino Night Party",
+      "ru": "Казино Монте-Карло ночная вечеринка",
+      "es": "Casino Monte Carlo Noche de Fiesta",
+      "pt": "Cassino Monte Carlo Noite de Festa",
+      "de": "Monte-Carlo-Casino Partynacht"
+    },
+    "description": "A very large casino-style entertainment building with a Monte Carlo theme, built mostly from sandstone, stone bricks, glass, and red, yellow, and black wool on a grass and dirt base. It spans about 152 by 124 blocks and rises roughly 49 blocks high, with a wide, layered facade. The interior includes chests, an enchanting table, furnaces, a jukebox, a record player, signs, and a cauldron, suggesting a party or nightlife space.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "casino",
+        "monte carlo",
+        "party",
+        "nightclub",
+        "sandstone",
+        "wool",
+        "entertainment",
+        "large building"
+      ]
+    },
+    "for": "10de40f26e1ed108daa0e9c6311d63b164e324468285bb18e35430a2a255f976",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

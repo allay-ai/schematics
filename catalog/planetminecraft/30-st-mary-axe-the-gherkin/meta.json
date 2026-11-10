@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/30-st-mary-axe-the-gherkin/",
   "license": "unrestricted",
   "rating": 70,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "The Gherkin Skyscraper",
+      "ru": "Небоскрёб «Корнишон»",
+      "es": "Rascacielos The Gherkin",
+      "pt": "Arranha-céu The Gherkin",
+      "de": "Gurken-Wolkenkratzer"
+    },
+    "description": "A tall, tapering skyscraper replica of 30 St Mary Axe (The Gherkin) in London, with a wide bulging middle narrowing to a rounded point at the top. It is built mostly from spruce planks and glass, with ice, iron blocks, stone at the base, and glowstone lighting. At 55 by 55 blocks across and 183 blocks high, it is a very large single tower, and the source lists ladders and iron doors but no other interior details.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "gherkin",
+        "30 st mary axe",
+        "skyscraper",
+        "london",
+        "glass tower",
+        "modern tower",
+        "spruce",
+        "city"
+      ]
+    },
+    "for": "3c5ffbd2d05263f82336186885d1f265848037aff818ddd82605ab0f8c6d488c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

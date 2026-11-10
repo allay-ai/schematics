@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/the-jackdaw---ac4-blackflag/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "The Jackdaw Pirate Ship",
+      "ru": "Пиратский корабль «Джекдо»",
+      "es": "Barco pirata Jackdaw",
+      "pt": "Navio pirata Jackdaw",
+      "de": "Piratenschiff The Jackdaw"
+    },
+    "description": "A pirate ship based on the Jackdaw from Assassin's Creed IV: Black Flag, built mostly from quartz blocks, oak, spruce, and red wool, with skull decorations and coal-block accents. It measures 41 blocks wide, 100 deep, and 89 high, using about 10,700 blocks in total. Chests, signs, and skulls are placed inside as block entities.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "pirate ship",
+        "jackdaw",
+        "assassin's creed",
+        "black flag",
+        "galleon",
+        "sailing ship",
+        "edward kenway",
+        "naval"
+      ]
+    },
+    "for": "ebb4ec7121a456489eff9c6c304c82c9fe7ae87444be29daf4d904ea53650895",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

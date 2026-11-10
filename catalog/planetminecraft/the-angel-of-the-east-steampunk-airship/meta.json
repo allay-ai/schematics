@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/the-angel-of-the-east---steampunk-airship/",
   "license": "unrestricted",
   "rating": 64,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Angel of the East Steampunk Airship",
+      "ru": "Паровой дирижабль «Ангел Востока»",
+      "es": "Dirigible steampunk Ángel del Este",
+      "pt": "Dirigível steampunk Anjo do Oriente",
+      "de": "Steampunk-Luftschiff Engel des Ostens"
+    },
+    "description": "A large steampunk airship built mostly from cobblestone, stone bricks, and spruce wood, with light gray and white wool sails, cobweb rigging, and lapis ore accents. It measures about 125 blocks wide, 53 high, and 40 deep, and the interior holds chests, furnaces, signs, bookshelves, and glowstone lighting along rails and fences.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "steampunk"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "airship",
+        "steampunk",
+        "flying ship",
+        "zeppelin",
+        "spruce",
+        "cobblestone",
+        "large build",
+        "lapis"
+      ]
+    },
+    "for": "c957fa1c3972cffacc3ef15a40dd7966af005a3586aa891b29c1d4f4a2ba88f2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

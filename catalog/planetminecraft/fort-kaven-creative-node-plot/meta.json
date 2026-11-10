@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/fort-kaven--creative-node-plot/",
   "license": "unrestricted",
   "rating": 57,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Overgrown Fort Kaven",
+      "ru": "Заросший форт Кавен",
+      "es": "Fuerte Kaven Cubierto",
+      "pt": "Forte Kaven Coberto",
+      "de": "Überwucherte Festung Kaven"
+    },
+    "description": "A fort built mostly from dirt, grass, and cobblestone with stone brick trim, styled as an overgrown, weathered stronghold. Vines, jungle and birch leaves, cobwebs, and water add to the abandoned look. It measures about 41 wide, 45 high, and 41 deep, with around 17,000 blocks, and contains chests, signs, skulls, and flower pots.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "jungle",
+        "forest"
+      ],
+      "keywords": [
+        "fort",
+        "overgrown",
+        "ruin",
+        "cobblestone castle",
+        "dirt fort",
+        "vines",
+        "creative node",
+        "hilltop fortress"
+      ]
+    },
+    "for": "1f7b255cf3a8bdbe537b6c0013619d47b506ac898c6964954198c39a7b6ddca5",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

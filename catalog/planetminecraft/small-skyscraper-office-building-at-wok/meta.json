@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/small-skyscraper-office-building-at-wok/",
   "license": "unrestricted",
   "rating": 79,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Victorian Skyscraper Office",
+      "ru": "Современный викторианский небоскрёб",
+      "es": "Rascacielos victoriano moderno",
+      "pt": "Arranha-céu vitoriano moderno",
+      "de": "Modernes viktorianisches Hochhaus"
+    },
+    "description": "A tall, narrow-looking office tower in a modern Victorian style, built mostly from snow blocks and sandstone with glass windows and a dark stone base. It stands about 43 wide, 62 high and 40 deep, with a stepped top and a few small rooftop details, and the interior holds chests, a furnace, beacons and signs. It is a large build with roughly 26,000 blocks, best suited to a city or snowy/desert-edge setting.",
+    "tags": {
+      "type": [
+        "house",
+        "other"
+      ],
+      "style": [
+        "modern",
+        "classical"
+      ],
+      "biome": [
+        "snowy",
+        "desert"
+      ],
+      "keywords": [
+        "skyscraper",
+        "office building",
+        "victorian",
+        "modern",
+        "tall tower",
+        "city",
+        "sandstone",
+        "snow"
+      ]
+    },
+    "for": "075b3d81f86b6550c67125c9e33e1ea1fae4def400bb50621dfd1e0fcc864fbb",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/-modern-mansion-2--pixellicious-/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Mansion 2",
+      "ru": "Современный особняк 2",
+      "es": "Mansión moderna 2",
+      "pt": "Mansão moderna 2",
+      "de": "Moderne Villa 2"
+    },
+    "description": "A large modern mansion built mostly from dirt, stone, white wool, glass panes and oak, jungle and birch planks, with sandstone and stone brick accents. It spans about 102 by 99 blocks and rises roughly 30 blocks high, with a mix of flat and stepped rooflines and a sandy, grassy, partly watery surrounding terrain. Interior features include chests, an enchanting table, a record player, a cauldron, signs, an ender chest and trapped chests.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "modern mansion",
+        "large house",
+        "white wool",
+        "glass",
+        "villa",
+        "enchanting table",
+        "series 1"
+      ]
+    },
+    "for": "78ea4d4f3c8ddf3d60df0309b786cab73dc1132e37da6038e550082acf63d99a",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

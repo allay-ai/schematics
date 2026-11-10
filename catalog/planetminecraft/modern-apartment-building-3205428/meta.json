@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/modern-apartment-building-3205428/",
   "license": "unrestricted",
   "rating": 58,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Apartment Building",
+      "ru": "Современный жилой дом",
+      "es": "Edificio de apartamentos moderno",
+      "pt": "Prédio de apartamentos moderno",
+      "de": "Modernes Apartmenthaus"
+    },
+    "description": "A large modern apartment block built mostly from stone, sandstone and quartz, with cyan stained glass windows, light gray wool accents and spruce and birch trees on the grounds. It is roughly 111 wide, 85 high and 115 deep, with a stepped terraced profile and a small pond of water. The source has no description, but the block entities show interior details such as chests, furnaces, hoppers, flower pots and a beacon.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "apartment",
+        "modern building",
+        "city block",
+        "quartz",
+        "sandstone",
+        "stained glass",
+        "residential",
+        "skyscraper"
+      ]
+    },
+    "for": "04cddc0e366cfd216b9ac82cb173abf16f65bb944897423a061ad18c7c9cba32",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

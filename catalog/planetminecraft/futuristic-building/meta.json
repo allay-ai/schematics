@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/futuristic-building/",
   "license": "unrestricted",
   "rating": 80,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Futuristic Quartz Tower",
+      "ru": "Футуристическая башня из кварца",
+      "es": "Torre futurista de cuarzo",
+      "pt": "Torre futurista de quartzo",
+      "de": "Futuristischer Quarzturm"
+    },
+    "description": "A tall, slender white tower built mostly from quartz blocks, with blue stained glass panes, beacons, and a wide stone base that spans about 60 blocks across. It stands roughly 92 blocks high and 66 deep, with a narrow central shaft, side wings at its lower levels, and a few signs and bookshelves inside.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "futuristic tower",
+        "quartz tower",
+        "sci-fi tower",
+        "beacon",
+        "blue glass",
+        "white modern tower",
+        "skyscraper",
+        "tall building"
+      ]
+    },
+    "for": "8e2ea7a335d14e05b228b8343b5d499a4a9b135c1b97578e5a5dbf09bf455919",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

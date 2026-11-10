@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/nurai-water-resort/",
   "license": "unrestricted",
   "rating": 58,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Nurai Water Resort",
+      "ru": "Курортный отель Нурай",
+      "es": "Complejo Acuático Nurai",
+      "pt": "Resort Aquático Nurai",
+      "de": "Nurai Wasserresort"
+    },
+    "description": "A large resort complex built around a big water area, with white wool, glass, and oak planks as the main materials, plus black wool and glowstone accents. It measures about 67 by 78 blocks across and 22 high, and contains chests, furnaces, a record player, and signs as interior details. The source gives no description, so the layout is read from the footprint and front view: several multi-storey blocks with tall roofs and pool-like water spaces.",
+    "tags": {
+      "type": [
+        "house",
+        "village"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "ocean"
+      ],
+      "keywords": [
+        "resort",
+        "water resort",
+        "hotel",
+        "pool",
+        "beach house",
+        "white wool",
+        "glass",
+        "oak"
+      ]
+    },
+    "for": "ae820b964f7817ba87b4de8d821d8252bf6058d366bd9621d326055a526709ce",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

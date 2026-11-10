@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/my-oriental-architect-plot-on-ravandorg-server/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Oriental Architect Plot Server Build",
+      "ru": "Восточная архитектурная постройка",
+      "es": "Construcción Oriental de Arquitecto",
+      "pt": "Construção Oriental de Arquiteto",
+      "de": "Orientalisches Architekten-Gebäude"
+    },
+    "description": "A large oriental-style architectural build made mostly of stone, with acacia and oak leaves, water, and jungle and birch wood accents, built on a Ravand.org server plot. It measures about 46 blocks wide, 36 high, and 46 deep, with roughly 33,000 blocks in total. The source gives no further description, but the build includes chests, furnaces, signs, flower pots, and a skull, suggesting a lived-in interior.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "chinese",
+        "japanese"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "oriental",
+        "architecture",
+        "stone",
+        "large build",
+        "server plot",
+        "pagoda",
+        "asian",
+        "ravand"
+      ]
+    },
+    "for": "11e2b01ebf1f519783d43288be303bd2e74b06e26ff4fb9710166e64fbe23510",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

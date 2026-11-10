@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/titanic-1-1/",
   "license": "unrestricted",
   "rating": 118,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Titanic 1:1 Ocean Liner",
+      "ru": "Титаник 1:1",
+      "es": "Titanic 1:1 Transatlántico",
+      "pt": "Titanic 1:1 Transatlântico",
+      "de": "Titanic 1:1 Ozeanriese"
+    },
+    "description": "A full-scale replica of the RMS Titanic ocean liner, built mostly from oak planks, black, white, red and yellow wool, with a dirt and stone hull and a snow-topped deck. It is very large, about 155 blocks wide, 117 high and 420 long, and contains a few interior details such as chests, record players with jukeboxes, signs, and lighting. The source gave no description, so the build's exact interior layout is not documented.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "titanic",
+        "ship",
+        "ocean liner",
+        "boat",
+        "replica",
+        "large",
+        "historical",
+        "steamship"
+      ]
+    },
+    "for": "6efe742f0b280604bfe67c1caeb3bbf0f8b8d4a068f01b75f06bd874f6030ef0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/accalis-fleet-pangolin-grandcarrier-zeppelin-carrier-zeppelin/",
   "license": "unrestricted",
   "rating": 59,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Pangolin Assault Carrier Zeppelin",
+      "ru": "Штурмовой авианосец-цеппелин «Панголин»",
+      "es": "Portaaviones de asalto zepelín Pangolín",
+      "pt": "Porta-aviões zepelim de assalto Pangolim",
+      "de": "Pangolin-Sturmträger Zeppelin"
+    },
+    "description": "A large airship-style assault carrier named Pangolin, part of the Accalis fleet, built mostly from oak planks, white and red wool, and iron blocks. It is long and flat with a stacked hull, a pointed bow, and many small details like glowstone lights, trapdoors, and wall signs. Roughly 194 blocks wide, 56 high, and 85 deep, with about 38,000 blocks; the interior holds chests, furnaces, and a cauldron.",
+    "tags": {
+      "type": [
+        "ship",
+        "other"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "ocean"
+      ],
+      "keywords": [
+        "airship",
+        "zeppelin",
+        "carrier",
+        "flying ship",
+        "pangolin",
+        "accalis",
+        "warship",
+        "sky fleet"
+      ]
+    },
+    "for": "a50760961b6f295273d3cdca33a881de55cdad28ba4ffe11dfdf5b983586ec8d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

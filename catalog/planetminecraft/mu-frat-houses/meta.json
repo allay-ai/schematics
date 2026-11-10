@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/mu-frat-houses/",
   "license": "unrestricted",
   "rating": 107,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "MU Frat Houses",
+      "ru": "Студенческие братства MU",
+      "es": "Casas de fraternidad MU",
+      "pt": "Casas de fraternidade MU",
+      "de": "MU Verbindungshäuser"
+    },
+    "description": "A large cluster of multi-story fraternity-style houses built from spruce planks, gray wool, smooth stone and quartz, with a mix of stone brick, brick and nether brick accents and a few glass-paned windows. The complex is about 103 blocks wide, 28 high and 44 deep, and contains around 10,400 blocks; the source gives no description of any interior details beyond a skull block entity.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "fraternity house",
+        "college dorm",
+        "frat houses",
+        "multi-story",
+        "spruce",
+        "gray wool",
+        "campus",
+        "large build"
+      ]
+    },
+    "for": "d11db53952cc6b2db5add4251b59d1b10dbe884c1e67784f95cc25bc316adc66",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/small-plot-2---fantasy-tree-house/",
   "license": "unrestricted",
   "rating": 69,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Fantasy Tree House",
+      "ru": "Фэнтезийный домик на дереве",
+      "es": "Casa del árbol fantástica",
+      "pt": "Casa na árvore de fantasia",
+      "de": "Fantasy-Baumhaus"
+    },
+    "description": "A small fantasy tree house built around a tall oak trunk with leafy canopy and a spruce-plank treehouse on top, set on a grassy island with a water pool. It stands about 37 by 37 blocks across and 69 blocks high, mostly dirt, stone, cobblestone, and leaves, with green wool and terracotta accents. The source has no description, so the nature of the interior is unknown.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "fantasy",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "tree house",
+        "treehouse",
+        "fantasy",
+        "oak tree",
+        "small build",
+        "island",
+        "elven",
+        "survival"
+      ]
+    },
+    "for": "552405ae1329d6f561cc9c4fb1558f9c139da601166026caafb769c99339cb91",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

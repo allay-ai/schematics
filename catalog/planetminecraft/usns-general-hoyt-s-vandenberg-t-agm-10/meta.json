@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/usns-general-hoyt-s-vandenberg-t-agm-10/",
   "license": "unrestricted",
   "rating": 62,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "USNS General Hoyt S. Vandenberg Warship",
+      "ru": "Корабль USNS General Hoyt S. Vandenberg",
+      "es": "Buque USNS General Hoyt S. Vandenberg",
+      "pt": "Navio USNS General Hoyt S. Vandenberg",
+      "de": "Schiff USNS General Hoyt S. Vandenberg"
+    },
+    "description": "A large modern naval ship model of the USNS General Hoyt S. Vandenberg (T-AGM-10), a missile tracking vessel, built mostly from stone and netherrack with light gray and black wool details, glowstone lights, and iron doors. It is about 22 blocks wide, 43 high, and 175 deep, with around 26,800 blocks in total. It has a sign and ladders, and no interior is mentioned in the source.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern",
+        "futuristic"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "warship",
+        "navy ship",
+        "usns",
+        "battleship",
+        "military ship",
+        "vessel",
+        "naval",
+        "replica"
+      ]
+    },
+    "for": "83573f349b31a6d498b6255d60e708505a454f520595812c6c527400baf3b488",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

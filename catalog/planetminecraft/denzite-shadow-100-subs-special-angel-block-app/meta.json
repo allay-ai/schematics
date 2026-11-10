@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/denzite-shadow-100-subs-special-angel-block-app/",
   "license": "unrestricted",
   "rating": 88,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Denzite Shadow",
+      "ru": "Тень Денцита",
+      "es": "Sombra de Denzite",
+      "pt": "Sombra de Denzite",
+      "de": "Denzite-Schatten"
+    },
+    "description": "A large, mostly symmetrical build, 45 wide, 39 high and 97 deep, made mainly from oak and spruce logs, oak slabs and fences, with white and blue wool, cobweb, iron blocks and nether brick fences. Its interior has chests, a furnace, a record player, signs, trapdoors and red beds, and glowstone provides lighting. The source gives no description, so its purpose is not stated.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "denzite shadow",
+        "100 subs special",
+        "oak",
+        "spruce",
+        "cobweb",
+        "nether brick",
+        "iron block",
+        "glowstone"
+      ]
+    },
+    "for": "37aa445f68e5d1ba9356c3e69201485b53a208294ca3a80c68ce3c5ea711c99d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

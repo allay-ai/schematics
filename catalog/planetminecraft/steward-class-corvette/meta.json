@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/steward-class-corvette/",
   "license": "unrestricted",
   "rating": 70,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Steward Class Corvette",
+      "ru": "Корвет класса «Стюард»",
+      "es": "Corbeta Clase Steward",
+      "pt": "Corveta Classe Steward",
+      "de": "Korvette der Steward-Klasse"
+    },
+    "description": "A large naval corvette warship built mostly from stone bricks, with stone brick stairs and slabs forming the hull and cobblestone detailing, plus nether brick accents, gray wool, and glowstone lights. Blue and cyan stained glass add windows along the sides. It is a long, low vessel about 87 blocks wide, 33 high, and 276 long, and the source lists no interior details.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean",
+        "plains"
+      ],
+      "keywords": [
+        "corvette",
+        "warship",
+        "stone brick ship",
+        "naval",
+        "battleship",
+        "large ship",
+        "glowstone",
+        "stained glass"
+      ]
+    },
+    "for": "0a54d5ab8b709a7009c03d4f8fa996e3e05256c60cb6c6abd15e394e04f0cfae",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

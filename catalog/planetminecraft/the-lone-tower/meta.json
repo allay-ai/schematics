@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/the-lone-tower/",
   "license": "unrestricted",
   "rating": 60,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Lone Tower",
+      "ru": "Одинокая башня",
+      "es": "Torre Solitaria",
+      "pt": "Torre Solitária",
+      "de": "Einsamer Turm"
+    },
+    "description": "A tall, freestanding stone brick tower that rises into a narrow spire, with a wide round base and a flared, tiered middle. It is built mostly from stone bricks, gray and light gray wool, and cobblestone walls, with gold and iron block accents, quartz, glass panes, birch trim, and glowstone lighting in its core. At about 57 wide, 136 high, and 63 deep, it is a very tall landmark that stands alone on a grass and dirt base. The source gives no description, and the interior layout is not documented.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "fantasy"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "lone tower",
+        "stone brick tower",
+        "tall tower",
+        "spire",
+        "gold accents",
+        "landmark",
+        "glowstone",
+        "round tower"
+      ]
+    },
+    "for": "461faac6729700d0aca0b7a842f51c285467ab99c598ae06f0b7ed995b7cc5c4",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

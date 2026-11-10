@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/arleigh-burke--class-destroyer-usn/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Arleigh Burke Destroyer",
+      "ru": "Эсминец типа Арли Бёрк",
+      "es": "Destructor Arleigh Burke",
+      "pt": "Destroyer Arleigh Burke",
+      "de": "Zerstörer Arleigh Burke"
+    },
+    "description": "A large, detailed replica of the US Navy Arleigh Burke Flight IIA guided-missile destroyer, built mostly from polished diorite, cyan and red terracotta, quartz, and black and blue wool, with iron bars, water, and some banners and chests. It is about 21 blocks wide, 40 high, and 155 long, a ship meant to sit on or beside open water. The source gives no description, so the build's details are inferred from its block list and top-down layout.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "destroyer",
+        "warship",
+        "navy ship",
+        "battleship",
+        "military ship",
+        "naval",
+        "arleigh burke",
+        "usn"
+      ]
+    },
+    "for": "0b2503dab379553bf5275ab043ef4b52e8e9c9c58e1b8a406905c20343874145",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/flying-villa-bioshock-infinet-themed-build/",
   "license": "unrestricted",
   "rating": 77,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Flying Villa Bioshock Infinite Build",
+      "ru": "Летающая вилла в стиле Bioshock Infinite",
+      "es": "Villa voladora estilo Bioshock Infinite",
+      "pt": "Vila voadora estilo Bioshock Infinite",
+      "de": "Fliegende Villa im Bioshock Infinite Stil"
+    },
+    "description": "A floating villa inspired by Bioshock Infinite, built mostly from stone slabs, stone bricks, spruce planks, bricks and quartz pillars, with lime and orange terracotta accents. It is about 31 wide, 58 high and 40 deep, and the structure includes chests, furnaces, hoppers, droppers, flower pots and signs as interior details.",
+    "tags": {
+      "type": [
+        "house",
+        "other"
+      ],
+      "style": [
+        "futuristic",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "flying villa",
+        "floating island",
+        "bioshock infinite",
+        "sky build",
+        "quartz",
+        "terracotta",
+        "airship house",
+        "minecraft build"
+      ]
+    },
+    "for": "ab9d718b3c2b5ec6e91482bf1b5f34167950537188484ca39dfd475ee46b4067",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

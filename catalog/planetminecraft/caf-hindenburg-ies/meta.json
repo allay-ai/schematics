@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/caf-hindenburg-ies-/",
   "license": "unrestricted",
   "rating": 105,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Café Hindenburg Airship Café",
+      "ru": "Кафе «Гинденбург»",
+      "es": "Café Hindenburg",
+      "pt": "Café Hindenburg",
+      "de": "Café Hindenburg"
+    },
+    "description": "A large sandstone and terracotta café built to resemble the Hindenburg airship, with a rounded white-and-blue hull shape, quartz trim, and brick and spruce accents. It is roughly 61 by 52 by 62 blocks and about 35,000 blocks in total, with a furnace and signs as block entities and no detailed interior described in the source.",
+    "tags": {
+      "type": [
+        "shop",
+        "house"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "cafe",
+        "hindenburg",
+        "airship",
+        "zeppelin",
+        "sandstone",
+        "terracotta",
+        "quartz",
+        "large build"
+      ]
+    },
+    "for": "22ca5d55c4e16ead4f6d4718da2c95eadbfaa22d304ed3d8b4239eab5a99d20c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

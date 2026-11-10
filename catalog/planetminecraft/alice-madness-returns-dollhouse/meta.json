@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/alice-madness-returns-dollhouse/",
   "license": "unrestricted",
   "rating": 58,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Alice Madness Returns Dollhouse",
+      "ru": "Кукольный домик из Alice Madness Returns",
+      "es": "Casa de muñecas de Alice Madness Returns",
+      "pt": "Casa de bonecas de Alice Madness Returns",
+      "de": "Puppenhaus aus Alice Madness Returns"
+    },
+    "description": "A large fantasy-style dollhouse inspired by Alice: Madness Returns, built mostly from stone with green and lime wool roofs, oak planks, stairs and fences, and glowstone lighting. It measures about 130 blocks wide, 72 high and 97 deep, and uses roughly 70,000 blocks. The interior includes bookshelves, chests and signs.",
+    "tags": {
+      "type": [
+        "house",
+        "interior"
+      ],
+      "style": [
+        "fantasy",
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "dollhouse",
+        "alice madness returns",
+        "stone mansion",
+        "wool roof",
+        "large house",
+        "fantasy house",
+        "glowstone",
+        "bookshelf interior"
+      ]
+    },
+    "for": "f8dfbd3dc6e0207b91100ffdc061058a1f3efea308e5ce7cb907c64aab22fcc3",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/tree-of-life-2706320/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Giant Tree of Life",
+      "ru": "Великое Древо Жизни",
+      "es": "Gran Árbol de la Vida",
+      "pt": "Grande Árvore da Vida",
+      "de": "Riesiger Baum des Lebens"
+    },
+    "description": "A very tall natural-style giant tree built mostly from oak, spruce, birch and jungle leaves and logs, with stone and dirt forming the trunk base and roots. It stands about 120 blocks high and 52 by 55 across, with a wide leafy crown, a small pond of water and ice, grass and snow patches, cobweb draping, and oak fences and stairs as a few wooden details. Nothing inside; it is a solid exterior sculpture.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "forest",
+        "plains",
+        "snowy",
+        "jungle"
+      ],
+      "keywords": [
+        "tree of life",
+        "giant tree",
+        "world tree",
+        "huge tree",
+        "leaves",
+        "natural",
+        "landmark",
+        "sculpture"
+      ]
+    },
+    "for": "8fe27b82a371e7a07368c44da2e710e22e6ce63eec66d82b403f6a5c73fa2368",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/invasion/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Invasion Alien Mothership",
+      "ru": "Вторжение: корабль-матка",
+      "es": "Invasión: nave nodriza alienígena",
+      "pt": "Invasão: nave-mãe alienígena",
+      "de": "Invasion: Alien-Mutterschiff"
+    },
+    "description": "A large sci-fi invasion build: a dark, black-wool hull with lime and green accents, iron block plating, glowstone lights and iron bars, rising in a jagged, spread-out cluster. It is 172 wide, 88 high and 109 deep, with about 42,600 blocks, and includes chests, furnaces, a record player and signs inside. The source has no description, so the alien theme comes from the title and the palette.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "plains",
+        "snowy"
+      ],
+      "keywords": [
+        "alien",
+        "invasion",
+        "spaceship",
+        "mothership",
+        "sci-fi",
+        "ufo",
+        "black wool",
+        "large build"
+      ]
+    },
+    "for": "d7268ebb17c2d870c075221ad247ce81bd0d1a48a2c0f8c9c56d04529a217044",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

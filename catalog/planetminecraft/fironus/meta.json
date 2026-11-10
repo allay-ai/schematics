@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/fironus/",
   "license": "unrestricted",
   "rating": 60,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Fironus Abstract Skyscraper",
+      "ru": "Небоскрёб Fironus в абстрактном стиле",
+      "es": "Rascacielos abstracto Fironus",
+      "pt": "Arranha-céu abstrato Fironus",
+      "de": "Abstrakter Wolkenkratzer Fironus"
+    },
+    "description": "A tall, narrow abstract skyscraper built from spruce planks, stone, dirt, birch logs and stairs, with blue wool and glass accents. It stands about 102 blocks high, 37 wide and 38 deep, and its footprint is a rough cross shape that tapers into a thin spire near the top. The build has a few chests and signs inside, and a small water feature is included.",
+    "tags": {
+      "type": [
+        "tower",
+        "house"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "snowy",
+        "forest"
+      ],
+      "keywords": [
+        "skyscraper",
+        "abstract tower",
+        "spruce",
+        "tall building",
+        "modern tower",
+        "spire",
+        "minecraft city",
+        "landmark"
+      ]
+    },
+    "for": "ce0f2c4c87ca2f189ec7c310b1a7f28bbe6782b785dc61eab90374c4eecf083c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

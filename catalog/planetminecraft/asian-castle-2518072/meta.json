@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/asian-castle-2518072/",
   "license": "unrestricted",
   "rating": 78,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Asian Castle",
+      "ru": "Азиатский замок",
+      "es": "Castillo asiático",
+      "pt": "Castelo asiático",
+      "de": "Asiatische Burg"
+    },
+    "description": "A large fortified castle in an East Asian style, built mostly from white wool walls with stone brick, cobblestone and nether brick roofs and bases, accented by spruce and oak wood and red and lime terracotta. It sprawls about 178 blocks wide, 133 deep and 62 high, with tiered curved roofs stacked over a central keep and a chest inside. The source gives no description beyond its title and materials.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "japanese",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "asian castle",
+        "japanese castle",
+        "large castle",
+        "tiered roof",
+        "fortress",
+        "pagoda",
+        "wool walls",
+        "nether brick roof"
+      ]
+    },
+    "for": "d35ae35f088b0ddcdfa07ba2c37f9447f6784caceff600a4a8ce6fc3f8d44e46",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/herobrines-tower-2995800/",
   "license": "unrestricted",
   "rating": 79,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Herobrine's Tower",
+      "ru": "Башня Геробрина",
+      "es": "Torre de Herobrine",
+      "pt": "Torre do Herobrine",
+      "de": "Herobrines Turm"
+    },
+    "description": "A tall, narrow, overgrown stone tower of about 93 by 92 blocks and 192 blocks high, built mostly from stone bricks with cracked and mossy variants, vines, and spruce logs. It has black wool, obsidian, and cyan terracotta accents, iron bars, and a flared, fortress-like base that narrows toward a thin spire. The source has no description and no block entities, so the interior layout is unknown.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "gothic",
+        "medieval"
+      ],
+      "biome": [
+        "forest",
+        "plains"
+      ],
+      "keywords": [
+        "herobrine",
+        "stone brick tower",
+        "mossy tower",
+        "overgrown",
+        "vines",
+        "dark tower",
+        "spooky",
+        "tall tower"
+      ]
+    },
+    "for": "94037eebbbef43e1c0345782b23f14a0031e368afbea97dd3ad2ab167ff450ca",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

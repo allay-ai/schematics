@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/roman-war-galley/",
   "license": "unrestricted",
   "rating": 73,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Roman War Galley",
+      "ru": "Римская боевая галера",
+      "es": "Galera de guerra romana",
+      "pt": "Galé de guerra romana",
+      "de": "Römische Kriegsgaleere"
+    },
+    "description": "A realistic Roman war galley built mostly from oak and spruce, with a long hull sitting in water, rows of oak and spruce stairs and slabs for the benches and decks, and red and white wool for sails and trim. It is about 99 blocks wide, 36 high and 54 deep, with a small crew area holding chests, a furnace, a crafting table, and signs inside.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "roman galley",
+        "war ship",
+        "galley",
+        "warship",
+        "boat",
+        "ancient ship",
+        "oak ship",
+        "naval"
+      ]
+    },
+    "for": "068bd312dc7fb67a6044ec5d3f575d91fa462dbd245691410861b17eb6f7d58d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/heavy-cruiser-prinz-eugen/",
   "license": "unrestricted",
   "rating": 62,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "German Heavy Cruiser Prinz Eugen",
+      "ru": "Тяжёлый крейсер «Принц Евгений»",
+      "es": "Crucero Pesado Prinz Eugen",
+      "pt": "Cruzador Pesado Prinz Eugen",
+      "de": "Schwerer Kreuzer Prinz Eugen"
+    },
+    "description": "A large replica of the German WWII heavy cruiser Prinz Eugen, built as a ship hull with a stepped superstructure. It is mostly red terracotta and stone with stone brick and iron bars detailing, and it is about 23 blocks wide, 53 high and 208 long. The build holds a few small interior details such as hoppers and skulls.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "warship",
+        "cruiser",
+        "battleship",
+        "german",
+        "wwii",
+        "navy",
+        "boat",
+        "prinz eugen"
+      ]
+    },
+    "for": "899ae4de6520a656339976f8d5d437ec9b5affb0a29ae292922554924ced4480",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/grand-medieval-house/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Grand Medieval House",
+      "ru": "Большой средневековый дом",
+      "es": "Gran casa medieval",
+      "pt": "Grande casa medieval",
+      "de": "Großes mittelalterliches Haus"
+    },
+    "description": "A large medieval-style house built mostly from gray terracotta walls, spruce logs, and spruce slabs, with snow blocks and grass roofing giving it a snowy, mossy look. It measures about 38 wide, 30 high, and 23 deep, using roughly 3,400 blocks. The source has no description, and no block entities or interior details are listed, so the inside is unknown.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "snowy",
+        "forest",
+        "plains"
+      ],
+      "keywords": [
+        "medieval house",
+        "large house",
+        "spruce",
+        "gray terracotta",
+        "snowy house",
+        "mansion",
+        "timber frame",
+        "castle house"
+      ]
+    },
+    "for": "0d56b5d4cebbfccbef3e40803bb1ed774b5a1173b6cb2b98ff57e6675a8127d2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/police-station-3096968/",
   "license": "unrestricted",
   "rating": 66,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Police Station",
+      "ru": "Полицейский участок",
+      "es": "Comisaría de policía",
+      "pt": "Delegacia de polícia",
+      "de": "Polizeistation"
+    },
+    "description": "A modern police station built from white and cyan terracotta, stone slabs, brick stairs and stone bricks, with black glass windows, iron bars and glowstone lighting. It is a large multi-story civic building about 40 wide, 40 high and 54 deep, with a tall central block, a flat stone-slab base and rooftop details. Inside are chests, hoppers, signs and skulls, suggesting a functional interior with storage and display.",
+    "tags": {
+      "type": [
+        "house",
+        "interior"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "police station",
+        "police",
+        "modern",
+        "civic building",
+        "terracotta",
+        "office",
+        "jail",
+        "city"
+      ]
+    },
+    "for": "19b9c3a20dbb8f92fb2169a3722b5cdd2455b57b3799d9a4dda28aaa4b8d59bf",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/lovely-medieval-squre-part-of-a-huge-project-with-download/",
   "license": "unrestricted",
   "rating": 91,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Town Square",
+      "ru": "Средневековая городская площадь",
+      "es": "Plaza de pueblo medieval",
+      "pt": "Praça de cidade medieval",
+      "de": "Mittelalterlicher Stadtplatz"
+    },
+    "description": "A medieval town square built mostly from stone, stone bricks, oak planks and spruce logs, with white wool and glass pane accents. It measures about 77 by 29 by 83 blocks and is described in its title as part of a larger project. The build includes chests, furnaces and signs inside.",
+    "tags": {
+      "type": [
+        "village"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "medieval town",
+        "town square",
+        "medieval village",
+        "stone town",
+        "medieval city",
+        "town plaza",
+        "builders needed",
+        "large project"
+      ]
+    },
+    "for": "7a177c5452eb4ce410cc8e9cc5730bb9cd370ee8f5444fd87de63498dc9f45a8",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

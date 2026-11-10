@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/hogwarts-express/",
   "license": "unrestricted",
   "rating": 91,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Hogwarts Express Train",
+      "ru": "Хогвартс-экспресс",
+      "es": "Tren Expreso de Hogwarts",
+      "pt": "Trem Expresso de Hogwarts",
+      "de": "Hogwarts-Express Zug"
+    },
+    "description": "A long, narrow model of the Hogwarts Express steam train, built as a 626-block-long line of red and black wool carriages with jungle plank floors, glass pane windows and iron details. It runs about 13 blocks wide and 33 blocks high, and the source lists a sign as its only block entity. The build is mostly solid blocks, with gravel filling a large share of its volume.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "train",
+        "hogwarts express",
+        "harry potter",
+        "steam train",
+        "locomotive",
+        "railway",
+        "red train",
+        "carriage"
+      ]
+    },
+    "for": "75ffc98eb4b3b7e532b817cae74ec2c6ef6c201da9c6afda6f12d66f4816c79d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

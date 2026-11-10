@@ -2,5 +2,39 @@
   "title": "Medieval House I",
   "author": "b333nja",
   "source": "https://www.minelite.es/schematics/medieval-house-i",
-  "license": "unrestricted"
+  "license": "unrestricted",
+  "generated": {
+    "title": {
+      "en": "Medieval House I",
+      "ru": "Средневековый дом I",
+      "es": "Casa medieval I",
+      "pt": "Casa medieval I",
+      "de": "Mittelalterliches Haus I"
+    },
+    "description": "A medieval-style house built mostly from spruce slabs, stairs and stripped spruce logs, with stone, andesite, tuff and deepslate brick walls and dark oak planks. It is about 32 wide, 34 high and 26 deep, with a stepped roofline. The interior is furnished with chests, barrels, beds, a furnace, a blast furnace, a brewing stand, a bell, banners, a jukebox and other utility blocks.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "medieval house",
+        "spruce house",
+        "stone house",
+        "furnished interior",
+        "village house",
+        "cottage",
+        "tudor",
+        "minecraft build"
+      ]
+    },
+    "for": "e2a66b035c7e1345cd8c319d3b45957be36e7bae9038f30d863be1203ee9977f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

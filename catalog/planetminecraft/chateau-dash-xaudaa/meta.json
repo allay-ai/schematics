@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/chateau-dash---xaudaa/",
   "license": "unrestricted",
   "rating": 73,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Overgrown Stone Castle",
+      "ru": "Заросший каменный замок",
+      "es": "Castillo de piedra cubierto de musgo",
+      "pt": "Castelo de pedra coberto de musgo",
+      "de": "Überwucherte Steinburg"
+    },
+    "description": "A large stone castle built mostly from stone bricks with mossy stone, cobblestone, and dirt, softened by oak leaves, vines, and grass for an overgrown look. It measures about 31 wide, 49 high, and 30 deep blocks, with a small water feature, red wool accents, and nether brick fences as detail. No interior blocks or block entities are listed, so it appears to be an exterior-only build.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "forest",
+        "plains"
+      ],
+      "keywords": [
+        "castle",
+        "stone castle",
+        "mossy",
+        "overgrown",
+        "vines",
+        "stone bricks",
+        "medieval fortress",
+        "large build"
+      ]
+    },
+    "for": "e6571c0ab3423329320bf890a2f6f7a6a6c6d9cc381a21ca25359285c251e88c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

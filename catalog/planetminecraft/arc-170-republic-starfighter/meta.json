@@ -4,5 +4,37 @@
   "source": "https://www.planetminecraft.com/project/arc-170-republic-starfighter/",
   "license": "unrestricted",
   "rating": 61,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "ARC-170 Republic Starfighter",
+      "ru": "Звездный истребитель ARC-170",
+      "es": "Caza estelar ARC-170 de la República",
+      "pt": "Caça estelar ARC-170 da República",
+      "de": "ARC-170 Republik-Sternjäger"
+    },
+    "description": "A blocky replica of the ARC-170 Republic starfighter from Star Wars, built mostly from quartz slabs, quartz blocks and stairs with stone and brick accents, plus a few iron bars and glass panes. It is 37 wide, 9 high and 49 deep, with a long swept-wing body and a pointed nose. The source has no description and no interior, and the block list does not show any hidden rooms.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "futuristic",
+        "other"
+      ],
+      "biome": [],
+      "keywords": [
+        "starfighter",
+        "spaceship",
+        "star wars",
+        "arc-170",
+        "republic fighter",
+        "quartz ship",
+        "sci-fi",
+        "airplane"
+      ]
+    },
+    "for": "7a873dff287e465c88b7b8304362772b0582d94e00dc386015372cdbd24c9576",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

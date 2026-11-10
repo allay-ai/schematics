@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/mediterranean-mansiontmawok-250-subs/",
   "license": "unrestricted",
   "rating": 62,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Mediterranean Mansion",
+      "ru": "Средиземноморский особняк",
+      "es": "Mansión mediterránea",
+      "pt": "Mansão mediterrânea",
+      "de": "Mediterrane Villa"
+    },
+    "description": "A large Mediterranean-style mansion built mostly from sandstone, smooth sandstone, quartz, stone and brick, with spruce accents, green wool and sand around the grounds. It is about 63 wide, 32 high and 150 deep, roughly 60,000 blocks, with water features and snow blocks in the surroundings. The interior includes furnaces, hoppers, signs, a beacon, a record player and other functional block entities.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "desert",
+        "ocean"
+      ],
+      "keywords": [
+        "mediterranean mansion",
+        "sandstone house",
+        "quartz",
+        "villa",
+        "large house",
+        "desert mansion",
+        "beach house",
+        "sand"
+      ]
+    },
+    "for": "d941720849df71121b9ecc17c04e4d1e393fd2e62cb46d38de3763bb7f7bcbf6",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

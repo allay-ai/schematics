@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/suburban-alluvium/",
   "license": "unrestricted",
   "rating": 94,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Seaside De Stijl Townhouses",
+      "ru": "Приморские таунхаусы в стиле де Стейл",
+      "es": "Casas adosadas junto al mar De Stijl",
+      "pt": "Casas geminadas à beira-mar De Stijl",
+      "de": "De-Stijl-Stadthäuser am Meer"
+    },
+    "description": "A seaside row of modernist townhouses in the De Stijl style, built mostly from stone and black and red terracotta with spruce accents, set along a sandy, icy shoreline with water. The build is roughly 71 wide, 25 high and 103 deep, about 90,000 blocks. It contains a few chests, hoppers, signs, a beacon and daylight detectors.",
+    "tags": {
+      "type": [
+        "house",
+        "village"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean",
+        "snowy"
+      ],
+      "keywords": [
+        "de stijl",
+        "townhouses",
+        "seaside",
+        "coastal houses",
+        "terracotta",
+        "modern houses",
+        "beach",
+        "snowy"
+      ]
+    },
+    "for": "7c8def7a0439fb589b335695f910d881e2a2e0ec3163b0cbca1ec72d0861993c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

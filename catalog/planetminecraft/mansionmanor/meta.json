@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/mansionmanor/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Mansion Manor with Oak Gardens",
+      "ru": "Особняк с дубовым садом",
+      "es": "Mansión Señorial de Roble",
+      "pt": "Mansão Senhorial de Carvalho",
+      "de": "Herrenhaus aus Eiche"
+    },
+    "description": "A large oak-and-wool manor house with a tall pitched roof, glass windows, and a stone-slab base, set among oak trees with a small water feature and wheat plots nearby. It is roughly 61 wide, 18 high, and 73 deep, with no interior blocks or block entities recorded, so it reads as an exterior-only build. The description is inferred from the block list and layout map, not from the author's notes, which were empty.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "manor",
+        "mansion",
+        "oak house",
+        "wool roof",
+        "large house",
+        "country estate",
+        "oak trees",
+        "farm house"
+      ]
+    },
+    "for": "43075d39e96197002d111b1b119aab1b3c121217af51e7322dabcb6fa72662cc",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

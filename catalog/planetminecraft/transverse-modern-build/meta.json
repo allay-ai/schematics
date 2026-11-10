@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/transverse---modern-build/",
   "license": "unrestricted",
   "rating": 60,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Transverse Modern Snowy Base",
+      "ru": "Современная база Transverse",
+      "es": "Base moderna Transverse nevada",
+      "pt": "Base moderna Transverse nevada",
+      "de": "Moderne Transverse-Basis im Schnee"
+    },
+    "description": "A modern build of stone, smooth stone and jungle wood set on a snowy and gravel terrain, with black wool accents, glass panes and a few oak leaves. It is wide and fairly low, about 38 blocks across, 14 high and 22 deep, with a tall block mass on one side and a lower wall-like slab of stone on the other. Inside it has a furnace, signs and a skull, and a few ores are visible in the walls.",
+    "tags": {
+      "type": [
+        "house",
+        "other"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "modern",
+        "snow",
+        "stone",
+        "jungle wood",
+        "base",
+        "black wool",
+        "transverse",
+        "furnace"
+      ]
+    },
+    "for": "8fff0cdef50deeabb2ef6429c9cc479df0f00f29e02371233579e002e8b196a8",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

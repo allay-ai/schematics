@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/hollandia/",
   "license": "unrestricted",
   "rating": 71,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Hollandia Quartz Tower",
+      "ru": "Кварцевая башня Голландии",
+      "es": "Torre de cuarzo Hollandia",
+      "pt": "Torre de quartzo Hollandia",
+      "de": "Hollandia Quarzturm"
+    },
+    "description": "A tall, narrow tower named Hollandia, built mostly from white quartz blocks with oak, spruce and dark oak wood accents, green wool, red carpet and glass windows. It measures about 35 wide, 98 high and 107 deep, with a slim top tapering up from a wider stepped base. The source gives no description of its interior, so none is claimed.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "tall tower",
+        "quartz",
+        "holland",
+        "dutch",
+        "oak",
+        "green wool",
+        "spire",
+        "landmark"
+      ]
+    },
+    "for": "ebb04c4bd2ffbffa972e7c16ecd743cd5704ad387bca8b679c0b2cb7fcf10b6e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

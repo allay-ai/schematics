@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/modern-white-beachlake-house/",
   "license": "unrestricted",
   "rating": 100,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern White Beach House",
+      "ru": "Современный белый пляжный дом",
+      "es": "Casa moderna blanca en la playa",
+      "pt": "Casa moderna branca na praia",
+      "de": "Modernes weißes Strandhaus"
+    },
+    "description": "A modern two-storey beach house with a white snow-block exterior, birch plank accents, and stone brick stairs and walls, set on a grassy lot beside a sandy shore and water. It measures about 66 blocks wide, 56 deep, and 25 high, built from roughly 14,000 blocks. Inside there is a furnace, and glowstone provides lighting; the source has no description beyond its title.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "beach",
+        "plains",
+        "ocean"
+      ],
+      "keywords": [
+        "beach house",
+        "white house",
+        "modern house",
+        "seaside",
+        "lakeside",
+        "snow block",
+        "birch",
+        "sand"
+      ]
+    },
+    "for": "10b792096234fac6e423be46f9e7278b3933d953463d05ca41cb44cba840c98f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

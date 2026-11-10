@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/bdh-timeline-map-8-fantasy-airship-download/",
   "license": "unrestricted",
   "rating": 77,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Fantasy Airship",
+      "ru": "Фэнтезийный воздушный корабль",
+      "es": "Barco aéreo de fantasía",
+      "pt": "Navio aéreo de fantasia",
+      "de": "Fantasy-Luftschiff"
+    },
+    "description": "A large fantasy airship built mostly from white wool, nether brick, spruce planks, iron blocks, and gold blocks, with iron bars, fences, and wall torches adding detail. It measures about 134 wide, 58 high, and 59 deep, with around 17,760 blocks. Chests, signs, and trapdoors are included inside.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "fantasy"
+      ],
+      "biome": [
+        "plains",
+        "any"
+      ],
+      "keywords": [
+        "airship",
+        "flying ship",
+        "sky ship",
+        "fantasy airship",
+        "floating ship",
+        "nether brick",
+        "white wool sails",
+        "large ship"
+      ]
+    },
+    "for": "b232ea36ce11a2d8a287f4add11035ce6cb828341030f16a361c1619378a699f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/modern-apartments-building/",
   "license": "unrestricted",
   "rating": 109,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Apartments Building",
+      "ru": "Современный жилой дом",
+      "es": "Edificio de apartamentos moderno",
+      "pt": "Prédio de apartamentos moderno",
+      "de": "Modernes Apartmenthaus"
+    },
+    "description": "A large modern apartment block with white wool walls, glass pane windows, oak accents, and grass-block roofs and terraces, with dandelions and some greenery for a lived-in look. It is about 88 blocks wide, 82 deep, and 22 blocks tall, a big multi-story city building. The interior includes a few furnaces and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "apartment building",
+        "modern apartments",
+        "white wool",
+        "grass roof",
+        "city building",
+        "multi-story",
+        "flats",
+        "large house"
+      ]
+    },
+    "for": "7fc22e7f71efe94acb7160af4f0aaf0d0ce3cb882a5127171c58da6a52c61290",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

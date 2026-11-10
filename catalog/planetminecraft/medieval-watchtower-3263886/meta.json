@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/medieval-watchtower-3263886/",
   "license": "unrestricted",
   "rating": 69,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Watchtower",
+      "ru": "Средневековая сторожевая башня",
+      "es": "Torre de vigía medieval",
+      "pt": "Torre de vigia medieval",
+      "de": "Mittelalterlicher Wachturm"
+    },
+    "description": "A tall, narrow medieval watchtower built mostly from oak planks, oak logs, and stone bricks, with a stone base and wooden upper floors that step out into a wide overhanging top. It stands about 41 blocks high and 15 by 15 blocks across at its widest, with a ladder climb and a few small storage and sign details inside. The source gives no description, so this is based only on the block list and layout.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "watchtower",
+        "medieval tower",
+        "lookout",
+        "oak tower",
+        "stone brick tower",
+        "tall tower",
+        "guard tower",
+        "ladder"
+      ]
+    },
+    "for": "a4292605bfe9caaff1524cbe572dd2b8e4cec9f0ea90429e0c232171ab8f6a55",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/elijas-temple/",
   "license": "unrestricted",
   "rating": 115,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Elija's Temple Quartz Ruin",
+      "ru": "Храм Элиджи из кварца",
+      "es": "Templo de Elija de cuarzo",
+      "pt": "Templo de Elija de Quartzo",
+      "de": "Elijas Quarztempel"
+    },
+    "description": "A large temple built mostly from white quartz blocks, with mossy cobblestone, grass, and leaves softening its outer walls, and water and ice pools set into the terrain. At about 143 by 87 by 145 blocks it is a very big structure, and its interior holds chests, an enchanting table, and ender chests. The source has no description, so the temple look comes from the materials and footprint alone.",
+    "tags": {
+      "type": [
+        "temple",
+        "interior"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "quartz temple",
+        "large temple",
+        "mossy cobblestone",
+        "enchant table",
+        "ender chest",
+        "ruin",
+        "white temple",
+        "huge build"
+      ]
+    },
+    "for": "479929d1d2cd1ce41eebcd91ca2b403c6a8920c3e1e26194479910d998c0c6d4",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

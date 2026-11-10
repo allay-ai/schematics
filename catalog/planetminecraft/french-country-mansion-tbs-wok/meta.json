@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/french-country-mansion-tbs-wok/",
   "license": "unrestricted",
   "rating": 82,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "French Country Mansion",
+      "ru": "Французский загородный особняк",
+      "es": "Mansión campestre francesa",
+      "pt": "Mansão rural francesa",
+      "de": "Französische Landvilla"
+    },
+    "description": "A large French countryside mansion built from white wool, stone brick, bricks and oak leaves, with green wool and spruce roofing and grassy, podzol-covered grounds around it. At about 107 by 31 by 88 blocks it is a sprawling estate, with a stone-brick terrace and a few furnished interior details such as chests, furnaces and flower pots. It is a Tropical Biome Sprint (TBS) entry from the WoK project and its source has no description.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "french mansion",
+        "country estate",
+        "manor",
+        "white wool",
+        "stone brick",
+        "large house",
+        "countryside",
+        "villa"
+      ]
+    },
+    "for": "65a0dd0e49418e8950686386aeacfd3d2dacef17a139cb29d3873c27e0da5d40",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

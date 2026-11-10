@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/modern-house-746994/",
   "license": "unrestricted",
   "rating": 77,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Stone House",
+      "ru": "Современный каменный дом",
+      "es": "Casa moderna de piedra",
+      "pt": "Casa moderna de pedra",
+      "de": "Modernes Steinhaus"
+    },
+    "description": "A large modern house built mainly from stone, with black and white wool accents, sandstone, glass walls, and birch plank details, with some water around it. It is about 46 blocks wide and deep and 34 blocks tall, and the data shows only a sign inside, so the interior is not documented.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "modern house",
+        "stone house",
+        "black and white",
+        "glass house",
+        "sandstone",
+        "birch",
+        "large house",
+        "contemporary"
+      ]
+    },
+    "for": "279603f6179a6fbf2bba27d26a76470fd84dc891646253e5b3341483ea8cf924",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/angry-fish-a-futurist-modern-house/",
   "license": "unrestricted",
   "rating": 73,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Angry Fish Futurist Modern House",
+      "ru": "Футуристический дом Angry Fish",
+      "es": "Casa moderna futurista Angry Fish",
+      "pt": "Casa moderna futurista Angry Fish",
+      "de": "Futuristisches Moderne Haus Angry Fish"
+    },
+    "description": "A large futurist modern house with a sweeping, fish-like silhouette, built mostly from white and cyan quartz, with cyan terracotta accents, blue stained glass panes, and a beacon on top. It measures 64 wide, 27 high and 66 deep, and the build uses about 27,500 blocks. The source gives no description beyond its title, so the interior layout is unknown.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "futuristic",
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "futuristic house",
+        "modern house",
+        "quartz house",
+        "fish house",
+        "beacon",
+        "sci-fi home",
+        "cyan",
+        "large build"
+      ]
+    },
+    "for": "3d14440b3ad9592d590a14d8c12c6a5a2b05d70206530e2ff183b99584cafde2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

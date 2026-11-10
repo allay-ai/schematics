@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/antares---helicopter/",
   "license": "unrestricted",
   "rating": 83,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Antares Helicopter",
+      "ru": "Вертолёт Антарес",
+      "es": "Helicóptero Antares",
+      "pt": "Helicóptero Antares",
+      "de": "Antares Hubschrauber"
+    },
+    "description": "A helicopter build named Antares, made mainly from white quartz blocks, slabs and stairs with cyan wool and black stained glass accents. It is about 31 wide, 9 high and 25 deep, and uses 709 blocks in total. Inside it has chests, a furnace, signs and a trapped chest, and the source gives no further description.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "futuristic",
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "helicopter",
+        "aircraft",
+        "vehicle",
+        "quartz",
+        "flying machine",
+        "chopper",
+        "modern",
+        "interior"
+      ]
+    },
+    "for": "de3c843d8035f2ce0922a4e09fab5816ed194eff0f872407fa7765511783a2c6",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

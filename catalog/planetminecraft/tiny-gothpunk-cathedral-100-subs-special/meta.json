@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/tiny-gothpunk-cathedral-100-subs-special/",
   "license": "unrestricted",
   "rating": 81,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Tiny Gothic Cathedral",
+      "ru": "Маленький готический собор",
+      "es": "Pequeña catedral gótica",
+      "pt": "Pequena catedral gótica",
+      "de": "Kleine gotische Kathedrale"
+    },
+    "description": "A small gothic-punk cathedral, about 35 by 35 blocks at the base and 107 blocks tall, with a narrow tower rising above a stepped body. Its walls are built mainly from nether bricks, stone bricks, and gray wool, with soul sand and blue terracotta accents, and it stands on a raised grassy dirt mound with sunflowers and tall grass. The source has no description, and the interior is not shown.",
+    "tags": {
+      "type": [
+        "temple"
+      ],
+      "style": [
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "gothic cathedral",
+        "tiny church",
+        "tall spire",
+        "nether brick",
+        "stone brick",
+        "gothpunk",
+        "soul sand",
+        "hill"
+      ]
+    },
+    "for": "20e5a1ff2d61f47dcd33ee1cc63811a39b6433897a25d0531415170550be78c7",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

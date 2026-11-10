@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/rich-uptown-medieval-shopping-center/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Rich Uptown Medieval Shopping Center",
+      "ru": "Средневековый торговый центр в богатом квартале",
+      "es": "Centro comercial medieval del barrio rico",
+      "pt": "Centro comercial medieval do bairro nobre",
+      "de": "Mittelalterliches Einkaufszentrum im Nobelviertel"
+    },
+    "description": "A large multi-story medieval shopping center built mostly from oak logs, oak planks, nether brick and stone brick, with orange and cyan wool accents and glass windows. It spans about 68 wide, 42 high and 27 deep, and the interior holds chests, furnaces, bookshelves, an enchanting table, an ender chest and signs for stocking shops.",
+    "tags": {
+      "type": [
+        "shop",
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "medieval shopping center",
+        "uptown",
+        "shop mall",
+        "market building",
+        "oak nether brick",
+        "town shops",
+        "rich district",
+        "medieval town"
+      ]
+    },
+    "for": "5f9f69f4d36f1dcf6773cf26fac84c310ce3b20f73fa0d75ff4aa8323476d8db",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

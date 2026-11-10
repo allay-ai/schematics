@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/medieval-series-lucky-goblin-inn/",
   "license": "unrestricted",
   "rating": 80,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Goblin Inn",
+      "ru": "Средневековая гостиница Счастливого гоблина",
+      "es": "Posada medieval del Goblin Afortunado",
+      "pt": "Estalagem medieval do Goblin Sortudo",
+      "de": "Mittelalterliches Goblin-Gasthaus"
+    },
+    "description": "A medieval-style inn built from brick, oak planks, and stone slabs, with a grassy dirt base and a large sloped roof. It is about 44 by 23 by 36 blocks and contains a few chests, a furnace, and signs inside. The source gives no description, so the look is taken from the materials and layout.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "inn",
+        "tavern",
+        "medieval inn",
+        "goblin",
+        "brick",
+        "oak",
+        "lodging",
+        "village"
+      ]
+    },
+    "for": "15374a3489e807f098ad980db8101ff1fa1f47e5a1fd88f11d687e72b547f4bd",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

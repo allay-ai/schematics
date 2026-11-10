@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/antonov-an-2-russian-plane/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Soviet Antonov AN-2 Plane",
+      "ru": "Советский самолёт Антонов Ан-2",
+      "es": "Avión soviético Antonov AN-2",
+      "pt": "Avião soviético Antonov AN-2",
+      "de": "Sowjetisches Flugzeug Antonov AN-2"
+    },
+    "description": "A compact model of the Soviet Antonov AN-2 biplane, built mostly from white quartz slabs, blocks and stairs with green terracotta accents, iron bars, glass pane windows and birch fences. At about 18 by 8 by 21 blocks and roughly 260 blocks total, it is a display piece rather than a flyable craft. It includes a small interior detail with a dropper and a note block.",
+    "tags": {
+      "type": [
+        "other",
+        "decoration"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "airplane",
+        "plane",
+        "aircraft",
+        "antonov",
+        "an-2",
+        "soviet",
+        "biplane",
+        "vehicle"
+      ]
+    },
+    "for": "9070a7fb8cca7c846d786005d1507fff3eea485bcb5e38890631cca8e7f6fc40",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

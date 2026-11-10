@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/1st-rate-ship-of-the-line-sovereign-of-the-seas-full-interior-build---world-dl/",
   "license": "unrestricted",
   "rating": 84,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "1st Rate Ship of the Line Sovereign",
+      "ru": "Линейный корабль «Суверен морей»",
+      "es": "Navío de línea Sovereign of the Seas",
+      "pt": "Navio de linha Sovereign of the Seas",
+      "de": "Linienschiff Sovereign of the Seas"
+    },
+    "description": "A large wooden sailing warship modeled on the 1st rate ship of the line Sovereign of the Seas, built mostly from birch, oak, and dark oak planks with white wool and terracotta sails and trim, plus gold and iron block accents. It is about 43 wide, 134 high, and 149 deep, with a full interior that includes chests, furnaces, hoppers, a beacon, and other working block entities. The source gives no description, so these details come from the block list and dimensions.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "sailing ship",
+        "warship",
+        "galleon",
+        "man of war",
+        "ship of the line",
+        "pirate ship",
+        "full interior",
+        "wooden ship"
+      ]
+    },
+    "for": "739921e9930820049f736db9351172a313fa7c2df54c4c62d960a9341670e248",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

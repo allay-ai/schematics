@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/chrome-modern-house/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Chrome Modern House",
+      "ru": "Современный дом Chrome",
+      "es": "Casa moderna Chrome",
+      "pt": "Casa moderna Chrome",
+      "de": "Modernes Haus Chrome"
+    },
+    "description": "A large modern house built mostly from stone, stone slabs, and quartz, with white wool and light blue and green terracotta accents. It sits on grass and snow with ice and water patches, and oak and spruce leaves around it. About 58 wide, 24 high, and 67 deep, with roughly 48,700 blocks; it contains a furnace and a sign.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "modern house",
+        "stone house",
+        "quartz",
+        "terracotta",
+        "snowy house",
+        "large house",
+        "ice",
+        "modern mansion"
+      ]
+    },
+    "for": "d689beaf8015233a1adda0b749dd9a3557f5b6e4c012e7ba41ec80ed95681b14",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

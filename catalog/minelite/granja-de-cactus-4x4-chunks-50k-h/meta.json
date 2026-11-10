@@ -2,5 +2,39 @@
   "title": "Cactus farm, 4×4 chunks, 50k/h",
   "author": "JMAO01, LotoEU99",
   "source": "https://www.minelite.es/schematics/granja-de-cactus-4x4-chunks-50k-h",
-  "license": "unrestricted"
+  "license": "unrestricted",
+  "generated": {
+    "title": {
+      "en": "Cactus Farm 50k per Hour",
+      "ru": "Кактусовая ферма 50k в час",
+      "es": "Granja de cactus 50k por hora",
+      "pt": "Fazenda de cactos 50k por hora",
+      "de": "Kaktusfarm 50k pro Stunde"
+    },
+    "description": "A large automatic cactus farm built on a 4 by 4 chunk footprint, roughly 90 blocks wide, 90 deep and 176 high, with a water-fed grid of sand and cactus channels and a hidden central area. Its walls and frame are white stained glass with oak and spruce fence gates, and the tall outer structure is mostly cactus and sand with about 155,000 blocks total. The source gives a rate of about 50,000 cactus per hour, and it contains no block entities such as chests or hoppers.",
+    "tags": {
+      "type": [
+        "farm"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "desert",
+        "plains"
+      ],
+      "keywords": [
+        "cactus farm",
+        "automatic farm",
+        "50k per hour",
+        "sand farm",
+        "glass farm",
+        "large farm",
+        "minecraft farm",
+        "afk farm"
+      ]
+    },
+    "for": "1b59780afd94bf99aa9227d98a2d95f318e2e7fc34f65c82d31bdfbb6abebd4c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

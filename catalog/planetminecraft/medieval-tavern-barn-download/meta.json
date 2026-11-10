@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/medieval-tavern-barn---download/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval Tavern and Barn",
+      "ru": "Средневековая таверна с амбаром",
+      "es": "Taberna y granero medieval",
+      "pt": "Taverna e celeiro medieval",
+      "de": "Mittelalterliche Taverne mit Scheune"
+    },
+    "description": "A medieval-style tavern complex built mostly from spruce wood, cobblestone, and oak, with a large barn beside it. The exterior uses spruce leaves and grass on the surrounding ground, and hay bales and white wool add farm detail. Roughly 85 by 113 blocks across and 32 high, it contains chests, furnaces, and signs inside.",
+    "tags": {
+      "type": [
+        "house",
+        "farm"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "tavern",
+        "barn",
+        "medieval inn",
+        "spruce house",
+        "farm",
+        "cobblestone",
+        "hay",
+        "village"
+      ]
+    },
+    "for": "013aba5e805fa919607ca3b70c1530a5bdc686e055e5344128afc8f9798da67c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/chateau-de-lufthausen---flying-mansion/",
   "license": "unrestricted",
   "rating": 72,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Flying Lufthausen Chateau",
+      "ru": "Летающий замок Лufthausen",
+      "es": "Chateau Volador Lufthausen",
+      "pt": "Castelo Voador Lufthausen",
+      "de": "Fliegendes Schloss Lufthausen"
+    },
+    "description": "A white wool and oak mansion called Chateau de Lufthausen, styled as a flying castle with a tall rounded main body, spruce and oak trim, and glowstone lighting. It measures about 37 wide, 54 high, and 98 deep, built from roughly 10,700 blocks, and includes chests and signs inside.",
+    "tags": {
+      "type": [
+        "house",
+        "castle"
+      ],
+      "style": [
+        "fantasy",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "flying castle",
+        "mansion",
+        "chateau",
+        "floating house",
+        "white wool",
+        "oak",
+        "glowstone",
+        "sky castle"
+      ]
+    },
+    "for": "de4a794adeb34715fb362dac4d880755bebe541840d4db0ff5995e154c995d8d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

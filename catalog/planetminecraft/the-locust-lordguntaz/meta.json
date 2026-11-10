@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/the-locust-lordguntaz/",
   "license": "unrestricted",
   "rating": 72,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "The Locust Flying Machine",
+      "ru": "Саранча, летающая машина",
+      "es": "La Langosta Voladora",
+      "pt": "O Gafanhoto Voador",
+      "de": "Die Heuschrecke Flugmaschine"
+    },
+    "description": "A huge futuristic build named The Locust, shaped like a winged insect with a long central body and wide, splayed wing sections. Its look relies on smooth stone and gray and orange wool, with diamond blocks, iron blocks, ice, glass panes and iron bars as accents, plus a few beacons. It measures about 162 by 39 by 155 blocks and holds working-looking interior details such as furnaces, an enchanting table, beds, chests, a record player and signs.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "plains",
+        "open terrain"
+      ],
+      "keywords": [
+        "locust",
+        "insect",
+        "flying machine",
+        "winged ship",
+        "smooth stone",
+        "beacon",
+        "giant build",
+        "sci-fi"
+      ]
+    },
+    "for": "e932c03e97bf2197f1ef936932287035968873992f3f31572fbb35a71955961c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

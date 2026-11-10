@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/-modern-mansion-4--series-1--130-subs-thanks/",
   "license": "unrestricted",
   "rating": 85,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Mansion 4 Series 1",
+      "ru": "Современный особняк 4, серия 1",
+      "es": "Mansión Moderna 4 Serie 1",
+      "pt": "Mansão Moderna 4 Série 1",
+      "de": "Moderne Villa 4 Serie 1"
+    },
+    "description": "A large modern mansion built mostly from dirt, stone, snow blocks and birch and spruce planks, with sandstone and light gray wool accents. It is about 97 blocks wide, 25 high and 77 deep, with a sprawling multi-level footprint, glass pane windows, and a snowy-and-sandy terrain base. Interior contains chests, furnaces, an enchanting table, a beacon, a record player, cauldron and trapped chest among other block entities.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "modern mansion",
+        "large house",
+        "snow",
+        "birch",
+        "sandstone",
+        "mansion",
+        "villa",
+        "series 1"
+      ]
+    },
+    "for": "ee096a83319c661a6890df2642c05aa26c7ee90197f1122a2a011eceba115e93",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

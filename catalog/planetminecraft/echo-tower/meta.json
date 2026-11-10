@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/echo-tower/",
   "license": "unrestricted",
   "rating": 107,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Echo Tower",
+      "ru": "Башня Эхо",
+      "es": "Torre Eco",
+      "pt": "Torre Eco",
+      "de": "Echo-Turm"
+    },
+    "description": "A tall, narrow spruce-plank tower about 170 blocks high, with a bulky base and a slender upper shaft broken up by many glass windows and iron block bands. The build uses roughly 60,000 blocks, mostly spruce planks, glass, and iron blocks, with some stone, glowstone, and a small water feature; it contains no block entities or documented interior. The source has no description, so the purpose is not stated.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "tall tower",
+        "spruce tower",
+        "glass tower",
+        "iron block",
+        "skyscraper",
+        "lookout",
+        "glowstone",
+        "spruce planks"
+      ]
+    },
+    "for": "8a3c8062478175de5e4ae867c45915c745360391067b6d5cf0674194e76b3de2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

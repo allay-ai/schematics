@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/steampunk-battleship-that-flies-and-is-unfinished/",
   "license": "unrestricted",
   "rating": 106,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Flying Steampunk Battleship",
+      "ru": "Паровой летающий линкор",
+      "es": "Acorazado Steampunk Volador",
+      "pt": "Couraçado Steampunk Voador",
+      "de": "Steampunk-Flugschlachtschiff"
+    },
+    "description": "A large steampunk airship shaped like a battleship, built mostly from oak planks, red and white wool, iron blocks, and black and gray terracotta, with stone brick and glass details and cobweb and sponge accents. It measures about 101 wide, 87 high, and 265 deep, and its slug says it is unfinished. The only block entity is a music block, and no interior is described.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "steampunk"
+      ],
+      "biome": [
+        "any"
+      ],
+      "keywords": [
+        "flying ship",
+        "airship",
+        "battleship",
+        "steampunk",
+        "warship",
+        "sky ship",
+        "unfinished",
+        "large build"
+      ]
+    },
+    "for": "dca0ac5c4b25b87f3c67f2972fc7e1df283a8eb8273268b4413cddc540948b5f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

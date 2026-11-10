@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/24gavotte-class/",
   "license": "unrestricted",
   "rating": 79,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Gavotte-Class Spaceship",
+      "ru": "Космический корабль класса Гавот",
+      "es": "Nave espacial clase Gavotte",
+      "pt": "Nave espacial classe Gavotte",
+      "de": "Raumschiff der Gavotte-Klasse"
+    },
+    "description": "A large white spaceship in the sci-fi style, built mostly from white wool with blue stained glass windows, quartz accents, and iron trim. It is about 64 wide, 36 high, and 72 deep, with a long pointed hull, a wide central section, and a sleek nose. Inside are redstone systems with levers, pistons, lamps, chests, hoppers, and signs, so it works as a functioning-looking vessel rather than just a model.",
+    "tags": {
+      "type": [
+        "ship",
+        "redstone"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "plains",
+        "snowy"
+      ],
+      "keywords": [
+        "spaceship",
+        "starship",
+        "sci-fi",
+        "white wool",
+        "redstone",
+        "glass windows",
+        "large ship",
+        "space"
+      ]
+    },
+    "for": "d9d501c10cc19cf9505fc612d81bfb0a1145e8ef2e83918f59a024d278d72fe2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

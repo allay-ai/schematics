@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/red-mosque/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Red Mosque",
+      "ru": "Красная мечеть",
+      "es": "Mezquita Roja",
+      "pt": "Mesquita Vermelha",
+      "de": "Rote Moschee"
+    },
+    "description": "A large mosque-style building with a red wool and spruce exterior, accented with yellow terracotta, lapis blocks, and cobblestone walls, rising about 99 blocks high over a roughly 100 by 100 block footprint. Its tall, layered silhouette is built from dirt, spruce stairs and slabs, and oak leaves for greenery, with glowstone lighting and a sign as the only block entity. The source gives no description, so the dome and minaret reading comes from the silhouette alone and the build is a single large structure with no listed interior.",
+    "tags": {
+      "type": [
+        "temple",
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "mosque",
+        "red mosque",
+        "large temple",
+        "red wool",
+        "lapis",
+        "spruce",
+        "islamic architecture",
+        "massive build"
+      ]
+    },
+    "for": "342ffbe933b0123697cc865ec8354419df6aec8432e56dc11ecfe65d5f5f8ff0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

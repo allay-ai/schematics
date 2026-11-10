@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/baroque-palace-vitruvian-city/",
   "license": "unrestricted",
   "rating": 92,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Baroque Palace with Courtyard",
+      "ru": "Барочный дворец с внутренним двором",
+      "es": "Palacio Barroco con Patio",
+      "pt": "Palácio Barroco com Pátio",
+      "de": "Barockpalast mit Innenhof"
+    },
+    "description": "A large baroque palace built mostly from stone bricks, sandstone and white wool, with a grand symmetrical front, tall blocky towers at the corners and a central block with a courtyard visible from above. It is roughly 212 blocks wide, 57 high and 161 deep, a very big structure with around 155,000 blocks, and it includes bookshelves, iron bars, glass panes and gold block accents with a sign inside.",
+    "tags": {
+      "type": [
+        "castle",
+        "house"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "grassland"
+      ],
+      "keywords": [
+        "baroque palace",
+        "stone brick palace",
+        "symmetrical mansion",
+        "big palace",
+        "courtyard",
+        "sandstone palace",
+        "vitruvian city",
+        "royal residence"
+      ]
+    },
+    "for": "d2eba3ce730a34198464212e15cd225fe7148452ba15309c749a93086f88c048",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

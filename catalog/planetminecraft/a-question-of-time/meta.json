@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/a-question-of-time/",
   "license": "unrestricted",
   "rating": 68,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "A Question of Time",
+      "ru": "Вопрос времени",
+      "es": "Una cuestión de tiempo",
+      "pt": "Uma questão de tempo",
+      "de": "Eine Frage der Zeit"
+    },
+    "description": "A large sculptural build about 62 by 65 by 62 blocks, mostly sandstone with black wool accents, netherrack, and soul sand. Its front view is a rounded, dome-like mass with a dark ring-and-hand pattern, and it has lava, glowstone, and a few oak and birch trees with flowers at the base. Roughly 68,000 blocks in total, with no block entities.",
+    "tags": {
+      "type": [
+        "decoration",
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "desert",
+        "nether"
+      ],
+      "keywords": [
+        "clock",
+        "sandstone",
+        "netherrack",
+        "soul sand",
+        "lava",
+        "sculpture",
+        "large",
+        "time"
+      ]
+    },
+    "for": "7f8a621ec80f5071f1fee7892503e5a61145ec608448f5f47f2e638eba5d2498",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

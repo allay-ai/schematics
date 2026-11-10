@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/white-townhall/",
   "license": "unrestricted",
   "rating": 91,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "White Town Hall",
+      "ru": "Белая ратуша",
+      "es": "Ayuntamiento Blanco",
+      "pt": "Prefeitura Branca",
+      "de": "Weißes Rathaus"
+    },
+    "description": "A large white town hall built mostly from quartz blocks, with stone brick and cobblestone details, a spruce-plank interior element, glass pane windows, and a few gold accent blocks. It has a tall central tower with a pointed spire rising above a broad, multi-tiered main body, and its footprint is roughly 94 by 126 blocks at about 96 blocks high. It uses around 50,000 blocks, and the source contains no block entities, so there is no storage or redstone inside.",
+    "tags": {
+      "type": [
+        "house",
+        "tower"
+      ],
+      "style": [
+        "classical",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "snowy"
+      ],
+      "keywords": [
+        "town hall",
+        "city hall",
+        "white",
+        "quartz",
+        "tower",
+        "large",
+        "civic building",
+        "stone brick"
+      ]
+    },
+    "for": "fe3b9089c4daf7f53a3067c720403a1de198ec40e5289d3715bad3b570e053d1",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

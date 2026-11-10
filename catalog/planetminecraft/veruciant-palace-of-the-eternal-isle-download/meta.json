@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/veruciant-palace-of-the-eternal-isle-download/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Veruciant Eternal Isle Palace",
+      "ru": "Дворец Вечного острова Веруциант",
+      "es": "Palacio de la Isla Eterna Veruciant",
+      "pt": "Palácio da Ilha Eterna Veruciant",
+      "de": "Palast der Ewigen Insel Veruciant"
+    },
+    "description": "A large palace built on an island of stone bricks, cobblestone, and oak trees, with emerald block accents, black wool roofs, glowstone lighting, and glass windows. The build is about 214 blocks wide, 82 high, and 143 deep, with a single chest as its only block entity. The source gives no description, so the layout is read from the material counts and the front and top views.",
+    "tags": {
+      "type": [
+        "castle",
+        "house"
+      ],
+      "style": [
+        "medieval",
+        "fantasy"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "palace",
+        "island",
+        "stone bricks",
+        "emerald",
+        "black wool",
+        "oak trees",
+        "large build",
+        "fantasy castle"
+      ]
+    },
+    "for": "5b4ff0fca277992d251109f861a17d061141b4fada77688e9f29ad3816624a5f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

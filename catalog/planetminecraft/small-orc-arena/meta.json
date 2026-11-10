@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/small-orc-arena/",
   "license": "unrestricted",
   "rating": 102,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Small Orc Arena",
+      "ru": "Маленькая арена орков",
+      "es": "Pequeña arena orca",
+      "pt": "Pequena arena orc",
+      "de": "Kleine Orc-Arena"
+    },
+    "description": "A small, round fantasy arena built for orc combat, with a sand floor, sandstone walls, and tiered spruce seating. Red wool and red terracotta add accents, while lava, skulls, netherrack, and fire give it a menacing look. It measures 83 by 23 by 83 blocks and uses about 44,700 blocks in total.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "fantasy"
+      ],
+      "biome": [
+        "desert"
+      ],
+      "keywords": [
+        "orc arena",
+        "gladiator arena",
+        "colosseum",
+        "sand arena",
+        "sandstone",
+        "fantasy arena",
+        "pvp arena",
+        "lava"
+      ]
+    },
+    "for": "8839c7f3dc38964a9141f732bee9fa72860a0b6a0d15800c373a0d00662a080f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

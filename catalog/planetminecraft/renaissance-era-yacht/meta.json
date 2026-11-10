@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/renaissance-era-yacht/",
   "license": "unrestricted",
   "rating": 77,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Renaissance Era Yacht",
+      "ru": "Яхта эпохи Возрождения",
+      "es": "Yate de la era renacentista",
+      "pt": "Iate da era renascentista",
+      "de": "Yacht der Renaissance"
+    },
+    "description": "A large sailing yacht built mainly from oak, spruce, and dark oak planks, with sandstone and gray and white wool for trim and sails, and brown stained glass windows. It sits in open water and measures about 62 blocks wide, 47 high, and 34 deep, with no interior blocks or block entities recorded. The source gives no description beyond its title, so its exact design details are not confirmed.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "medieval",
+        "classical"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "yacht",
+        "ship",
+        "sailing ship",
+        "renaissance",
+        "boat",
+        "ocean",
+        "wooden ship",
+        "large ship"
+      ]
+    },
+    "for": "06b519df6c13334d0e13a1e67337ae65101682bca7c64530703cc703a5a3bc83",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

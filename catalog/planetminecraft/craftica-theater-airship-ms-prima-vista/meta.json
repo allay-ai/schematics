@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/craftica---theater-airship-ms-prima-vista/",
   "license": "unrestricted",
   "rating": 73,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Theater Airship Prima Vista",
+      "ru": "Театральный дирижабль Прима Виста",
+      "es": "Dirigible Teatro Prima Vista",
+      "pt": "Dirigível Teatro Prima Vista",
+      "de": "Theater-Luftschiff Prima Vista"
+    },
+    "description": "A large floating theater airship built mostly from spruce, jungle, and oak planks with sandstone accents, shaped like a ship's hull with a raised stern and layered decks. At 71 by 81 by 145 blocks it is a very big build, with roughly 66,000 blocks. Its interior holds many functional details such as chests, furnaces, enchanting tables, a beacon, jukebox-style music blocks, and signs.",
+    "tags": {
+      "type": [
+        "ship",
+        "other"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "ocean"
+      ],
+      "keywords": [
+        "airship",
+        "theater",
+        "flying ship",
+        "zeppelin",
+        "sky ship",
+        "spruce",
+        "sandstone",
+        "large build"
+      ]
+    },
+    "for": "f4cc1b9dbee3e27b072b22b5051a3c7a0ca4365e2e047b08e0f4877d679e0feb",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

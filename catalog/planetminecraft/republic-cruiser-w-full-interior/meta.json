@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/republic-cruiser-w-full-interior/",
   "license": "unrestricted",
   "rating": 58,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Republic Cruiser with Interior",
+      "ru": "Крейсер Республики с интерьером",
+      "es": "Crucero de la República con interior",
+      "pt": "Cruzador da República com interior",
+      "de": "Republik-Kreuzer mit Innenraum"
+    },
+    "description": "A large sci-fi style warship with a long red and white hull, gold accents, and a raised bridge tower at the top. It is built from wool, gold blocks, glass and glowstone, and includes a furnished interior with chests, furnaces, signs, ladders, rails and a record player. At roughly 83 by 28 by 116 blocks, it is a very big ship made of about 20,700 blocks.",
+    "tags": {
+      "type": [
+        "ship",
+        "interior"
+      ],
+      "style": [
+        "futuristic"
+      ],
+      "biome": [
+        "ocean",
+        "plains"
+      ],
+      "keywords": [
+        "cruiser",
+        "warship",
+        "spaceship",
+        "republic",
+        "interior",
+        "red wool",
+        "gold",
+        "large ship"
+      ]
+    },
+    "for": "e0106a4a594407f603199ce8d91b04afa4746edad6ce2d89cd48c954b3548317",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

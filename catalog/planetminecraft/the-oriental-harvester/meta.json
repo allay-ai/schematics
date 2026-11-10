@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/the-oriental-harvester/",
   "license": "unrestricted",
   "rating": 85,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Oriental Harvester Farm",
+      "ru": "Восточная жатвенная ферма",
+      "es": "Granja Oriental Cosechadora",
+      "pt": "Fazenda Oriental Colheitadeira",
+      "de": "Orientalische Erntefarm"
+    },
+    "description": "A large oriental-style harvester built mostly from oak planks, mossy cobblestone and stone bricks, with a sweeping multi-tier pagoda-like roof and a wheat field of farmland and water channels around its base. It is very big, about 173 blocks wide, 127 high and 173 deep, with over 100,000 blocks. Inside are chests, furnaces and signs for storing and processing the harvest.",
+    "tags": {
+      "type": [
+        "farm",
+        "other"
+      ],
+      "style": [
+        "japanese",
+        "chinese"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "oriental",
+        "harvester",
+        "wheat farm",
+        "pagoda",
+        "mossy stone",
+        "large build",
+        "farm",
+        "asian"
+      ]
+    },
+    "for": "0ad03b835eebf87e485d66ec8f87e0615234c7202f59655686b5f4c267770031",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

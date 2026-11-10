@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/modern-suburb-living-at-wok-230-sub-special/",
   "license": "unrestricted",
   "rating": 67,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Modern Snowy Suburb Village",
+      "ru": "Современный заснеженный пригород",
+      "es": "Suburbio moderno nevado",
+      "pt": "Subúrbio moderno nevado",
+      "de": "Moderne verschneite Vorstadt"
+    },
+    "description": "A modern suburban neighborhood built with dirt, snow blocks and gray wool, featuring stone brick houses, glass windows, oak accents and glowstone lighting. It spans about 43 by 27 by 29 blocks and contains a beacon and signs, with a snow-covered ground and a few houses set around a central open area.",
+    "tags": {
+      "type": [
+        "village",
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "snowy",
+        "plains"
+      ],
+      "keywords": [
+        "suburb",
+        "modern house",
+        "snow",
+        "neighborhood",
+        "subdivision",
+        "stone brick",
+        "glowstone",
+        "winter village"
+      ]
+    },
+    "for": "1c076a2b3224036e4aff3e6dc44cb157490f03b1822f5a334a003c6881c5fff2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

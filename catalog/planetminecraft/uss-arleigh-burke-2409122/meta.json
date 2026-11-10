@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/uss-arleigh-burke-2409122/",
   "license": "unrestricted",
   "rating": 62,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "USS Arleigh Burke Destroyer",
+      "ru": "Эсминец USS Arleigh Burke",
+      "es": "Destructor USS Arleigh Burke",
+      "pt": "Destróier USS Arleigh Burke",
+      "de": "Zerstörer USS Arleigh Burke"
+    },
+    "description": "A gray, naval destroyer modeled on the US Navy's DDG-51 Arleigh Burke class, built mostly from stone slabs, light gray and gray wool, red terracotta, and quartz. It is about 25 blocks wide, 64 high, and 157 long, with a stepped superstructure, a flat deck, and a sharp bow. The interior is not described, though the build includes signs, dispensers, comparators, and iron doors and trapdoors.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "warship",
+        "destroyer",
+        "navy",
+        "battleship",
+        "naval",
+        "boat",
+        "military",
+        "gray ship"
+      ]
+    },
+    "for": "737fddad5eac7996dee849b59c182141016ee85e36bb131f136fb3cc5f513483",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

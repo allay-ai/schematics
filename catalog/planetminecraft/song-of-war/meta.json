@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/song-of-war/",
   "license": "unrestricted",
   "rating": 91,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Song of War Fortress",
+      "ru": "Крепость «Песнь войны»",
+      "es": "Fortaleza Canción de Guerra",
+      "pt": "Fortaleza Canção de Guerra",
+      "de": "Festung Lied des Krieges"
+    },
+    "description": "A large fantasy-style fortress built mostly from spruce logs and oak planks, with a tall jagged tower, orange wool accents, and iron block trim. It stands about 58 blocks wide, 59 high and 80 deep, with a wall of dark spruce on the front side. The interior holds a music room with a record player and noteblocks, an enchanting table, furnaces, chests, a dispenser-based trap section and levers.",
+    "tags": {
+      "type": [
+        "castle",
+        "interior"
+      ],
+      "style": [
+        "fantasy",
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "fortress",
+        "castle",
+        "spruce",
+        "orange wool",
+        "music room",
+        "record player",
+        "large build",
+        "tower"
+      ]
+    },
+    "for": "47686c79510068652dc24a833fca96e179e7c9cfffc3e3a86cf4b32693f017a0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

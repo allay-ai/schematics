@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/the-abandoned-temple-of-notch/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Abandoned Notch Temple",
+      "ru": "Заброшенный храм Notch",
+      "es": "Templo abandonado de Notch",
+      "pt": "Templo abandonado de Notch",
+      "de": "Verlassener Notch-Tempel"
+    },
+    "description": "A large overgrown ruin of a temple, roughly 100 by 100 blocks and 34 high, built mostly from mossy and cracked stone bricks with vines, oak leaves, and grass covering it. It sits on a grass and dirt base surrounded by water with lily pads, and gold and diamond blocks are used as accent materials. The source gives no description of the interior, and it contains no block entities.",
+    "tags": {
+      "type": [
+        "temple"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "jungle",
+        "swamp"
+      ],
+      "keywords": [
+        "abandoned temple",
+        "ruin",
+        "mossy stone bricks",
+        "overgrown",
+        "jungle temple",
+        "vines",
+        "water temple",
+        "notch"
+      ]
+    },
+    "for": "5df88a19b7f0cea64d1331dfcda4d6c2fdc1e591d566850e92ac425a139ee077",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

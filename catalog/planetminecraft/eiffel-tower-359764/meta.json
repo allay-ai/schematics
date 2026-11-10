@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/eiffel-tower-359764/",
   "license": "unrestricted",
   "rating": 63,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Eiffel Tower with Stairs",
+      "ru": "Эйфелева башня с лестницами",
+      "es": "Torre Eiffel con escaleras",
+      "pt": "Torre Eiffel com escadas",
+      "de": "Eiffelturm mit Treppen"
+    },
+    "description": "A large replica of the Eiffel Tower built mostly from brown wool and sandstone, with iron-bar and nether brick fence latticework and a wide, open base. It stands about 127 blocks tall and 60 by 60 blocks across, with stairs running up the structure. It is a decorative landmark build with no interior rooms; the source notes few details beyond its name.",
+    "tags": {
+      "type": [
+        "decoration",
+        "other"
+      ],
+      "style": [
+        "modern",
+        "other"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "eiffel tower",
+        "paris",
+        "landmark",
+        "replica",
+        "tower",
+        "stairs",
+        "iron bars",
+        "sandstone"
+      ]
+    },
+    "for": "ee4cf455a6ea761d75801a3a3daf230e383dfd7b84b6d82b9b8685b72accc419",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

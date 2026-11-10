@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/minecraft-medieval-house-2876176/",
   "license": "unrestricted",
   "rating": 66,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Medieval House",
+      "ru": "Средневековый дом",
+      "es": "Casa medieval",
+      "pt": "Casa medieval",
+      "de": "Mittelalterliches Haus"
+    },
+    "description": "A medieval-style house built mostly from dirt, stone, spruce, and oak, with gray terracotta and snow accents and black glass pane windows. It measures about 30 by 30 blocks across and 33 deep, using roughly 7,300 blocks. The source does not describe any interior features.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "medieval house",
+        "medieval",
+        "spruce house",
+        "stone house",
+        "dirt house",
+        "snowy house",
+        "terracotta house",
+        "survival house"
+      ]
+    },
+    "for": "0ec8b79954a145eea42e8acd3dd59ff303e98594a80d43d58cb4d87e1527b2e0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

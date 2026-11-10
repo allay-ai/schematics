@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/new-york-in-world-of-keralis/",
   "license": "unrestricted",
   "rating": 110,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "New York Brick Buildings",
+      "ru": "Кирпичные здания Нью-Йорка",
+      "es": "Edificios de ladrillo de Nueva York",
+      "pt": "Prédios de tijolo de Nova York",
+      "de": "Backsteinhäuser von New York"
+    },
+    "description": "A large cluster of brick city buildings in a New York style, with stone slab rooftops, birch and oak plank accents, glass windows, and a water channel running through the lot. It is about 45 wide, 34 high, and 43 deep, built from roughly 27,900 blocks, with interior details such as chests, furnaces, bookshelves, signs, and a music block. The source has no description, so the look is taken from its materials and layout.",
+    "tags": {
+      "type": [
+        "house",
+        "village"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "new york",
+        "brick buildings",
+        "city",
+        "skyscraper",
+        "urban",
+        "water canal",
+        "brick houses",
+        "city block"
+      ]
+    },
+    "for": "dad5564e5d68c74755e6510bcbd975597fca2ef33ab699d925c291a0691184bd",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

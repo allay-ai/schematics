@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/lords-masion/",
   "license": "unrestricted",
   "rating": 103,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Lords Mansion",
+      "ru": "Особняк лордов",
+      "es": "Mansión de los Lores",
+      "pt": "Mansão dos Lordes",
+      "de": "Herrenhaus der Lords"
+    },
+    "description": "A large sandstone-and-oak mansion with stone brick trim, a grassy courtyard with dirt paths, and a tall stepped roof section with a central spire-like tower in spruce and oak. The build is about 56 wide, 29 high and 73 deep, with around 16,900 blocks. Inside are bookshelves, an enchanting table, furnaces, a cauldron, a record player, chests and signs, and a small pond with water and flowers in the grounds.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "sandstone",
+        "manor",
+        "lord house",
+        "stone brick",
+        "courtyard",
+        "large house",
+        "oak"
+      ]
+    },
+    "for": "6d376624ce1bc2613745ee92355fb917e9173a8962465b46fa39237c327a9615",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

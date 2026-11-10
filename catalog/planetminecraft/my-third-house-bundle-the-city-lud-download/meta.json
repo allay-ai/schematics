@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/my-third-house-bundle---the-city-lud-download/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Third House Bundle",
+      "ru": "Набор домов номер три",
+      "es": "Paquete de casas número tres",
+      "pt": "Pacote de casas número três",
+      "de": "Hausbündel Nummer Drei"
+    },
+    "description": "A bundle of houses built mostly from dark oak logs and planks, with purple and magenta wool accents, dirt and grass ground, and many flowers such as sunflowers, dandelions, poppies, and azure bluets. The source is large in footprint (132 by 330 blocks) but only about 34 blocks tall, and the houses sit low, with a few interior items like bookshelves, crafting tables, and torches.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "house bundle",
+        "dark oak house",
+        "flower house",
+        "purple wool",
+        "small houses",
+        "city",
+        "village",
+        "cozy house"
+      ]
+    },
+    "for": "bb11269f7fa5fa4ffe8432912c884ae4048c62f77fd2a61b7e19a7ba501bcf47",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

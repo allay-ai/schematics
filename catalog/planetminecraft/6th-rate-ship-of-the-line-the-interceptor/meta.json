@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/6th-rate-ship-of-the-line-the-interceptor/",
   "license": "unrestricted",
   "rating": 85,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "The Interceptor Warship",
+      "ru": "Корабль «Перехватчик»",
+      "es": "Navío de Línea Interceptor",
+      "pt": "Navio de Linha Interceptor",
+      "de": "Linienschiff Interceptor"
+    },
+    "description": "A large wooden sailing warship in the style of a 6th rate ship of the line, named The Interceptor. It is built mainly from oak, spruce, birch and dark oak planks and slabs, with white wool, smooth quartz and yellow terracotta accents, and it is meant to sit on water. It measures 73 wide, 64 high and 23 deep, and includes a few small details such as flower pots, signs and skulls.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "ship",
+        "sailing ship",
+        "warship",
+        "man of war",
+        "age of sail",
+        "naval",
+        "frigate",
+        "ship of the line"
+      ]
+    },
+    "for": "979d986cfc838bab15f5d9de73c03a4bf3b8269c2f1afe782e9e21962834a214",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

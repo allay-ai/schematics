@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/japanese-temple---with-download/",
   "license": "unrestricted",
   "rating": 87,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Japanese Temple with Pagoda Roofs",
+      "ru": "Японский храм с ярусными крышами",
+      "es": "Templo japonés con tejados pagoda",
+      "pt": "Templo japonês com telhados de pagode",
+      "de": "Japanischer Tempel mit Pagodendächern"
+    },
+    "description": "A large Japanese-style temple built from spruce, stone brick, and white wool walls, with tiered pagoda-like roofs, a central hall, and wings on either side. It is about 61 wide, 25 high, and 34 deep, with a small open courtyard edged by water and glowstone lighting. The inside is mostly empty, with no block entities or interior furnishing data listed.",
+    "tags": {
+      "type": [
+        "temple",
+        "house"
+      ],
+      "style": [
+        "japanese"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "japanese temple",
+        "pagoda",
+        "spruce",
+        "stone brick",
+        "shrine",
+        "tiered roof",
+        "courtyard",
+        "high detail"
+      ]
+    },
+    "for": "6a6fc2fdd50f942a60f23f6cfed1b3fdee1d2509e090ff35b71b34c911213e64",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

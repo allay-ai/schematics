@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/western-building-bundle/",
   "license": "unrestricted",
   "rating": 65,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Western Building Bundle",
+      "ru": "Набор западных построек",
+      "es": "Paquete de edificios del Oeste",
+      "pt": "Pacote de Construções do Oeste",
+      "de": "Western-Gebäudepaket"
+    },
+    "description": "A bundle of several separate western-style buildings in a sand, spruce and terracotta palette, with plank roofs, stair and slab trim, oak fences and glass windows. The full build is 137 wide, 25 high and 103 deep, and includes a cauldron, signs and skull heads as block entities, which suggests interior or prop details.",
+    "tags": {
+      "type": [
+        "village",
+        "house"
+      ],
+      "style": [
+        "other",
+        "rustic"
+      ],
+      "biome": [
+        "desert"
+      ],
+      "keywords": [
+        "western",
+        "wild west",
+        "saloon",
+        "desert town",
+        "sand",
+        "spruce",
+        "building bundle",
+        "cowboy"
+      ]
+    },
+    "for": "deeb26d6469384d1deb82b7fe69699791ab2df42afe817beb68a976528c3a82c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

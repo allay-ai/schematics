@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/land-of-ooo-2789242/",
   "license": "unrestricted",
   "rating": 74,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Land of Ooo Adventure Time",
+      "ru": "Земля Ооо из Время приключений",
+      "es": "Tierra de Ooo de Hora de Aventura",
+      "pt": "Terra de Ooo de Hora de Aventura",
+      "de": "Land of Ooo aus Adventure Time"
+    },
+    "description": "A large, blocky recreation of the Land of Ooo from the cartoon Adventure Time, built mostly from oak logs, dirt, grass and oak leaves, with birch, spruce and terracotta accents and a gold block detail. It is about 94 wide, 76 high and 83 deep, with a mountainous landscape, trees and a few interior-style pieces such as chests, an enchanting table, furnaces and a record player.",
+    "tags": {
+      "type": [
+        "other",
+        "decoration"
+      ],
+      "style": [
+        "other",
+        "fantasy"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "adventure time",
+        "land of ooo",
+        "cartoon",
+        "terrain",
+        "fan art",
+        "large",
+        "oak",
+        "landscape"
+      ]
+    },
+    "for": "103b13dc80ab86c990c57c4c6f9d214e92487d7a40879d4f1fbc5ad721843a9e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }
