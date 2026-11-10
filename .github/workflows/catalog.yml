@@ -49,8 +49,8 @@ jobs:
           if [ -z "$OPENROUTER_API_KEY" ]; then echo "::warning::no OPENROUTER_API_KEY: new builds stay without descriptions"; exit 0; fi
           # A pending batch is picked up whatever started the run: an hourly one, a push, or a hand.
           if [ -f .describe/pending.json ]; then python3 -I tools/describe.py --collect; fi
-          # Descriptions go in batches started by hand (--max N); here only a pending batch is collected.
-          python3 -I tools/describe.py --max 0
+          # New builds get described here, 20 a run by plain requests: a batch could sit for hours.
+          python3 -I tools/describe.py --max 20
       - run: python3 -I tools/build.py
       - name: Commit
         run: |
