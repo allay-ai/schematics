@@ -35,7 +35,7 @@
         "sample"
       ]
     },
-    "for": "efab81985b757f3b828cdfe703b14da6e937a5a2f91c7496f2542e00136a1217",
+    "for": "813071ed0f52500b0064320fe94fa0ddc1dc2976b37c70aaf7ef789ccc4e6307",
     "model": "anthropic/claude-haiku-5.5"
   }
 }

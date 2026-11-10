@@ -1,0 +1,1 @@
+`legacy.json` comes from [PrismarineJS/minecraft-data](https://github.com/PrismarineJS/minecraft-data) (`data/pc/common/legacy.json`), under the MIT license: each pre-1.13 block, by its numeric id and data value, as the block state 1.13 made of it.

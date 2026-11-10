@@ -22,9 +22,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATALOG = os.path.join(ROOT, "catalog")
 INDEX = os.path.join(ROOT, "index.json")
 
-# Only what lets anyone use and share a build, with its author named: the plugin hands it to every server, paid
-# ones too, so non-commercial licenses stay out unless the author allowed Allay (`permission`).
-LICENSES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "permission"}
+# What lets the catalog share a build, its author named and linked: an open license, the author's word
+# (`permission`), or a page where the author published it for download without restricting sharing (`unrestricted`).
+# Non-commercial licenses stay out: the plugin hands builds to paid servers too.
+LICENSES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "permission", "unrestricted"}
 LANGUAGES = ("en", "ru", "es", "pt", "de")
 ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*(/[a-z0-9]+(-[a-z0-9]+)*)+$")
 # The biggest build the catalog takes; a server's own limits are lower.
@@ -45,10 +46,15 @@ def entries():
 
 
 def source_of(folder: str) -> str:
-    found = [name for name in ("source.schem", "source.litematic") if os.path.exists(os.path.join(folder, name))]
-    if len(found) != 1:
-        raise Problem("needs exactly one source.schem or source.litematic")
-    return os.path.join(folder, found[0])
+    """The file a build comes from: its source as published, or, for an import that kept only the build, the build."""
+    found = [name for name in ("source.schem", "source.litematic", "source.schematic") if os.path.exists(os.path.join(folder, name))]
+    if len(found) > 1:
+        raise Problem("needs one source, not " + " and ".join(found))
+    if found:
+        return os.path.join(folder, found[0])
+    if os.path.exists(os.path.join(folder, "build.schem")):
+        return os.path.join(folder, "build.schem")
+    raise Problem("needs source.schem, source.litematic, or source.schematic")
 
 
 def check_meta(meta: dict) -> None:
@@ -116,8 +122,9 @@ def build(entry_id: str, folder: str, check: bool) -> tuple[dict, bool]:
         "author": meta["author"],
         "source": meta["source"],
         "license": meta["license"],
+        **({"rating": meta["rating"]} if isinstance(meta.get("rating"), int) else {}),
         "title": {lang: generated.get("title", {}).get(lang) or (meta.get("title") if lang == "en" else None) for lang in LANGUAGES},
-        "description": generated.get("description") or meta.get("description") or "",
+        "description": generated.get("description") or "",
         "tags": generated.get("tags", {}),
     }
     record["title"] = {lang: title for lang, title in record["title"].items() if title}

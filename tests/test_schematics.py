@@ -153,6 +153,17 @@ class DescribeTest(unittest.TestCase):
         self.assertEqual(parsed["tags"]["type"], ["house"])
         self.assertEqual(parsed["tags"]["keywords"], ["hut", "starter"])
 
+    def test_the_same_build_written_another_way_is_never_described_twice(self):
+        first = schematic.compact(hut())
+        again = schematic.compact(hut())
+        again.palette = [again.palette[0]] + list(reversed(again.palette[1:]))
+        flip = {0: 0, **{i: len(first.palette) - i for i in range(1, len(first.palette))}}
+        again.blocks = array.array("I", (flip[i] for i in first.blocks))
+        self.assertEqual(describe.fingerprint(first), describe.fingerprint(again))
+        changed = schematic.compact(hut())
+        changed.blocks[0] = changed.palette.index("minecraft:oak_planks")
+        self.assertNotEqual(describe.fingerprint(first), describe.fingerprint(changed))
+
     def test_a_request_carries_the_facts_and_never_the_key(self):
         with tempfile.TemporaryDirectory() as folder:
             with open(os.path.join(folder, "build.schem"), "wb") as file:

@@ -178,37 +178,55 @@ def read(path: str) -> Structure:
     _, root = nbt.load(path)
     if path.endswith(".litematic"):
         return _litematic(root)
+    if path.endswith(".schematic"):
+        import legacy
+        return legacy.read(root)[0]
     if path.endswith(".schem"):
         return _sponge(root)
-    raise ValueError(f"{path}: only .schem and .litematic are taken")
+    raise ValueError(f"{path}: only .schem, .litematic, and .schematic are taken")
 
 
 def compact(structure: Structure) -> Structure:
     """The same build in the smallest box that holds every block, with only the states it uses, air first."""
-    xs, ys, zs = [], [], []
+    w, l = structure.width, structure.length
+    empty = [state in EMPTY for state in structure.palette]
+    lo, hi = [w, structure.height, l], [-1, -1, -1]
+    layer = w * l
+    blocks = structure.blocks
+    # One pass over the cells by layer and row, skipping rows of air whole, so a big box with little in it is quick.
     for y in range(structure.height):
-        for z in range(structure.length):
-            for x in range(structure.width):
-                if structure.at(x, y, z) not in EMPTY:
-                    xs.append(x)
-                    ys.append(y)
-                    zs.append(z)
-    if not xs:
+        for z in range(l):
+            start = y * layer + z * w
+            row = blocks[start:start + w]
+            filled = [x for x, index in enumerate(row) if not empty[index]]
+            if not filled:
+                continue
+            lo[0], hi[0] = min(lo[0], filled[0]), max(hi[0], filled[-1])
+            lo[1], hi[1] = min(lo[1], y), max(hi[1], y)
+            lo[2], hi[2] = min(lo[2], z), max(hi[2], z)
+    if hi[0] < 0:
         raise ValueError("the schematic holds no blocks")
-    lo = (min(xs), min(ys), min(zs))
-    size = (max(xs) - lo[0] + 1, max(ys) - lo[1] + 1, max(zs) - lo[2] + 1)
+    size = (hi[0] - lo[0] + 1, hi[1] - lo[1] + 1, hi[2] - lo[2] + 1)
     palette, keys = [AIR], {AIR: 0}
-    cells = array.array("I", bytes(4 * size[0] * size[1] * size[2]))
-    for y in range(size[1]):
-        for z in range(size[2]):
-            for x in range(size[0]):
-                state = structure.at(x + lo[0], y + lo[1], z + lo[2])
-                if state in EMPTY:
-                    continue
-                if state not in keys:
-                    keys[state] = len(palette)
-                    palette.append(state)
-                cells[x + z * size[0] + y * size[0] * size[2]] = keys[state]
+    remap = []
+    for index, state in enumerate(structure.palette):
+        if empty[index]:
+            remap.append(0)
+            continue
+        remap.append(keys.setdefault(state, len(palette)))
+        if remap[-1] == len(palette):
+            palette.append(state)
+    cells = array.array("I")
+    for y in range(lo[1], hi[1] + 1):
+        for z in range(lo[2], hi[2] + 1):
+            start = y * layer + z * w
+            cells.extend(remap[index] for index in blocks[start + lo[0]:start + hi[0] + 1])
+    # A state the box cut away no longer needs a palette entry.
+    used = sorted(set(cells))
+    if len(used) < len(palette):
+        again = {old: new for new, old in enumerate(used)}
+        palette = [palette[old] for old in used]
+        cells = array.array("I", (again[index] for index in cells))
     inside = lambda pos: all(0 <= pos[axis] - lo[axis] < size[axis] for axis in range(3))
     shift = lambda pos: [pos[axis] - lo[axis] for axis in range(3)]
     return Structure(size[0], size[1], size[2], palette, cells, structure.data_version,

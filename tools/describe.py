@@ -4,7 +4,8 @@ Run from the repository's root with `OPENROUTER_API_KEY` set: `python3 -I tools/
 no description yet, or changed since, get one. Up to `--now` of them (20) go as plain requests and are written at once;
 more go to OpenRouter's Batch API at half the price, and a later run with `--collect` writes what came back. The
 pending batch's id waits in `.describe/pending.json`. What the model writes goes into each `meta.json` under
-`generated`, which a person may correct by hand; a correction stays until the build changes.
+`generated`, which a person may correct by hand (`"by": "hand"` keeps it for good). Nothing is described twice: a
+description stays while the build's size and materials do.
 """
 
 from __future__ import annotations
@@ -41,8 +42,16 @@ TYPES: {types}
 STYLES: {styles}"""
 
 
+def fingerprint(structure: schematic.Structure) -> str:
+    """What a description rests on: the build's size and what it's made of. Writing the same build again in another
+    order, or a fix to the tools, keeps it, so nobody pays to describe the same build twice."""
+    counts = sorted(schematic.counts(structure).items())
+    text = f"{structure.width}x{structure.height}x{structure.length};" + ";".join(f"{block}={n}" for block, n in counts)
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
 def todo():
-    """Entries whose build has no description yet, or one written for an older build."""
+    """Entries whose build has no description yet, or whose build changed since its description was written."""
     for entry_id, folder in build.entries():
         path = os.path.join(folder, "meta.json")
         with open(path, encoding="utf-8") as file:
@@ -50,19 +59,23 @@ def todo():
         target = os.path.join(folder, "build.schem")
         if not os.path.exists(target):
             continue
-        digest = hashlib.sha256(open(target, "rb").read()).hexdigest()
-        if meta.get("generated", {}).get("for") == digest:
+        generated = meta.get("generated", {})
+        # A description someone wrote by hand, or one already paid for, stays.
+        if generated.get("by") == "hand":
+            continue
+        digest = fingerprint(schematic.read(target))
+        if generated.get("for") == digest:
             continue
         yield entry_id, folder, meta, digest
 
 
-def request(entry_id: str, folder: str, meta: dict) -> dict:
+def request(entry_id: str, folder: str, meta: dict, texts: dict | None = None) -> dict:
     structure = schematic.read(os.path.join(folder, "build.schem"))
     counts = sorted(schematic.counts(structure).items(), key=lambda item: -item[1])
     facts = {
         "id": entry_id,
         "source_title": meta.get("title"),
-        "source_description": (meta.get("description") or "")[:1500],
+        "source_description": ((texts or {}).get(entry_id) or meta.get("description") or "")[:1500],
         "author": meta["author"],
         "size": f"{structure.width} wide × {structure.height} high × {structure.length} deep",
         "blocks": sum(n for _, n in counts),
@@ -122,10 +135,10 @@ def save(folder: str, meta: dict, digest: str, generated: dict) -> None:
         file.write("\n")
 
 
-def now(entries) -> int:
+def now(entries, texts=None) -> int:
     written = 0
     for entry_id, folder, meta, digest in entries:
-        answer = call("POST", "/chat/completions", request(entry_id, folder, meta))
+        answer = call("POST", "/chat/completions", request(entry_id, folder, meta, texts))
         try:
             save(folder, meta, digest, parse(answer["choices"][0]["message"]["content"]))
             written += 1
@@ -135,8 +148,8 @@ def now(entries) -> int:
     return written
 
 
-def submit(entries) -> None:
-    requests = [{"custom_id": entry_id, "body": request(entry_id, folder, meta)} for entry_id, folder, meta, _ in entries]
+def submit(entries, texts=None) -> None:
+    requests = [{"custom_id": entry_id, "body": request(entry_id, folder, meta, texts)} for entry_id, folder, meta, _ in entries]
     # requests goes last: OpenRouter reads the body as a stream.
     batch = call("POST", "/batches", {"endpoint": "/v1/chat/completions", "model": MODEL, "requests": requests})
     os.makedirs(os.path.dirname(PENDING), exist_ok=True)
@@ -177,6 +190,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--collect", action="store_true", help="write what a pending batch brought, then stop")
     parser.add_argument("--now", type=int, default=20, help="up to this many go as plain requests; more go as a batch")
+    parser.add_argument("--texts", help="a JSON file of what each build's source page says, by id, read but never kept in the catalog")
     args = parser.parse_args()
     if args.collect:
         collect()
@@ -185,12 +199,13 @@ def main() -> int:
         print("a batch is still pending: run with --collect")
         return 0
     entries = list(todo())
+    texts = json.load(open(args.texts, encoding="utf-8")) if args.texts else None
     if not entries:
         print("every schematic has its description")
     elif len(entries) <= args.now:
-        now(entries)
+        now(entries, texts)
     else:
-        submit(entries)
+        submit(entries, texts)
     return 0
 
 
