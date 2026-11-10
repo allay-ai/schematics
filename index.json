@@ -2,6 +2,182 @@
  "version": 1,
  "schematics": [
   {
+   "id": "minelite/granja-de-cactus-4x4-chunks-50k-h",
+   "path": "catalog/minelite/granja-de-cactus-4x4-chunks-50k-h/build.schem",
+   "sha256": "fc50356fb36dee7098729d99709db9bb8ced5e91354b0b876bbf3bf69b6f3745",
+   "bytes": 43009,
+   "size": {
+    "x": 90,
+    "y": 176,
+    "z": 90
+   },
+   "blocks": 155634,
+   "kinds": 7,
+   "materials": [
+    {
+     "block": "minecraft:white_stained_glass",
+     "count": 47256
+    },
+    {
+     "block": "minecraft:cactus",
+     "count": 40963
+    },
+    {
+     "block": "minecraft:sand",
+     "count": 40960
+    },
+    {
+     "block": "minecraft:oak_fence_gate",
+     "count": 20480
+    },
+    {
+     "block": "minecraft:water",
+     "count": 5652
+    },
+    {
+     "block": "minecraft:spruce_fence_gate",
+     "count": 321
+    },
+    {
+     "block": "minecraft:white_concrete",
+     "count": 2
+    }
+   ],
+   "data_version": 4671,
+   "block_entities": 0,
+   "entities": 0,
+   "author": "JMAO01, LotoEU99",
+   "source": "https://www.minelite.es/schematics/granja-de-cactus-4x4-chunks-50k-h",
+   "license": "unrestricted",
+   "title": {
+    "en": "Cactus farm, 4×4 chunks, 50k/h"
+   },
+   "description": "",
+   "tags": {}
+  },
+  {
+   "id": "minelite/medieval-house-i",
+   "path": "catalog/minelite/medieval-house-i/build.schem",
+   "sha256": "f1d09d91731834e8f90d3e91a548afae31a418f6f0660bec12f97c074a4c063c",
+   "bytes": 10737,
+   "size": {
+    "x": 32,
+    "y": 34,
+    "z": 26
+   },
+   "blocks": 5457,
+   "kinds": 141,
+   "materials": [
+    {
+     "block": "minecraft:mushroom_stem",
+     "count": 635
+    },
+    {
+     "block": "minecraft:spruce_slab",
+     "count": 438
+    },
+    {
+     "block": "minecraft:stripped_spruce_log",
+     "count": 246
+    },
+    {
+     "block": "minecraft:tuff",
+     "count": 239
+    },
+    {
+     "block": "minecraft:dark_oak_planks",
+     "count": 228
+    },
+    {
+     "block": "minecraft:cobbled_deepslate",
+     "count": 216
+    },
+    {
+     "block": "minecraft:stone",
+     "count": 193
+    },
+    {
+     "block": "minecraft:grass_block",
+     "count": 185
+    },
+    {
+     "block": "minecraft:deepslate_bricks",
+     "count": 176
+    },
+    {
+     "block": "minecraft:spruce_stairs",
+     "count": 172
+    },
+    {
+     "block": "minecraft:andesite",
+     "count": 169
+    },
+    {
+     "block": "minecraft:chest",
+     "count": 131
+    },
+    {
+     "block": "minecraft:short_grass",
+     "count": 123
+    },
+    {
+     "block": "minecraft:spruce_trapdoor",
+     "count": 123
+    },
+    {
+     "block": "minecraft:dirt",
+     "count": 119
+    },
+    {
+     "block": "minecraft:dead_brain_coral_block",
+     "count": 104
+    },
+    {
+     "block": "minecraft:barrel",
+     "count": 95
+    },
+    {
+     "block": "minecraft:mangrove_wood",
+     "count": 92
+    },
+    {
+     "block": "minecraft:stripped_spruce_wood",
+     "count": 92
+    },
+    {
+     "block": "minecraft:dark_oak_stairs",
+     "count": 85
+    },
+    {
+     "block": "minecraft:moss_block",
+     "count": 76
+    },
+    {
+     "block": "minecraft:stripped_oak_log",
+     "count": 76
+    },
+    {
+     "block": "minecraft:deepslate",
+     "count": 70
+    },
+    {
+     "block": "minecraft:bamboo_trapdoor",
+     "count": 67
+    }
+   ],
+   "data_version": 4671,
+   "block_entities": 292,
+   "entities": 0,
+   "author": "b333nja",
+   "source": "https://www.minelite.es/schematics/medieval-house-i",
+   "license": "unrestricted",
+   "title": {
+    "en": "Medieval House I"
+   },
+   "description": "",
+   "tags": {}
+  },
+  {
    "id": "planetminecraft/11-scale-space-shuttle-on-launch-pad",
    "path": "catalog/planetminecraft/11-scale-space-shuttle-on-launch-pad/build.schem",
    "sha256": "4db305548d37501bc0920ca28256c3e672f9949048db213edfd23e3a5cdef775",
