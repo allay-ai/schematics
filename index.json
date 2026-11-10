@@ -21215,10 +21215,34 @@
    "license": "unrestricted",
    "rating": 122,
    "title": {
-    "en": "Modern villa"
+    "en": "Modern Villa with Sandstone Accents",
+    "ru": "Современная вилла с песчаником",
+    "es": "Villa moderna con acentos de arenisca",
+    "pt": "Villa moderna com detalhes de arenito",
+    "de": "Moderne Villa mit Sandsteinakzenten"
    },
-   "description": "",
-   "tags": {}
+   "description": "A small modern villa built from sandstone, stone slabs, spruce and oak planks, with glass panes, iron bars and glowstone lighting. It is 37 wide, 20 high and 33 deep, roughly 10,000 blocks, with a flat multi-level roof and a grassy, dirt-based lot around it. Inside it has chests, a furnace, a record player and signs, and the build was made for a Keralis server.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "modern villa",
+     "sandstone house",
+     "modern house",
+     "glass windows",
+     "small mansion",
+     "suburb house",
+     "spruce planks",
+     "glowstone"
+    ]
+   }
   },
   {
    "id": "planetminecraft/modern-villa-469296",

@@ -50,6 +50,19 @@ def fingerprint(structure: schematic.Structure) -> str:
     return hashlib.sha256(text.encode()).hexdigest()
 
 
+_WORDS = {"type": "array", "items": {"type": "string"}}
+SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["title", "description", "tags"],
+    "properties": {
+        "title": {"type": "object", "additionalProperties": False, "required": list(build.LANGUAGES), "properties": {lang: {"type": "string"} for lang in build.LANGUAGES}},
+        "description": {"type": "string"},
+        "tags": {"type": "object", "additionalProperties": False, "required": ["type", "style", "biome", "keywords"], "properties": {"type": _WORDS, "style": _WORDS, "biome": _WORDS, "keywords": _WORDS}},
+    },
+}
+
+
 def todo():
     """Entries whose build has no description yet, or whose build changed since its description was written."""
     for entry_id, folder in build.entries():
@@ -86,8 +99,11 @@ def request(entry_id: str, folder: str, meta: dict, texts: dict | None = None) -
     }
     return {
         "model": MODEL,
-        "max_tokens": 800,
-        "response_format": {"type": "json_object"},
+        # Haiku thinks before it answers, out of the same budget: room for both, and little thinking for a plain task.
+        "max_tokens": 4000,
+        "reasoning": {"effort": "low"},
+        # A schema the model must answer in, so the answer always reads.
+        "response_format": {"type": "json_schema", "json_schema": {"name": "description", "strict": True, "schema": SCHEMA}},
         "messages": [
             {"role": "system", "content": PROMPT.replace("{types}", ", ".join(TYPES)).replace("{styles}", ", ".join(STYLES))},
             {"role": "user", "content": json.dumps(facts, ensure_ascii=False)},
@@ -112,6 +128,8 @@ def call(method: str, path: str, body: dict | None = None) -> dict:
 
 def parse(answer: str) -> dict:
     """The model's JSON, held to the shape the index needs; anything else is dropped."""
+    if not answer:
+        raise ValueError("an empty answer")
     text = answer.strip()
     if text.startswith("```"):
         text = text.strip("`").split("\n", 1)[-1]
@@ -138,13 +156,17 @@ def save(folder: str, meta: dict, digest: str, generated: dict) -> None:
 def now(entries, texts=None) -> int:
     written = 0
     for entry_id, folder, meta, digest in entries:
-        answer = call("POST", "/chat/completions", request(entry_id, folder, meta, texts))
-        try:
-            save(folder, meta, digest, parse(answer["choices"][0]["message"]["content"]))
-            written += 1
-            print(f"✔ {entry_id}")
-        except (ValueError, KeyError, IndexError) as error:
-            print(f"✖ {entry_id}: {error}", file=sys.stderr)
+        # A model may still slip once; the second try is a new answer.
+        for attempt in range(2):
+            answer = call("POST", "/chat/completions", request(entry_id, folder, meta, texts))
+            try:
+                save(folder, meta, digest, parse(answer["choices"][0]["message"]["content"]))
+                written += 1
+                print(f"✔ {entry_id}")
+                break
+            except (ValueError, KeyError, IndexError) as error:
+                if attempt:
+                    print(f"✖ {entry_id}: {error}", file=sys.stderr)
     return written
 
 
