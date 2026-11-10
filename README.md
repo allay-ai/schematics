@@ -22,21 +22,7 @@ An author who wants their build out of the catalog opens an issue, and it goes.
 
 ## Adding a build
 
-1. Make sure it may be shared, paid servers included: an open license (`CC0-1.0`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `MIT`), the author's word (`permission`, with where they gave it), or a page where the author published it for download without restricting sharing (`unrestricted`). Non-commercial licenses don't fit, since Allay is a paid service.
-2. Put the file into a new folder under `catalog/`, as `source.schem`, `source.litematic`, or `source.schematic` (MCEdit's, before 1.13).
-3. Write `meta.json`:
-
-   ```json
-   {
-     "title": "Medieval windmill",
-     "author": "Their name, as the source shows it",
-     "source": "https://the page you took it from",
-     "license": "CC-BY-4.0"
-   }
-   ```
-
-   `title` is optional. Leave the page's description out: the catalog writes its own. With `"license": "permission"`, add `"permission"`: a link to where the author agreed.
-4. Open a pull request. Once it's merged, CI makes `build.schem`, describes the build, and updates `index.json`.
+[CONTRIBUTING.md](CONTRIBUTING.md) says how: you bring the schematic, its author, its source, and its license in a pull request, and CI does the rest after the merge.
 
 The description comes from a model (Claude Haiku through OpenRouter), from the build's size, materials, shape, and the source's own words. It lands in `meta.json` under `generated`. Correct it there by hand if it's wrong; a correction stays until the build changes. Up to 20 new builds are described at once; more go to a batch at half the price, and an hourly run picks up what it brought.
 

@@ -1,7 +1,8 @@
 """Builds the catalog: each schematic as `build.schem` (Sponge v3, its box cut to its blocks) and `index.json`.
 
 Run from the repository's root: `python3 -I tools/build.py`. `--check` changes nothing and fails when a file would
-change, for pull requests. Each entry is a folder under `catalog/` with `meta.json` and one `source.schem` or
+change. `--validate` changes nothing and fails only on a problem (a bad meta.json, a license the catalog doesn't
+take, a source it can't read, a build too big), for pull requests, which bring sources without build files. Each entry is a folder under `catalog/` with `meta.json` and one `source.schem` or
 `source.litematic`; its id is its path there, like `houses/medieval-mill`.
 """
 
@@ -134,7 +135,10 @@ def build(entry_id: str, folder: str, check: bool) -> tuple[dict, bool]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--check", action="store_true", help="fail when a file would change, change nothing")
+    parser.add_argument("--validate", action="store_true", help="fail only on a problem, change nothing")
     args = parser.parse_args()
+    if args.validate:
+        args.check = True
     records, problems, changed = [], [], []
     ids = set()
     for entry_id, folder in entries():
@@ -161,7 +165,7 @@ def main() -> int:
             with open(INDEX, "w", encoding="utf-8") as file:
                 file.write(index)
     print(f"{len(records)} schematics; {'would change' if args.check else 'changed'}: {', '.join(changed) or 'nothing'}")
-    return 1 if args.check and changed else 0
+    return 1 if args.check and changed and not args.validate else 0
 
 
 if __name__ == "__main__":

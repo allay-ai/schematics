@@ -30,7 +30,7 @@ jobs:
           python-version: "3.13"
       - run: python3 -I -m unittest discover -s tests
       # A pull request brings sources and meta.json; the build files come from CI after the merge.
-      - run: python3 -I tools/build.py --check || echo "::notice::build.schem and index.json follow on master"
+      - run: python3 -I tools/build.py --validate
 
   catalog:
     if: github.event_name != 'pull_request'
