@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.name "allay-catalog[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A catalog index.json .describe
+          git add -A
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "Rebuild the catalog"
           git push
