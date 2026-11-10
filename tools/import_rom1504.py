@@ -2,10 +2,12 @@
 
     python3 -I tools/import_rom1504.py DATASET.json --limit 300 --texts TEXTS.json
 
-DATASET.json is `schematicsWithFinalUrl.json` from https://gitlab.com/rom1504/minecraft-schematics-dataset. Builds go
-best first (the site's diamonds, then downloads), structures only (no pixel art, redstone, or music), and never one
-whose page asks not to share it. Each lands as `catalog/<section>/<name>/build.schem` with `meta.json` naming its author
-and page. What its page says goes to TEXTS.json only, for describe.py to read: the catalog writes its own words.
+DATASET.json is `schematicsWithFinalUrl.json` from https://gitlab.com/rom1504/minecraft-schematics-dataset, whose
+`schematics/schematics_K000.tfrecords` hold the files themselves, entries K000 to K999 of that list. Builds go best
+first (the site's diamonds, then downloads), structures only (no pixel art, redstone, or music), and never one whose
+page asks not to share it. Only the archives that hold them are read, as a stream: nothing reaches Planet Minecraft,
+and nothing but the builds stays on disk. Each lands as `catalog/planetminecraft/<name>/build.schem` with `meta.json` naming
+its author and page. What its page says goes to TEXTS.json only, for describe.py to read: the catalog writes its own words.
 """
 
 from __future__ import annotations
@@ -36,25 +38,9 @@ FORBIDS = re.compile(
     r"|all rights reserved|without (my |the author'?s? )?(permission|consent)|not for (redistribution|commercial)|©|copyright",
     re.I,
 )
-SECTIONS = [
-    ("castles", r"castle|keep|fortress|citadel|fort\b"),
-    ("ships", r"ship|boat|galleon|vessel|submarine|airship|frigate|yacht"),
-    ("towers", r"tower|lighthouse|spire"),
-    ("temples", r"temple|church|cathedral|mosque|shrine|chapel|pagoda"),
-    ("bridges", r"bridge"),
-    ("statues", r"statue|sculpture"),
-    ("towns", r"\bcity\b|town|village|spawn|hub|market"),
-    ("houses", r"house|mansion|cottage|villa|home|cabin|hut|manor|bungalow|apartment"),
-]
 AGENT = "AllayCatalog/1.0 (+https://github.com/allay-ai/schematics)"
-MAX_BYTES = 30 * 1024 * 1024
 # A box this big takes too long to read here, and no server builds it anyway.
 MAX_BOX = 16_000_000
-
-
-def section(entry: dict) -> str:
-    text = " ".join([entry.get("title", ""), *entry.get("tags", [])]).lower()
-    return next((name for name, pattern in SECTIONS if re.search(pattern, text)), "structures")
 
 
 def slug(url: str) -> str | None:
@@ -70,23 +56,77 @@ def known_sources() -> set:
     return seen
 
 
-def download(url: str) -> bytes:
-    """The file, waiting as long as the site asks when it says too many requests, three times at most."""
-    request = urllib.request.Request(url.replace(" ", "%20"), headers={"User-Agent": AGENT})
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(request, timeout=60) as response:
-                data = response.read(MAX_BYTES + 1)
-            break
-        except urllib.error.HTTPError as error:
-            if error.code != 429 or attempt == 3:
-                raise
-            wait = int(error.headers.get("Retry-After") or 30) + 1
-            print(f"… the site asks to wait {wait} s", file=sys.stderr)
-            time.sleep(wait)
-    if len(data) > MAX_BYTES:
-        raise ValueError("bigger than 30 MB")
-    return data
+ARCHIVE = "https://gitlab.com/rom1504/minecraft-schematics-dataset/-/raw/master/schematics/schematics_{}.tfrecords"
+
+
+def _varint(data: bytes, at: int) -> tuple[int, int]:
+    value = shift = 0
+    while True:
+        byte = data[at]
+        at += 1
+        value |= (byte & 0x7F) << shift
+        if byte < 0x80:
+            return value, at
+        shift += 7
+
+
+def _fields(data: bytes):
+    """A protobuf message's fields as (number, bytes or int), the few kinds tf.train.Example uses."""
+    at = 0
+    while at < len(data):
+        key, at = _varint(data, at)
+        number, kind = key >> 3, key & 7
+        if kind == 0:
+            value, at = _varint(data, at)
+        elif kind == 2:
+            size, at = _varint(data, at)
+            value, at = data[at:at + size], at + size
+        elif kind == 5:
+            value, at = data[at:at + 4], at + 4
+        elif kind == 1:
+            value, at = data[at:at + 8], at + 8
+        else:
+            raise ValueError(f"protobuf wire type {kind}")
+        yield number, value
+
+
+def _example(data: bytes) -> dict:
+    """A tf.train.Example's bytes features, by name."""
+    out = {}
+    for number, features in _fields(data):
+        if number != 1:
+            continue
+        for entry_number, entry in _fields(features):
+            if entry_number != 1:
+                continue
+            name, feature = b"", b""
+            for field, value in _fields(entry):
+                if field == 1:
+                    name = value
+                elif field == 2:
+                    feature = value
+            for kind, listed in _fields(feature):
+                if kind == 1:
+                    out[name.decode()] = [value for field, value in _fields(listed) if field == 1]
+    return out
+
+
+def archive(index: int):
+    """The (page, file) pairs of one archive, read as it downloads."""
+    name = "0" if index == 0 else f"{index}000"
+    request = urllib.request.Request(ARCHIVE.format(name), headers={"User-Agent": AGENT})
+    with urllib.request.urlopen(request, timeout=120) as stream:
+        while True:
+            header = stream.read(12)
+            if len(header) < 12:
+                return
+            size = int.from_bytes(header[:8], "little")
+            record = stream.read(size)
+            stream.read(4)
+            example = _example(record)
+            url = (example.get("url") or [b""])[0].decode("utf-8", "replace")
+            data = (example.get("schematicData") or [b""])[0]
+            yield url, data
 
 
 def convert(data: bytes, extension: str) -> schematic.Structure:
@@ -114,11 +154,33 @@ def convert(data: bytes, extension: str) -> schematic.Structure:
         os.remove(path)
 
 
+def write(entry_id: str, entry: dict, structure: schematic.Structure, texts: dict) -> None:
+    folder = os.path.join(build.CATALOG, *entry_id.split("/"))
+    structure.author = entry.get("user", "")
+    structure.name = entry.get("title", "")[:100]
+    os.makedirs(folder)
+    with open(os.path.join(folder, "build.schem"), "wb") as file:
+        file.write(schematic.dumps_v3(structure))
+    meta = {
+        "title": entry.get("title", "")[:100],
+        "author": entry.get("user", ""),
+        "source": entry["url"],
+        "license": "unrestricted",
+        "rating": int(entry.get("diamondCount") or 0),
+        "imported": "rom1504/minecraft-schematics-dataset",
+    }
+    with open(os.path.join(folder, "meta.json"), "w", encoding="utf-8") as file:
+        json.dump(meta, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+    texts[entry_id] = (entry.get("description") or "")[:3000]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("dataset")
     parser.add_argument("--limit", type=int, default=100, help="how many builds to add")
     parser.add_argument("--texts", required=True, help="where what the pages say goes, for describe.py")
+    parser.add_argument("--max-blocks", type=int, default=200_000, help="the biggest build to take; a server's own limits are lower")
     parser.add_argument("--pause", type=float, default=4.0, help="seconds between downloads, to go easy on the site")
     args = parser.parse_args()
     with open(args.dataset, encoding="utf-8") as file:
@@ -129,54 +191,55 @@ def main() -> int:
         (e for e in dataset if e.get("subtitle") in KINDS and (e.get("finalDownloadLink") or "").lower().rsplit(".", 1)[-1] in ("schematic", "schem")),
         key=lambda e: (-(e.get("diamondCount") or 0), -(e.get("downloads") or 0)),
     )
-    added = skipped = 0
+    position = {id(entry): index for index, entry in enumerate(dataset)}
+    chosen = []
+    skipped = 0
     for entry in candidates:
-        if added >= args.limit:
-            break
         url, name = entry.get("url", ""), slug(entry.get("url", ""))
         if not name or url in seen:
             continue
         if FORBIDS.search(entry.get("description") or "") or FORBIDS.search(entry.get("title") or ""):
             skipped += 1
             continue
-        entry_id = f"{section(entry)}/{name}"
-        folder = os.path.join(build.CATALOG, *entry_id.split("/"))
-        if os.path.exists(folder):
+        entry_id = f"planetminecraft/{name}"
+        if os.path.exists(os.path.join(build.CATALOG, *entry_id.split("/"))):
             continue
-        link = entry["finalDownloadLink"]
-        try:
-            structure = convert(download(link), link.lower().rsplit(".", 1)[-1])
-            blocks = sum(schematic.counts(structure).values())
-            if blocks < 50:
-                raise ValueError("fewer than 50 blocks")
-            if blocks > build.MAX_BLOCKS or max(structure.width, structure.height, structure.length) > build.MAX_SIDE:
-                raise ValueError("too big for the catalog")
-        except Exception as error:  # noqa: BLE001 — one bad file never stops the import
-            print(f"✖ {entry_id}: {error}", file=sys.stderr)
-            skipped += 1
-            time.sleep(args.pause)
-            continue
-        structure.author = entry.get("user", "")
-        structure.name = entry.get("title", "")[:100]
-        os.makedirs(folder)
-        with open(os.path.join(folder, "build.schem"), "wb") as file:
-            file.write(schematic.dumps_v3(structure))
-        meta = {
-            "title": entry.get("title", "")[:100],
-            "author": entry.get("user", ""),
-            "source": url,
-            "license": "unrestricted",
-            "rating": int(entry.get("diamondCount") or 0),
-            "imported": "rom1504/minecraft-schematics-dataset",
-        }
-        with open(os.path.join(folder, "meta.json"), "w", encoding="utf-8") as file:
-            json.dump(meta, file, ensure_ascii=False, indent=2)
-            file.write("\n")
-        texts[entry_id] = (entry.get("description") or "")[:3000]
-        seen.add(url)
-        added += 1
-        print(f"✔ {entry_id}: {structure.width}×{structure.height}×{structure.length}, {blocks} blocks")
-        time.sleep(args.pause)
+        chosen.append((entry_id, entry))
+        # A few spare, for files that turn out broken or too big.
+        # Spare ones too: the best rated are often far bigger than anyone builds.
+        if len(chosen) >= args.limit * 3 + 10:
+            break
+    wanted = {}
+    for entry_id, entry in chosen:
+        wanted.setdefault(position[id(entry)] // 1000, {})[entry["url"]] = (entry_id, entry)
+    added = 0
+    for index in sorted(wanted):
+        if added >= args.limit:
+            break
+        here = wanted[index]
+        print(f"… archive {index}: {len(here)} builds", file=sys.stderr)
+        for url, data in archive(index):
+            if url not in here or added >= args.limit:
+                continue
+            entry_id, entry = here.pop(url)
+            extension = entry["finalDownloadLink"].lower().rsplit(".", 1)[-1]
+            try:
+                structure = convert(data, extension)
+                blocks = sum(schematic.counts(structure).values())
+                if blocks < 50:
+                    raise ValueError("fewer than 50 blocks")
+                if blocks > args.max_blocks or max(structure.width, structure.height, structure.length) > build.MAX_SIDE:
+                    raise ValueError(f"{blocks} blocks, more than --max-blocks")
+            except Exception as error:  # noqa: BLE001 — one bad file never stops the import
+                print(f"✖ {entry_id}: {error}", file=sys.stderr)
+                skipped += 1
+                continue
+            write(entry_id, entry, structure, texts)
+            seen.add(url)
+            added += 1
+            print(f"✔ {entry_id}: {structure.width}×{structure.height}×{structure.length}, {blocks} blocks")
+            if not here:
+                break
     with open(args.texts, "w", encoding="utf-8") as file:
         json.dump(texts, file, ensure_ascii=False)
     print(f"added {added}, skipped {skipped}")

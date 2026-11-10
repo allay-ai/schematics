@@ -149,12 +149,14 @@ def now(entries, texts=None) -> int:
 
 
 def submit(entries, texts=None) -> None:
-    requests = [{"custom_id": entry_id, "body": request(entry_id, folder, meta, texts)} for entry_id, folder, meta, _ in entries]
+    # A batch's ids are short and plain (64 of letters, digits, - and _), so each goes by its place in the list.
+    entries = list(entries)
+    requests = [{"custom_id": f"b{n}", "body": request(entry_id, folder, meta, texts)} for n, (entry_id, folder, meta, _) in enumerate(entries)]
     # requests goes last: OpenRouter reads the body as a stream.
     batch = call("POST", "/batches", {"endpoint": "/v1/chat/completions", "model": MODEL, "requests": requests})
     os.makedirs(os.path.dirname(PENDING), exist_ok=True)
     with open(PENDING, "w", encoding="utf-8") as file:
-        json.dump({"id": batch["id"], "entries": [r["custom_id"] for r in requests]}, file, indent=2)
+        json.dump({"id": batch["id"], "entries": [entry_id for entry_id, _, _, _ in entries]}, file, indent=2)
         file.write("\n")
     print(f"submitted batch {batch['id']} with {len(requests)} schematics")
 
@@ -172,7 +174,8 @@ def collect() -> int:
     found = {entry_id: (folder, meta, digest) for entry_id, folder, meta, digest in todo()}
     written = 0
     for result in batch.get("results", []):
-        entry = found.get(result.get("custom_id"))
+        at = str(result.get("custom_id", ""))[1:]
+        entry = found.get(pending["entries"][int(at)]) if at.isdigit() and int(at) < len(pending["entries"]) else None
         body = (result.get("response") or {}).get("body") or {}
         if not entry or result.get("error"):
             continue

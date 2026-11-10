@@ -13,23 +13,29 @@ Allay takes schematics from here only. A server can't add its own, since nobody 
 - `index.json` is everything the search reads: each build's size, block count, materials, titles in English, Russian, Spanish, Portuguese, and German, a description, and tags. CI makes it.
 - `tools/` holds the Python that makes them, with no dependencies, and `tests/` its tests.
 
+## Where the builds come from
+
+- `planetminecraft/`: builds their authors published for download on [Planet Minecraft](https://www.planetminecraft.com), taken from [rom1504's dataset](https://gitlab.com/rom1504/minecraft-schematics-dataset) of them, best rated first, up to 200 000 blocks. A build whose page asks not to share it stays out. Each keeps its author and a link to its page; the catalog writes its own descriptions and copies no page's text or pictures. Their license reads `unrestricted`: the author published it without restricting sharing.
+- `samples/`: builds of Allay's own, which keep the tools honest.
+
+An author who wants their build out of the catalog opens an issue, and it goes.
+
 ## Adding a build
 
-1. Make sure its license lets anyone share it, paid servers included: `CC0-1.0`, `CC-BY-4.0`, `CC-BY-SA-4.0`, or `MIT`. Non-commercial licenses don't fit, since Allay is a paid service. For anything else, ask the author, and write where they allowed it as `permission`.
-2. Put the file into a new folder under `catalog/`, as `source.schem` or `source.litematic`.
+1. Make sure it may be shared, paid servers included: an open license (`CC0-1.0`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `MIT`), the author's word (`permission`, with where they gave it), or a page where the author published it for download without restricting sharing (`unrestricted`). Non-commercial licenses don't fit, since Allay is a paid service.
+2. Put the file into a new folder under `catalog/`, as `source.schem`, `source.litematic`, or `source.schematic` (MCEdit's, before 1.13).
 3. Write `meta.json`:
 
    ```json
    {
      "title": "Medieval windmill",
-     "description": "What the source page says about it, in its own words",
      "author": "Their name, as the source shows it",
      "source": "https://the page you took it from",
      "license": "CC-BY-4.0"
    }
    ```
 
-   `title` and `description` are optional; a page with nothing to say leaves them out. With `"license": "permission"`, add `"permission"`: a link to where the author agreed.
+   `title` is optional. Leave the page's description out: the catalog writes its own. With `"license": "permission"`, add `"permission"`: a link to where the author agreed.
 4. Open a pull request. Once it's merged, CI makes `build.schem`, describes the build, and updates `index.json`.
 
 The description comes from a model (Claude Haiku through OpenRouter), from the build's size, materials, shape, and the source's own words. It lands in `meta.json` under `generated`. Correct it there by hand if it's wrong; a correction stays until the build changes. Up to 20 new builds are described at once; more go to a batch at half the price, and an hourly run picks up what it brought.
