@@ -640,10 +640,37 @@
    "license": "unrestricted",
    "rating": 165,
    "title": {
-    "en": "Palace Spawn (Third Worth 1000 Comp)"
+    "en": "Sandstone Desert Palace",
+    "ru": "Песчаный дворец пустыни",
+    "es": "Palacio del desierto de arenisca",
+    "pt": "Palácio do deserto de arenito",
+    "de": "Sandstein-Wüstenpalast"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large palace built mostly from sandstone, stone, and sand with a sandy, desert-style look and a central dome-like tower rising above rounded stone walls. It is very large at about 177 wide, 65 high, and 109 deep, made of roughly 196,000 blocks, with some water features, spruce and oak leaves, and a few netherrack and coal accents. Source description is empty, so the design is inferred from the materials and footprint.",
+   "tags": {
+    "type": [
+     "castle",
+     "other"
+    ],
+    "style": [
+     "desert",
+     "other"
+    ],
+    "biome": [
+     "desert",
+     "plains"
+    ],
+    "keywords": [
+     "palace",
+     "sandstone",
+     "desert palace",
+     "large castle",
+     "spawn",
+     "sand",
+     "worth 1000",
+     "statue"
+    ]
+   }
   },
   {
    "id": "planetminecraft/1st-rate-ship-of-the-line-sovereign-of-the-seas-full-interio",
@@ -1009,10 +1036,34 @@
    "license": "unrestricted",
    "rating": 195,
    "title": {
-    "en": "Spaceship 22: Serenata-class"
+    "en": "Serenata-Class Spaceship",
+    "ru": "Космический корабль класса Serenata",
+    "es": "Nave espacial clase Serenata",
+    "pt": "Nave espacial classe Serenata",
+    "de": "Raumschiff der Serenata-Klasse"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large white sci-fi spaceship with a long central spine, a blunt nose and a pair of rounded wings, lit with blue-tinted glass windows, glowstone and redstone lamps. It is built mostly from white wool and stone slabs, with quartz accents and an iron-block frame. Roughly 62 by 144 by 233 blocks, it is a very big vessel; the interior has chests, levers, hoppers and signs, suggesting a working control room.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "futuristic"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "spaceship",
+     "starship",
+     "sci-fi",
+     "white",
+     "large",
+     "redstone",
+     "vehicle",
+     "space"
+    ]
+   }
   },
   {
    "id": "planetminecraft/24gavotte-class",
@@ -1949,10 +2000,36 @@
    "license": "unrestricted",
    "rating": 123,
    "title": {
-    "en": "A Magical Minecraft Christmas"
+    "en": "Magical Christmas Village Scene",
+    "ru": "Волшебная рождественская деревня",
+    "es": "Escena navideña mágica",
+    "pt": "Cena natalina mágica",
+    "de": "Magische Weihnachtsszene"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large festive winter scene built around pink and blue wool, spruce trees, and glowing lamps, with a whimsical Christmas village feel. It spans about 135 by 149 blocks and stands roughly 116 blocks tall, with a snowy-looking ground of grass and dirt and a few sticky pistons and a sign for detail. The source has no written description, so the subject is inferred from its materials and shape.",
+   "tags": {
+    "type": [
+     "village",
+     "decoration"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "snowy",
+     "plains"
+    ],
+    "keywords": [
+     "christmas",
+     "winter",
+     "festive",
+     "pink",
+     "spruce",
+     "holiday",
+     "magical",
+     "village"
+    ]
+   }
   },
   {
    "id": "planetminecraft/a-question-of-time",
@@ -2429,10 +2506,34 @@
    "license": "unrestricted",
    "rating": 205,
    "title": {
-    "en": "Aerowin [Cruise Liner]"
+    "en": "Aerowin Cruise Liner",
+    "ru": "Круизный лайнер Aerowin",
+    "es": "Crucero Aerowin",
+    "pt": "Transatlântico Aerowin",
+    "de": "Aerowin Kreuzfahrtschiff"
    },
-   "description": "",
-   "tags": {}
+   "description": "A very large white and light gray passenger cruise liner with red accents, blue trim, and rows of glass windows along its hull, with oak decks, stairs, and doors. It measures about 173 blocks long, 50 high, and 31 deep, and includes water blocks around the hull. Interior details include a furnace, a record player, and signs.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "ocean"
+    ],
+    "keywords": [
+     "cruise ship",
+     "ocean liner",
+     "passenger ship",
+     "large boat",
+     "vessel",
+     "white ship",
+     "yacht",
+     "sea"
+    ]
+   }
   },
   {
    "id": "planetminecraft/agnese-modern-yacht-celebrating-1000-subs-part-3",
@@ -2798,10 +2899,37 @@
    "license": "unrestricted",
    "rating": 190,
    "title": {
-    "en": "Airship Fleet (Fortress)"
+    "en": "Airship Fleet Fortress",
+    "ru": "Крепость воздушного флота",
+    "es": "Fortaleza de la flota aérea",
+    "pt": "Fortaleza da frota aérea",
+    "de": "Luftschiff-Flottenfestung"
    },
-   "description": "",
-   "tags": {}
+   "description": "A floating fortress built around a cluster of airships, with stone and oak walls, brick accents, and iron blocks along the hull. It stands about 105 blocks wide, 128 high, and 71 deep, and is made of roughly 30,000 blocks. Inside there are chests, furnaces, and trap blocks, with ladders and doors connecting the levels.",
+   "tags": {
+    "type": [
+     "other",
+     "castle"
+    ],
+    "style": [
+     "fantasy",
+     "steampunk"
+    ],
+    "biome": [
+     "plains",
+     "ocean"
+    ],
+    "keywords": [
+     "airship",
+     "floating fortress",
+     "flying castle",
+     "sky fortress",
+     "fleet",
+     "stone",
+     "oak",
+     "iron"
+    ]
+   }
   },
   {
    "id": "planetminecraft/alazar-factions-server-spawn-with-download",
@@ -4464,10 +4592,34 @@
    "license": "unrestricted",
    "rating": 212,
    "title": {
-    "en": "Astorii class heavy battleship"
+    "en": "Astorii Class Heavy Battleship",
+    "ru": "Тяжёлый линкор класса Асторий",
+    "es": "Acorazado pesado clase Astorii",
+    "pt": "Encouraçado pesado classe Astorii",
+    "de": "Schwerer Schlachtschiff der Astorii-Klasse"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large sea-going battleship built mostly from oak planks, with iron block armor plating, white and red wool details, and a stepped superstructure. It measures about 47 blocks wide, 59 high and 262 long, making it a very long vessel, and it contains a few interior rooms with chests, a furnace, an enchanting table, a cauldron and bookshelves.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "ocean"
+    ],
+    "keywords": [
+     "battleship",
+     "warship",
+     "navy ship",
+     "oak ship",
+     "iron ship",
+     "large boat",
+     "naval",
+     "heavy battleship"
+    ]
+   }
   },
   {
    "id": "planetminecraft/atlantis-super-yacht",
@@ -7546,10 +7698,36 @@
    "license": "unrestricted",
    "rating": 141,
    "title": {
-    "en": "Cloud Fortress"
+    "en": "Cloud Fortress",
+    "ru": "Облачная крепость",
+    "es": "Fortaleza de las Nubes",
+    "pt": "Fortaleza das Nuvens",
+    "de": "Wolkenfestung"
    },
-   "description": "",
-   "tags": {}
+   "description": "A floating fortress built almost entirely from snow blocks and stone slabs, with iron block walls, ice accents, black wool trim, and glass windows, rising into a snowy sky over a water basin. It is very large, about 207 wide by 128 high by 190 deep, with roughly 124,000 blocks, and its interior holds a chest, a record player, and signs.",
+   "tags": {
+    "type": [
+     "castle",
+     "other"
+    ],
+    "style": [
+     "fantasy",
+     "futuristic"
+    ],
+    "biome": [
+     "snowy"
+    ],
+    "keywords": [
+     "floating fortress",
+     "cloud castle",
+     "snow castle",
+     "sky fortress",
+     "ice fortress",
+     "iron",
+     "snow",
+     "large build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/cloudnine",
@@ -7792,10 +7970,35 @@
    "license": "unrestricted",
    "rating": 158,
    "title": {
-    "en": "Cocoa Castle [Schematic Included]"
+    "en": "Cocoa Castle",
+    "ru": "Замок Какао",
+    "es": "Castillo de Cacao",
+    "pt": "Castelo de Cacau",
+    "de": "Kakao-Burg"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large medieval castle built from cobblestone walls, dark oak towers and roofs, and cyan terracotta accents, with snow blocks on parts of the top and a grass base plot. It measures about 102 by 105 blocks across and 99 blocks high, using roughly 30,900 blocks. The schematic includes a single sign, and the source does not describe any interior rooms.",
+   "tags": {
+    "type": [
+     "castle"
+    ],
+    "style": [
+     "medieval"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "castle",
+     "medieval castle",
+     "cobblestone",
+     "dark oak",
+     "tower",
+     "large",
+     "schematic",
+     "snow"
+    ]
+   }
   },
   {
    "id": "planetminecraft/colonial-bank",
@@ -8284,10 +8487,35 @@
    "license": "unrestricted",
    "rating": 150,
    "title": {
-    "en": "Contemporary Modern House"
+    "en": "Contemporary Modern House",
+    "ru": "Современный дом в стиле модерн",
+    "es": "Casa moderna contemporánea",
+    "pt": "Casa moderna contemporânea",
+    "de": "Zeitgenössisches modernes Haus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large modern house built mostly from white quartz blocks and slabs, with gray and green terracotta accents, green wool and carpet, and blue stained glass panes. It sits on a grass and dirt terrace above a water feature, with an oak and spruce tree nearby. The build spans about 121 by 124 blocks and is 23 blocks high, with 72,139 blocks total; the source has no description, and interior contents are not documented beyond a few sign and skull block entities.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "modern house",
+     "contemporary",
+     "quartz",
+     "terracotta",
+     "glass",
+     "large house",
+     "water",
+     "terrace"
+    ]
+   }
   },
   {
    "id": "planetminecraft/corkscrew-island-2387964",
@@ -8407,10 +8635,34 @@
    "license": "unrestricted",
    "rating": 161,
    "title": {
-    "en": "Corkscrew Island"
+    "en": "Corkscrew Island Cobweb Ruin",
+    "ru": "Остров Штопор с паутиной",
+    "es": "Isla Sacacorchos con telarañas",
+    "pt": "Ilha Saca-rolhas com teias",
+    "de": "Korkenzieher-Insel mit Spinnweben"
    },
-   "description": "",
-   "tags": {}
+   "description": "A tall, twisted floating-style island built mostly from cobweb, stone, and oak, with a spiraling corkscrew shape rising about 141 blocks high and spanning roughly 94 by 86 blocks. Its look mixes grassy ledges, a stone and brick core, white and red wool accents, and glass windows, and it contains a few chests, a furnace, and signs. The source gave no description, so the form and details come from the block data alone.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "fantasy"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "island",
+     "corkscrew",
+     "cobweb",
+     "twisted",
+     "floating",
+     "tall",
+     "spiral",
+     "oak"
+    ]
+   }
   },
   {
    "id": "planetminecraft/cozcalt-the-lost-temple",
@@ -8776,10 +9028,34 @@
    "license": "unrestricted",
    "rating": 402,
    "title": {
-    "en": "Cubes Survival 1.5.2+"
+    "en": "Cubes Survival Map",
+    "ru": "Карта выживания «Кубы»",
+    "es": "Mapa de supervivencia de cubos",
+    "pt": "Mapa de sobrevivência de cubos",
+    "de": "Cubes Survival-Karte"
    },
-   "description": "",
-   "tags": {}
+   "description": "A solid 17×17×17 cube built mostly from glass and stone, with dirt, sand, grass, black wool, a water layer and several ore blocks. The front and top views are fully filled, so it reads as one closed block rather than an open structure. Inside it holds chests, a mob spawner and signs, and it is a survival map built around a cube shape.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "any"
+    ],
+    "keywords": [
+     "cube",
+     "survival map",
+     "glass cube",
+     "mob spawner",
+     "chests",
+     "ore",
+     "17x17x17",
+     "solid cube"
+    ]
+   }
   },
   {
    "id": "planetminecraft/daawakening-vigils-keep",
@@ -11935,10 +12211,35 @@
    "license": "unrestricted",
    "rating": 140,
    "title": {
-    "en": "FT industries | Helicopter"
+    "en": "FT Industries Helicopter",
+    "ru": "Вертолёт FT Industries",
+    "es": "Helicóptero FT Industries",
+    "pt": "Helicóptero FT Industries",
+    "de": "FT Industries Hubschrauber"
    },
-   "description": "",
-   "tags": {}
+   "description": "A helicopter build titled FT Industries, made mainly from quartz stairs and blocks with gray and black terracotta accents and black stained glass windows. It is about 34 wide, 9 high and 29 deep, using roughly 610 blocks, and includes two beacons, chests, a sign, daylight detectors and levers.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "modern",
+     "futuristic"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "helicopter",
+     "aircraft",
+     "flying machine",
+     "quartz",
+     "vehicle",
+     "beacon",
+     "sci-fi",
+     "ft industries"
+    ]
+   }
   },
   {
    "id": "planetminecraft/ft-industries-private-jet",
@@ -12058,10 +12359,38 @@
    "license": "unrestricted",
    "rating": 206,
    "title": {
-    "en": "FT industries | Private Jet"
+    "en": "Private Jet Airplane",
+    "ru": "Частный реактивный самолёт",
+    "es": "Avión Privado a Reacción",
+    "pt": "Jato Particular",
+    "de": "Privatjet Flugzeug"
    },
-   "description": "",
-   "tags": {}
+   "description": "A sleek private jet built mostly from quartz slabs, quartz blocks and gray terracotta, with a long swept-wing body and a rear tail section. It is about 44 blocks wide, 43 deep and 12 high, roughly 1,300 blocks in total. Inside are a few chests, signs, a daylight detector and a couple of beacons, with light blue and orange wool and carpet accents.",
+   "tags": {
+    "type": [
+     "other",
+     "ship"
+    ],
+    "style": [
+     "futuristic",
+     "modern"
+    ],
+    "biome": [
+     "plains",
+     "desert",
+     "snowy"
+    ],
+    "keywords": [
+     "airplane",
+     "jet",
+     "aircraft",
+     "private jet",
+     "quartz",
+     "flying vehicle",
+     "modern plane",
+     "airport"
+    ]
+   }
   },
   {
    "id": "planetminecraft/futuristic-building",
@@ -12903,10 +13232,36 @@
    "license": "unrestricted",
    "rating": 178,
    "title": {
-    "en": "Giant Steampunk Train: \"The Dunnsville Line\" [Download]"
+    "en": "Giant Steampunk Train Dunnsville Line",
+    "ru": "Гигантский паровой поезд «Данвилльская линия»",
+    "es": "Gigantic Tren Steampunk Línea Dunnsville",
+    "pt": "Trem Steampunk Gigante Linha Dunnsville",
+    "de": "Riesiger Steampunk-Zug Dunnsville-Linie"
    },
-   "description": "",
-   "tags": {}
+   "description": "A giant steampunk locomotive named The Dunnsville Line, built mostly from iron blocks, birch, stone and black wool, with a tall boiler stack, a rounded nose and smaller cars behind it. It measures 108 blocks wide, 45 high and 27 deep, and uses about 20,910 blocks. Inside are chests, furnaces, a music block, signs, skulls and trapped chests as detail.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "steampunk"
+    ],
+    "biome": [
+     "plains",
+     "snowy",
+     "forest"
+    ],
+    "keywords": [
+     "steampunk train",
+     "giant locomotive",
+     "steam engine",
+     "iron train",
+     "railway",
+     "vehicle",
+     "dunnsville line",
+     "birch"
+    ]
+   }
   },
   {
    "id": "planetminecraft/golden-eiffel-tower",
@@ -13109,10 +13464,37 @@
    "license": "unrestricted",
    "rating": 137,
    "title": {
-    "en": "Gothic Town Hall"
+    "en": "Gothic Town Hall",
+    "ru": "Готическая ратуша",
+    "es": "Ayuntamiento gótico",
+    "pt": "Prefeitura gótica",
+    "de": "Gotisches Rathaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large gothic-style town hall built mostly from spruce planks, spruce stairs, and stone bricks, with tall pointed spires and a steep central tower rising from a wide stone-brick base. It measures about 51 blocks wide, 51 high, and 48 deep, with roughly 16,600 blocks in total. The interior contains bookshelves, chests, furnaces, an enchanting table, a beacon, and other functional block entities.",
+   "tags": {
+    "type": [
+     "house",
+     "village"
+    ],
+    "style": [
+     "gothic"
+    ],
+    "biome": [
+     "plains",
+     "forest",
+     "snowy"
+    ],
+    "keywords": [
+     "gothic town hall",
+     "spruce",
+     "stone brick",
+     "spire",
+     "tower",
+     "municipal building",
+     "large build",
+     "medieval hall"
+    ]
+   }
   },
   {
    "id": "planetminecraft/grand-medieval-house",
@@ -13470,10 +13852,36 @@
    "license": "unrestricted",
    "rating": 159,
    "title": {
-    "en": "GTA 5 - Trevor's Safehouse | Showcases in Description"
+    "en": "Trevor's Desert Safehouse",
+    "ru": "Убежище Тревора в пустыне",
+    "es": "Refugio de Trevor en el desierto",
+    "pt": "Esconderijo do Trevor no deserto",
+    "de": "Trevors Wüstenunterschlupf"
    },
-   "description": "",
-   "tags": {}
+   "description": "A GTA 5 inspired motor home and safehouse built from sand, quartz, and iron bars, with a flat trailer-like body, stepped roof edges, and a long platform running across the top. It sits on a sand and grass base with acacia and jungle leaves, carpets, and sunflowers around it. Roughly 44 by 17 by 27 blocks with about 2,660 blocks; the interior has furnaces, hoppers, a cauldron, flower pots, and signs.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern",
+     "desert"
+    ],
+    "biome": [
+     "desert",
+     "plains"
+    ],
+    "keywords": [
+     "gta 5",
+     "trevor",
+     "safehouse",
+     "motor home",
+     "trailer",
+     "sand",
+     "quartz",
+     "showcase"
+    ]
+   }
   },
   {
    "id": "planetminecraft/guardian-class-light-cruiser",
@@ -13910,10 +14318,35 @@
    "license": "unrestricted",
    "rating": 140,
    "title": {
-    "en": "Haunted House"
+    "en": "Haunted House",
+    "ru": "Призрачный особняк",
+    "es": "Casa Embrujada",
+    "pt": "Casa Assombrada",
+    "de": "Spukhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large, dark haunted house built mostly from stone, cobblestone slabs, and bricks, with spruce and oak wood accents, podzol and dirt ground, and heavy vines creeping over the walls. Its footprint is roughly 149 by 141 blocks with a height of 54, making it a sprawling, multi-part mansion with a tall central tower and a grassy yard. Inside are chests, furnaces, flower pots, a record player, and signs.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "gothic"
+    ],
+    "biome": [
+     "forest",
+     "plains"
+    ],
+    "keywords": [
+     "haunted house",
+     "spooky mansion",
+     "dark mansion",
+     "vines",
+     "stone",
+     "podzol",
+     "halloween",
+     "tower"
+    ]
+   }
   },
   {
    "id": "planetminecraft/haunted-house-happy-halloween-1589490",
@@ -14648,10 +15081,34 @@
    "license": "unrestricted",
    "rating": 220,
    "title": {
-    "en": "High Rossferry - One Atlantic Centre"
+    "en": "High Rossferry Tower",
+    "ru": "Башня Хай-Россферри",
+    "es": "Torre de High Rossferry",
+    "pt": "Torre de High Rossferry",
+    "de": "High Rossferry Turm"
    },
-   "description": "",
-   "tags": {}
+   "description": "A very tall tower-like city building named One Atlantic Centre, about 63 by 63 blocks across and 183 blocks high, far taller than it is wide. Its walls are mostly spruce planks and mossy stone bricks, with many glass panes and blue and gray wool accents, and it has nether brick stair details. It contains bookshelves and glowstone, and its layout appears stacked in floors.",
+   "tags": {
+    "type": [
+     "tower"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "any"
+    ],
+    "keywords": [
+     "tall tower",
+     "skyscraper",
+     "city building",
+     "mossy stone",
+     "spruce",
+     "glass windows",
+     "rossferry",
+     "atlantic centre"
+    ]
+   }
   },
   {
    "id": "planetminecraft/high-speed-train",
@@ -16226,10 +16683,37 @@
    "license": "unrestricted",
    "rating": 129,
    "title": {
-    "en": "Isengard"
+    "en": "Isengard Tower Fortress",
+    "ru": "Крепость Изенгард",
+    "es": "Fortaleza de Isengard",
+    "pt": "Fortaleza de Isengard",
+    "de": "Isengard Turmfestung"
    },
-   "description": "",
-   "tags": {}
+   "description": "A towering, dark fortress inspired by Isengard, built mostly from obsidian and bedrock with stone, sandstone, and cobblestone detailing and a few iron blocks. It rises about 126 blocks high, is roughly 36 wide and 34 deep, and is a solid mass with no interior rooms or block entities.",
+   "tags": {
+    "type": [
+     "tower",
+     "castle"
+    ],
+    "style": [
+     "fantasy",
+     "medieval"
+    ],
+    "biome": [
+     "plains",
+     "mountain"
+    ],
+    "keywords": [
+     "isengard",
+     "obsidian tower",
+     "dark fortress",
+     "tall tower",
+     "lord of the rings",
+     "sauron",
+     "bedrock",
+     "stone fortress"
+    ]
+   }
   },
   {
    "id": "planetminecraft/jade-modern-house",
@@ -16789,10 +17273,35 @@
    "license": "unrestricted",
    "rating": 137,
    "title": {
-    "en": "Kumori Koukai"
+    "en": "Kumori Koukai",
+    "ru": "Кумори Коукай",
+    "es": "Kumori Koukai",
+    "pt": "Kumori Koukai",
+    "de": "Kumori Koukai"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large, wide build about 138 by 76 by 57 blocks, with a long horizontal beam and a sloping, hull-like body that reads as a ship or vessel from the front. Its main materials are obsidian, oak planks, red wool, glass, spruce logs, glowstone and nether brick fences, with iron blocks and rails. The interior holds utility blocks such as an enchanting table, a record player, a jukebox, chests, furnaces, a cauldron and a dispenser. The source has no description, so the vessel reading is inferred from the shape.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "ocean",
+     "plains"
+    ],
+    "keywords": [
+     "obsidian",
+     "large ship",
+     "red wool",
+     "glowstone",
+     "nether brick",
+     "enchanting room",
+     "record player",
+     "spruce"
+    ]
+   }
   },
   {
    "id": "planetminecraft/lambridge-castle-cephyr-plot-build",
@@ -18106,10 +18615,34 @@
    "license": "unrestricted",
    "rating": 157,
    "title": {
-    "en": "Luxury Mansion"
+    "en": "Luxury Mansion",
+    "ru": "Роскошный особняк",
+    "es": "Mansión de lujo",
+    "pt": "Mansão de luxo",
+    "de": "Luxus-Herrenhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large symmetrical mansion built mostly from sandstone, quartz, and stone bricks, with spruce wood accents, black glass panes, and water features set among grass lawns. It measures about 169 wide, 38 high, and 142 deep, and the source includes a beacon and signs as block entities, suggesting a furnished interior.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "classical"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "mansion",
+     "luxury house",
+     "sandstone",
+     "quartz",
+     "large house",
+     "manor",
+     "villa",
+     "estate"
+    ]
+   }
   },
   {
    "id": "planetminecraft/m6-corvette",
@@ -18352,10 +18885,35 @@
    "license": "unrestricted",
    "rating": 329,
    "title": {
-    "en": "Mansion"
+    "en": "Large Mansion",
+    "ru": "Большой особняк",
+    "es": "Gran mansión",
+    "pt": "Grande mansão",
+    "de": "Großes Herrenhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large mansion built mainly from sandstone, jungle planks, and stone, with glass windows, iron bars, and glowstone lighting, set on a dirt and grass base with some water. It measures 88 wide, 34 high, and 72 deep, about 54,000 blocks. Inside are chests, furnaces, a cauldron, signs, a record player, and music blocks.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "jungle",
+     "forest"
+    ],
+    "keywords": [
+     "mansion",
+     "large house",
+     "sandstone",
+     "jungle wood",
+     "big build",
+     "dirt",
+     "record player",
+     "glowstone"
+    ]
+   }
   },
   {
    "id": "planetminecraft/mansionmanor",
@@ -20161,10 +20719,34 @@
    "license": "unrestricted",
    "rating": 211,
    "title": {
-    "en": "World in a Box Small 1.6.4+"
+    "en": "World in a Box",
+    "ru": "Мир в коробке",
+    "es": "Mundo en una caja",
+    "pt": "Mundo em uma caixa",
+    "de": "Welt in einer Box"
    },
-   "description": "",
-   "tags": {}
+   "description": "A tall, enclosed box-shaped build, 13 wide, 48 high and 43 deep, with walls mostly of light blue wool, stone, and glass, plus sandstone and black wool. Inside is a small self-contained scene with grass, dirt, oak and spruce trees, vines, a small pool of water, and a chest, a furnace, and a mob spawner. The source gives no description beyond its title and block list, so the exact layout is unconfirmed.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "world in a box",
+     "enclosed world",
+     "box build",
+     "mob spawner",
+     "light blue wool",
+     "glass box",
+     "diorama",
+     "small world"
+    ]
+   }
   },
   {
    "id": "planetminecraft/modern-apartment-building-3205428",
@@ -20653,10 +21235,34 @@
    "license": "unrestricted",
    "rating": 237,
    "title": {
-    "en": "Karma - Superyacht"
+    "en": "Karma Modern Superyacht",
+    "ru": "Современная суперяхта Karma",
+    "es": "Superyate moderno Karma",
+    "pt": "Superiate moderno Karma",
+    "de": "Modern Superyacht Karma"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large modern superyacht built mostly from white quartz blocks and slabs, with black and gray wool, stained glass windows, and iron bar railings. It measures 16 wide, 26 high and 88 deep, with about 13,300 blocks, and sits on a water-filled shallow area beside sandy and stone island terrain. Interior details include droppers, flower pots and signs; the source gives no description, so these details come from the block data alone.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "ocean"
+    ],
+    "keywords": [
+     "superyacht",
+     "yacht",
+     "boat",
+     "quartz ship",
+     "modern ship",
+     "luxury yacht",
+     "tropical island",
+     "water"
+    ]
+   }
   },
   {
    "id": "planetminecraft/modern-luxurious-living-mansion-at-wok",
@@ -20776,10 +21382,35 @@
    "license": "unrestricted",
    "rating": 200,
    "title": {
-    "en": "[Modern] Luxurious living mansion (at 'WOK' and  'Minecraft Monday youtube vid')"
+    "en": "Modern Luxurious Living Mansion",
+    "ru": "Современный роскошный особняк",
+    "es": "Mansión moderna de lujo",
+    "pt": "Mansão moderna de luxo",
+    "de": "Modernes luxuriöses Herrenhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large modern mansion built mostly from stone, white and black wool, sandstone and glass, with birch and jungle wood accents and a flat, layered roofline. It is roughly 51 by 61 blocks across and 32 blocks tall, with about 46,000 blocks total. Inside are chests, an enchanting table, furnaces, a cauldron, a record player and signs, and it sits on a mix of sand, grass and dirt terrain with a water feature.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "plains",
+     "desert"
+    ],
+    "keywords": [
+     "mansion",
+     "modern",
+     "luxurious",
+     "villa",
+     "stone",
+     "glass",
+     "sandstone",
+     "large house"
+    ]
+   }
   },
   {
    "id": "planetminecraft/modern-mansion-2-pixellicious",
@@ -22097,10 +22728,34 @@
    "license": "unrestricted",
    "rating": 124,
    "title": {
-    "en": "Mustachio Bandito"
+    "en": "Mustachio Bandito Statue",
+    "ru": "Статуя бандита Мустачио",
+    "es": "Estatua del Bandido Mustachio",
+    "pt": "Estátua do Bandido Mustachio",
+    "de": "Mustachio-Bandito-Statue"
    },
-   "description": "",
-   "tags": {}
+   "description": "A very large statue of a bandit, going by its title, Mustachio Bandito, standing 100 blocks high, 66 wide and 61 deep. It is built mainly from iron blocks and cobblestone, with bedrock, cobblestone walls and stairs, green wool accents, and small touches of lava, obsidian and glowstone. The source gives no description, so its interior and other details are unknown.",
+   "tags": {
+    "type": [
+     "statue"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "bandit statue",
+     "mustache",
+     "giant statue",
+     "iron block",
+     "cobblestone",
+     "bedrock",
+     "green wool",
+     "large build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/my-oriental-architect-plot-on-ravandorg-server",
@@ -23322,10 +23977,37 @@
    "license": "unrestricted",
    "rating": 158,
    "title": {
-    "en": "Orona HQ - Traditional Skyscraper"
+    "en": "Orona HQ Traditional Skyscraper",
+    "ru": "Штаб-квартира Orona: традиционный небоскрёб",
+    "es": "Sede Orona: rascacielos tradicional",
+    "pt": "Sede Orona: arranha-céu tradicional",
+    "de": "Orona Hauptquartier: traditioneller Wolkenkratzer"
    },
-   "description": "",
-   "tags": {}
+   "description": "A tall, blocky office skyscraper built mostly from dirt, stone, sandstone and quartz, with a stepped tower rising from a wide base and a small spire on top. It is about 76 wide, 123 high and 90 deep, with roughly 125,000 blocks, and the interior holds a few furnaces, signs, skulls and trapdoors. The source gives no description beyond its title.",
+   "tags": {
+    "type": [
+     "house",
+     "other"
+    ],
+    "style": [
+     "modern",
+     "other"
+    ],
+    "biome": [
+     "plains",
+     "desert"
+    ],
+    "keywords": [
+     "skyscraper",
+     "office tower",
+     "headquarters",
+     "sandstone",
+     "quartz",
+     "tall building",
+     "city",
+     "large build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/pagode-pagoda",
@@ -24429,10 +25111,35 @@
    "license": "unrestricted",
    "rating": 155,
    "title": {
-    "en": "Reinhart City Buildpack [Download]"
+    "en": "Reinhart City Buildpack",
+    "ru": "Городской набор Reinhart",
+    "es": "Paquete de ciudad Reinhart",
+    "pt": "Pacote de cidade Reinhart",
+    "de": "Reinhart Stadt-Bauset"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large city build of about 620 by 44 by 48 blocks, made mostly from grass, stone brick, oak planks and oak logs, with cobblestone, white wool and gravel accents and some water. The seen-from-above layout is a flat, mostly open grid of low buildings and scattered short towers rather than one dominant structure. It contains a few chests, furnaces, signs and skulls.",
+   "tags": {
+    "type": [
+     "village",
+     "house"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "city",
+     "buildpack",
+     "town",
+     "oak",
+     "stone brick",
+     "large build",
+     "medieval town",
+     "grass"
+    ]
+   }
   },
   {
    "id": "planetminecraft/renaissance-era-yacht",
@@ -25385,10 +26092,37 @@
    "license": "unrestricted",
    "rating": 170,
    "title": {
-    "en": "Semi-Organic Medieval Pack | ♦ DOWNLOAD ♦"
+    "en": "Semi-Organic Medieval Pack",
+    "ru": "Полуорганический средневековый набор",
+    "es": "Paquete Medieval Semiorgánico",
+    "pt": "Pacote Medieval Semiorgânico",
+    "de": "Semi-organisches Mittelalter-Paket"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large medieval build pack of scattered structures on open grass, built mostly from spruce logs and planks, stone, cobblestone and white, gray and black wool, with spruce roofs and stone brick stairs. The footprint is about 246 by 321 blocks and 55 high, so it is a big, spread-out collection rather than one compact house. Some structures contain furnaces, music blocks, signs and traps.",
+   "tags": {
+    "type": [
+     "village",
+     "house"
+    ],
+    "style": [
+     "medieval",
+     "rustic"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "medieval",
+     "village",
+     "semi-organic",
+     "spruce",
+     "stone",
+     "pack",
+     "houses",
+     "large"
+    ]
+   }
   },
   {
    "id": "planetminecraft/semi-truck-realistic",
@@ -26527,10 +27261,34 @@
    "license": "unrestricted",
    "rating": 125,
    "title": {
-    "en": "Small Plot #3 - Oriental"
+    "en": "Oriental Small Plot",
+    "ru": "Восточный небольшой участок",
+    "es": "Parcela oriental pequeña",
+    "pt": "Pequeno terreno oriental",
+    "de": "Kleines orientalisches Grundstück"
    },
-   "description": "",
-   "tags": {}
+   "description": "A compact oriental-themed terrain plot built mostly from stone, cobblestone, stone bricks, and dark oak, with light gray and gray terracotta accents, spruce leaves, mushroom blocks, and a water pool. It measures 37 wide, 60 high, and 37 deep, with a tall stone spire rising on one side above a sloped, rocky landscape. The source gives no description, and the block entities include a flower pot and a record player.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "forest"
+    ],
+    "keywords": [
+     "oriental",
+     "small plot",
+     "stone",
+     "terracotta",
+     "spire",
+     "water pool",
+     "landscape",
+     "minecraft build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/small-skyscraper-office-building-at-wok",
@@ -26773,10 +27531,36 @@
    "license": "unrestricted",
    "rating": 144,
    "title": {
-    "en": "Midair Playground"
+    "en": "Midair Sandstone Playground",
+    "ru": "Воздушная песчаная площадка",
+    "es": "Parque aéreo de arenisca",
+    "pt": "Playground aéreo de arenito",
+    "de": "Luftiger Sandstein-Spielplatz"
    },
-   "description": "",
-   "tags": {}
+   "description": "A floating sandstone and sand island with a spruce-and-oak tower rising from its center, scattered with white wool, gold blocks, wall torches, and small platforms. It is large, about 147 by 123 by 114 blocks, built from roughly 49,000 blocks, with water pools and a bookshelf-filled tower top. The source has no description, so the look is inferred from the material list and layout views.",
+   "tags": {
+    "type": [
+     "other",
+     "garden"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "desert",
+     "ocean"
+    ],
+    "keywords": [
+     "floating island",
+     "sandstone",
+     "playground",
+     "midair",
+     "sky island",
+     "spruce tower",
+     "water pools",
+     "parkour"
+    ]
+   }
   },
   {
    "id": "planetminecraft/snow-casle-floating-islands",
@@ -27376,10 +28160,35 @@
    "license": "unrestricted",
    "rating": 320,
    "title": {
-    "en": "Massive Spawn Tower"
+    "en": "Massive Spawn Tower",
+    "ru": "Огромная башня спавна",
+    "es": "Enorme torre de aparición",
+    "pt": "Enorme torre de spawn",
+    "de": "Riesiger Spawn-Turm"
    },
-   "description": "",
-   "tags": {}
+   "description": "A very large tower built mostly from snow blocks, stone slabs, stone bricks and chiseled stone bricks, with grass-covered terraces and accents of gold blocks, glowstone, iron bars and red and orange wool. It measures 115 wide, 192 high and 115 deep, using about 176,100 blocks, and the source lists no interior or block entities.",
+   "tags": {
+    "type": [
+     "tower"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "snowy",
+     "plains"
+    ],
+    "keywords": [
+     "spawn tower",
+     "massive tower",
+     "snow tower",
+     "stone brick tower",
+     "giant tower",
+     "gold accents",
+     "glowstone",
+     "large build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/st-emlrich-cathedral",
@@ -27923,10 +28732,36 @@
    "license": "unrestricted",
    "rating": 212,
    "title": {
-    "en": "Steampunk locomotive"
+    "en": "Steampunk Locomotive",
+    "ru": "Стимпанк локомотив",
+    "es": "Locomotora Steampunk",
+    "pt": "Locomotiva Steampunk",
+    "de": "Steampunk-Lokomotive"
    },
-   "description": "",
-   "tags": {}
+   "description": "A steampunk train engine built mostly from stone bricks, nether bricks, spruce planks and iron blocks, with a tall smokestack, a coal block boiler and anvils for machinery detail. It is large, about 115 by 65 by 219 blocks, and sits on a grass block base with lava and coal accents. It contains a record player and a skull as block entities, and the footprint is a long, narrow shape with the cab and boiler stacked toward the front.",
+   "tags": {
+    "type": [
+     "other",
+     "ship"
+    ],
+    "style": [
+     "steampunk"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "steampunk locomotive",
+     "train",
+     "steam engine",
+     "locomotive",
+     "smokestack",
+     "steampunk train",
+     "coal",
+     "iron"
+    ]
+   }
   },
   {
    "id": "planetminecraft/steampunk-moving-city",
@@ -28046,10 +28881,36 @@
    "license": "unrestricted",
    "rating": 244,
    "title": {
-    "en": "Steampunk Moving city"
+    "en": "Steampunk Moving City",
+    "ru": "Передвижной город в стиле стимпанк",
+    "es": "Ciudad móvil steampunk",
+    "pt": "Cidade móvel steampunk",
+    "de": "Steampunk-Wanderstadt"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large steampunk city on wheels-style machinery, built mostly from spruce planks, stone bricks, iron and gold blocks, and red wool accents, with clay and redstone lamps adding detail. It is very big, about 139 wide, 71 high and 213 deep, with a dense cluster of towers and rooftops and a long hull-like base. No interior or block entities are included in the data.",
+   "tags": {
+    "type": [
+     "other",
+     "village"
+    ],
+    "style": [
+     "steampunk"
+    ],
+    "biome": [
+     "plains",
+     "desert"
+    ],
+    "keywords": [
+     "steampunk",
+     "moving city",
+     "mobile city",
+     "airship",
+     "machine city",
+     "spruce",
+     "iron",
+     "large build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/steward-class-corvette",
@@ -28538,10 +29399,35 @@
    "license": "unrestricted",
    "rating": 155,
    "title": {
-    "en": "Summer Cottage"
+    "en": "Summer Cottage",
+    "ru": "Летний коттедж",
+    "es": "Cabaña de verano",
+    "pt": "Chalé de verão",
+    "de": "Sommerhäuschen"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large summer cottage set into natural terrain, mostly built from stone with oak and jungle wood accents, oak leaves, sand, and water nearby. Inside are functional blocks like chests, a furnace, an enchanting table, a cauldron, a record player, and a sign. It measures about 101 by 33 by 95 blocks, with roughly 157,000 blocks in total.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "rustic"
+    ],
+    "biome": [
+     "forest",
+     "plains"
+    ],
+    "keywords": [
+     "summer cottage",
+     "cottage",
+     "stone house",
+     "oak",
+     "lake",
+     "enchanting room",
+     "record player",
+     "large house"
+    ]
+   }
   },
   {
    "id": "planetminecraft/survival-duplex",
@@ -28661,10 +29547,36 @@
    "license": "unrestricted",
    "rating": 125,
    "title": {
-    "en": "Survival Duplex (NOW WITH TUTORIAL!)"
+    "en": "Survival Duplex",
+    "ru": "Выживальный дуплекс",
+    "es": "Dúplex de Supervivencia",
+    "pt": "Duplex de Sobrevivência",
+    "de": "Survival-Duplex"
    },
-   "description": "",
-   "tags": {}
+   "description": "A two-unit survival house built from stone bricks, spruce, and dirt with grass roofs and a stone brick frame, sized about 29 by 18 by 15 blocks. The interior holds practical survival setups including a furnace, enchanting table, cauldron, chests, bookshelves, an ender chest, a record player, and flower pots. The source description is empty, so this summary is based on the materials and block-entity list.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "medieval",
+     "rustic"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "survival",
+     "duplex",
+     "stone brick house",
+     "spruce house",
+     "two-family",
+     "enchanting room",
+     "survival base",
+     "grass roof"
+    ]
+   }
   },
   {
    "id": "planetminecraft/tartane",
@@ -28907,10 +29819,35 @@
    "license": "unrestricted",
    "rating": 147,
    "title": {
-    "en": "Temple Taoïste / Taoïste Temple"
+    "en": "Taoist Temple",
+    "ru": "Даосский храм",
+    "es": "Templo taoísta",
+    "pt": "Templo taoísta",
+    "de": "Taoistischer Tempel"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large Taoist temple built mainly from stone with spruce log pillars, quartz and cyan terracotta accents, and oak slab and stair roofing. It is about 155 wide, 83 high and 106 deep, made of roughly 140,000 blocks, with tiered, stepped rooflines rising to a narrow spire at the top. The data lists no block entities, so the interior is not described and any lighting is only shown as redstone lamps and levers.",
+   "tags": {
+    "type": [
+     "temple"
+    ],
+    "style": [
+     "chinese"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "taoist",
+     "temple",
+     "chinese",
+     "pagoda",
+     "shrine",
+     "stone",
+     "spruce",
+     "large"
+    ]
+   }
   },
   {
    "id": "planetminecraft/tent-ultramodern-home",
@@ -29030,10 +29967,36 @@
    "license": "unrestricted",
    "rating": 161,
    "title": {
-    "en": "Tent - Ultramodern Home"
+    "en": "Ultramodern Stone Tent Home",
+    "ru": "Ультрасовременный каменный дом-палатка",
+    "es": "Casa tienda ultramoderna de piedra",
+    "pt": "Casa tenda ultramoderna de pedra",
+    "de": "Ultramodernes Steinzelt-Haus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large modern home shaped like a tent, built mostly from stone with a cracked stone brick and quartz accent. It stands about 53 wide, 24 high and 62 deep, with a snowy and icy roof area beside a spruce and jungle slab trim. The build has a furnace, signs, a skull and a trap inside its block entities, and it sits on grass with a small water feature.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern",
+     "other"
+    ],
+    "biome": [
+     "snowy",
+     "plains"
+    ],
+    "keywords": [
+     "tent house",
+     "modern home",
+     "stone house",
+     "large house",
+     "snow",
+     "ultramodern",
+     "quartz",
+     "stone build"
+    ]
+   }
   },
   {
    "id": "planetminecraft/teresas-demise",
@@ -29145,10 +30108,34 @@
    "license": "unrestricted",
    "rating": 174,
    "title": {
-    "en": "Teresa's Demise"
+    "en": "Teresa's Demise",
+    "ru": "Гибель Терезы",
+    "es": "La perdición de Teresa",
+    "pt": "A ruína de Teresa",
+    "de": "Teresas Untergang"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large, dark, asymmetric structure built mostly from spruce logs, black and white wool, oak planks, and obsidian, with iron blocks and soul sand, standing in a large body of water. It is about 29 blocks wide, 68 high, and 113 deep, and includes chests, furnaces, signs, a ladder, and glowstone lighting inside. The source gives no description, so its exact purpose is unstated.",
+   "tags": {
+    "type": [
+     "other"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "ocean"
+    ],
+    "keywords": [
+     "underwater",
+     "sunken",
+     "ocean build",
+     "spruce",
+     "obsidian",
+     "black wool",
+     "large structure",
+     "water"
+    ]
+   }
   },
   {
    "id": "planetminecraft/test-2002891",
@@ -29752,10 +30739,37 @@
    "license": "unrestricted",
    "rating": 352,
    "title": {
-    "en": "The Avengers - S.H.I.E.L.D Helicarrier with download and schematic!"
+    "en": "S.H.I.E.L.D. Helicarrier",
+    "ru": "Летающий авианосец ЩИТ",
+    "es": "Helicarrier de S.H.I.E.L.D.",
+    "pt": "Helicarrier da S.H.I.E.L.D.",
+    "de": "S.H.I.E.L.D. Helicarrier"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large flying aircraft carrier inspired by S.H.I.E.L.D.'s Helicarrier from The Avengers, built mostly from stone, black and white wool, glass, and glowstone with a long hull, a raised bridge and multiple decks. It is very large at about 298 by 60 by 141 blocks, with an interior containing chests, furnaces, enchanting tables, and signs.",
+   "tags": {
+    "type": [
+     "ship",
+     "other"
+    ],
+    "style": [
+     "modern",
+     "futuristic"
+    ],
+    "biome": [
+     "plains",
+     "ocean"
+    ],
+    "keywords": [
+     "helicarrier",
+     "avengers",
+     "shield",
+     "flying ship",
+     "aircraft carrier",
+     "airship",
+     "marvel",
+     "sky"
+    ]
+   }
   },
   {
    "id": "planetminecraft/the-beaux-arts-library-venom-contest-entry",
@@ -30081,10 +31095,35 @@
    "license": "unrestricted",
    "rating": 137,
    "title": {
-    "en": "The Chapel of Prosperity"
+    "en": "Chapel of Prosperity",
+    "ru": "Часовня Процветания",
+    "es": "Capilla de la Prosperidad",
+    "pt": "Capela da Prosperidade",
+    "de": "Kapelle des Wohlstands"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large chapel built mostly from stone bricks, with birch, spruce, oak, and acacia planks for contrast and grass-block grounds. Its rounded, dome-like silhouette rises to a central peak, and it measures about 102 wide, 66 high, and 79 deep blocks. The materials list includes an enchanting table, redstone lamps, and a sign, but no other interior details are recorded.",
+   "tags": {
+    "type": [
+     "temple",
+     "house"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "chapel",
+     "church",
+     "stone brick",
+     "dome",
+     "prosperity",
+     "enchanting table",
+     "redstone lamp",
+     "large"
+    ]
+   }
   },
   {
    "id": "planetminecraft/the-eclipse-yacht-11-scale",
@@ -31513,10 +32552,36 @@
    "license": "unrestricted",
    "rating": 903,
    "title": {
-    "en": "The Stark Tower From The Avengers Film (An Exact Replica!)"
+    "en": "Stark Tower Replica",
+    "ru": "Башня Старка — точная копия",
+    "es": "Réplica de la Torre Stark",
+    "pt": "Réplica da Torre Stark",
+    "de": "Stark Tower Replik"
    },
-   "description": "",
-   "tags": {}
+   "description": "A tall, exact replica of the Stark Tower from the Avengers films, built as a slender modern skyscraper with a grid of light gray and gray wool, spruce planks, and many glass panes for windows. It stands about 150 blocks high, 43 wide and 81 deep, with a wide base that narrows into a lit spire-like top. The build uses a large amount of material (over 61,000 blocks) and includes a few furnaces, signs, and traps inside.",
+   "tags": {
+    "type": [
+     "tower"
+    ],
+    "style": [
+     "modern",
+     "futuristic"
+    ],
+    "biome": [
+     "plains",
+     "flat"
+    ],
+    "keywords": [
+     "stark tower",
+     "avengers",
+     "skyscraper",
+     "replica",
+     "modern tower",
+     "marvel",
+     "office building",
+     "city"
+    ]
+   }
   },
   {
    "id": "planetminecraft/the-temple-of-fire-819392",
@@ -31612,10 +32677,36 @@
    "license": "unrestricted",
    "rating": 175,
    "title": {
-    "en": "The Temple of Fire"
+    "en": "Temple of Fire",
+    "ru": "Храм Огня",
+    "es": "Templo del Fuego",
+    "pt": "Templo do Fogo",
+    "de": "Tempel des Feuers"
    },
-   "description": "",
-   "tags": {}
+   "description": "A tall, fiery temple built mostly from dark nether bricks and regular bricks, with netherrack, lava pools, fire, and gold blocks accents, and glowing lava and fire effects throughout. It is roughly 103 by 103 blocks across and 192 blocks high, with a tall central spire and smaller wings, and it has no interior blocks or block entities listed. The source has no description, so its purpose is inferred only from the name and materials.",
+   "tags": {
+    "type": [
+     "temple"
+    ],
+    "style": [
+     "fantasy",
+     "gothic"
+    ],
+    "biome": [
+     "nether",
+     "plains"
+    ],
+    "keywords": [
+     "fire temple",
+     "nether bricks",
+     "lava",
+     "netherrack",
+     "tower",
+     "spire",
+     "fantasy temple",
+     "gold"
+    ]
+   }
   },
   {
    "id": "planetminecraft/the-temple-of-youth",
@@ -32357,10 +33448,36 @@
    "license": "unrestricted",
    "rating": 131,
    "title": {
-    "en": "Traditional Mansion"
+    "en": "Traditional Mansion",
+    "ru": "Традиционный особняк",
+    "es": "Mansión tradicional",
+    "pt": "Mansão tradicional",
+    "de": "Traditionelles Herrenhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large traditional mansion built mostly from bricks, cracked stone bricks, quartz, and spruce wood, with green terracotta and wool accents, set on a grassy and podzol-covered plot with a small water feature. It measures about 177 blocks wide, 34 high, and 141 deep, and includes interior details such as beacons, cauldrons, flower pots, furnaces, signs, and skulls, with a sprawling multi-wing footprint. The source provides no description, so the classic mansion reading comes from its materials and layout.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "classical",
+     "rustic"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "mansion",
+     "manor",
+     "large house",
+     "brick mansion",
+     "spruce",
+     "quartz",
+     "traditional",
+     "estate"
+    ]
+   }
   },
   {
    "id": "planetminecraft/train-station-download",
@@ -32972,10 +34089,35 @@
    "license": "unrestricted",
    "rating": 148,
    "title": {
-    "en": "Tshara’s castle"
+    "en": "Tshara's Stone Castle",
+    "ru": "Каменный замок Шары",
+    "es": "Castillo de piedra de Tshara",
+    "pt": "Castelo de pedra da Tshara",
+    "de": "Steinburg von Tshara"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large stone castle with a tall central keep, flanking towers with peaked roofs, and a wide base set on a dirt and grass mound. Built mostly from stone, cobblestone and dirt with oak planks, oak logs and fences for trim, plus black and gray wool accents and glass windows. Roughly 54 wide, 64 high and 76 deep, with an interior holding a cauldron, chests, an enchanting table, signs and traps.",
+   "tags": {
+    "type": [
+     "castle"
+    ],
+    "style": [
+     "medieval"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "castle",
+     "stone castle",
+     "keep",
+     "medieval castle",
+     "towers",
+     "fortress",
+     "dirt mound",
+     "enchanting room"
+    ]
+   }
   },
   {
    "id": "planetminecraft/twilight-town-train-station-kingdom-of-hearts",
@@ -33218,10 +34360,37 @@
    "license": "unrestricted",
    "rating": 192,
    "title": {
-    "en": "University"
+    "en": "University Castle Complex",
+    "ru": "Университетский замковый комплекс",
+    "es": "Complejo de castillo universitario",
+    "pt": "Complexo de castelo universitário",
+    "de": "Universitätsburgkomplex"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large stone-and-spruce university complex with a tall central tower, a long main hall with rows of arched windows, and a sunken courtyard with a small pond and grass. It is built from stone bricks, spruce planks and logs, with gold and diamond block accents, and it stands about 74 wide, 63 high and 37 deep. Inside are a bookshelf-lined interior area, chests, a beacon, a cauldron, banners, signs and a record player.",
+   "tags": {
+    "type": [
+     "house",
+     "castle"
+    ],
+    "style": [
+     "medieval",
+     "gothic"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "university",
+     "castle",
+     "stone brick",
+     "spruce",
+     "big build",
+     "library",
+     "school",
+     "tower"
+    ]
+   }
   },
   {
    "id": "planetminecraft/usns-general-hoyt-s-vandenberg-t-agm-10",
@@ -34075,10 +35244,36 @@
    "license": "unrestricted",
    "rating": 217,
    "title": {
-    "en": "Victorian Mansion"
+    "en": "Victorian Mansion",
+    "ru": "Викторианский особняк",
+    "es": "Mansión Victoriana",
+    "pt": "Mansão Vitoriana",
+    "de": "Viktorianisches Herrenhaus"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large multi-storey Victorian-style mansion built mainly from red brick, stone brick, spruce and quartz, with white wool accents, glass panes and a grass-block lawn base. It measures about 39 blocks wide, 63 high and 69 deep, roughly 26,700 blocks in total. The interior holds chests, furnaces, hoppers, signs, a record player and music blocks, plus some redstone comparators and trapped chests.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "classical",
+     "medieval"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "victorian mansion",
+     "brick mansion",
+     "large house",
+     "spruce",
+     "quartz",
+     "manor",
+     "redstone",
+     "interior"
+    ]
+   }
   },
   {
    "id": "planetminecraft/victorian-style-home",
@@ -34598,10 +35793,34 @@
    "license": "unrestricted",
    "rating": 189,
    "title": {
-    "en": "Waterfront Home"
+    "en": "Waterfront Home",
+    "ru": "Дом у воды",
+    "es": "Casa junto al agua",
+    "pt": "Casa à beira-d'água",
+    "de": "Haus am Wasser"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large waterfront house built on and over open water, with white and gray wool walls, glass windows, sandstone and sand accents, and oak trim and stairs. It spans about 55 by 55 blocks and rises about 50 blocks high, with mostly water around it. The interior includes chests, furnaces, a record player, and signs.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "modern"
+    ],
+    "biome": [
+     "ocean"
+    ],
+    "keywords": [
+     "waterfront",
+     "lakeside house",
+     "seaside villa",
+     "water house",
+     "beach house",
+     "sandstone",
+     "glass windows",
+     "oak"
+    ]
+   }
   },
   {
    "id": "planetminecraft/western-building-bundle",
@@ -35161,10 +36380,34 @@
    "license": "unrestricted",
    "rating": 158,
    "title": {
-    "en": "Zepplin (World+Schematic!)"
+    "en": "White Zeppelin Airship",
+    "ru": "Белый цеппелин-дирижабль",
+    "es": "Zepelín blanco",
+    "pt": "Zepelim branco",
+    "de": "Weißes Zeppelin-Luftschiff"
    },
-   "description": "",
-   "tags": {}
+   "description": "A long, white wool airship modeled as a zeppelin, with a rounded hull and small fins at the tail. Its main material is about 20,000 white wool blocks, with nether brick and stone brick trim, iron bars, and a few glass panes. It is very long for its width, about 257 blocks deep, 47 wide, and 63 high, and it has wall signs, oak doors, and torches inside.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "plains"
+    ],
+    "keywords": [
+     "zeppelin",
+     "airship",
+     "blimp",
+     "flying ship",
+     "white wool",
+     "sky ship",
+     "dirigible",
+     "large"
+    ]
+   }
   },
   {
    "id": "planetminecraft/zeus-airship",
@@ -35284,10 +36527,35 @@
    "license": "unrestricted",
    "rating": 148,
    "title": {
-    "en": "Zeus - Airship"
+    "en": "Zeus Airship",
+    "ru": "Воздушный корабль Зевса",
+    "es": "Dirigible de Zeus",
+    "pt": "Dirigível de Zeus",
+    "de": "Zeus Luftschiff"
    },
-   "description": "",
-   "tags": {}
+   "description": "A large floating airship named Zeus, built mostly from oak and spruce planks with stone brick hulls, wool sails, and iron block fittings. It is about 286 by 91 by 139 blocks, made of roughly 130,000 blocks, and includes chests, furnaces, hoppers, a music block, and signs inside its decks and cabins. The source gives no description, so the vessel's exact design is inferred from its materials and layout.",
+   "tags": {
+    "type": [
+     "ship"
+    ],
+    "style": [
+     "other"
+    ],
+    "biome": [
+     "ocean",
+     "plains"
+    ],
+    "keywords": [
+     "airship",
+     "flying ship",
+     "zeus",
+     "sky ship",
+     "wooden airship",
+     "floating",
+     "stone brick",
+     "vehicle"
+    ]
+   }
   },
   {
    "id": "samples/starter-hut",
