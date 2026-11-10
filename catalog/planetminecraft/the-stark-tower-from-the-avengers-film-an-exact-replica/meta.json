@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/the-stark-tower-from-the-avengers-film-an-exact-replica/",
   "license": "unrestricted",
   "rating": 903,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Stark Tower Replica",
+      "ru": "Башня Старка — точная копия",
+      "es": "Réplica de la Torre Stark",
+      "pt": "Réplica da Torre Stark",
+      "de": "Stark Tower Replik"
+    },
+    "description": "A tall, exact replica of the Stark Tower from the Avengers films, built as a slender modern skyscraper with a grid of light gray and gray wool, spruce planks, and many glass panes for windows. It stands about 150 blocks high, 43 wide and 81 deep, with a wide base that narrows into a lit spire-like top. The build uses a large amount of material (over 61,000 blocks) and includes a few furnaces, signs, and traps inside.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "modern",
+        "futuristic"
+      ],
+      "biome": [
+        "plains",
+        "flat"
+      ],
+      "keywords": [
+        "stark tower",
+        "avengers",
+        "skyscraper",
+        "replica",
+        "modern tower",
+        "marvel",
+        "office building",
+        "city"
+      ]
+    },
+    "for": "d123efd871618d2f5967bade0ec40fd31f2ccda45ded8ab452d763011b719de6",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

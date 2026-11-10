@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/waterfront-home/",
   "license": "unrestricted",
   "rating": 189,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Waterfront Home",
+      "ru": "Дом у воды",
+      "es": "Casa junto al agua",
+      "pt": "Casa à beira-d'água",
+      "de": "Haus am Wasser"
+    },
+    "description": "A large waterfront house built on and over open water, with white and gray wool walls, glass windows, sandstone and sand accents, and oak trim and stairs. It spans about 55 by 55 blocks and rises about 50 blocks high, with mostly water around it. The interior includes chests, furnaces, a record player, and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "waterfront",
+        "lakeside house",
+        "seaside villa",
+        "water house",
+        "beach house",
+        "sandstone",
+        "glass windows",
+        "oak"
+      ]
+    },
+    "for": "44fbfe962bced2a81488ce2727b962df26164e8bb58c38d7ceace3c5ad271c05",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

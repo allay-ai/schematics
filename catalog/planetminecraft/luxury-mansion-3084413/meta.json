@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/luxury-mansion-3084413/",
   "license": "unrestricted",
   "rating": 157,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Luxury Mansion",
+      "ru": "Роскошный особняк",
+      "es": "Mansión de lujo",
+      "pt": "Mansão de luxo",
+      "de": "Luxus-Herrenhaus"
+    },
+    "description": "A large symmetrical mansion built mostly from sandstone, quartz, and stone bricks, with spruce wood accents, black glass panes, and water features set among grass lawns. It measures about 169 wide, 38 high, and 142 deep, and the source includes a beacon and signs as block entities, suggesting a furnished interior.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "mansion",
+        "luxury house",
+        "sandstone",
+        "quartz",
+        "large house",
+        "manor",
+        "villa",
+        "estate"
+      ]
+    },
+    "for": "d8cb470cd2ee27c6e82d219d21e36c73ead9ce52401e72e74fe5d8a8d296fa5d",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

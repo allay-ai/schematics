@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/tsharas-castle/",
   "license": "unrestricted",
   "rating": 148,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Tshara's Stone Castle",
+      "ru": "Каменный замок Шары",
+      "es": "Castillo de piedra de Tshara",
+      "pt": "Castelo de pedra da Tshara",
+      "de": "Steinburg von Tshara"
+    },
+    "description": "A large stone castle with a tall central keep, flanking towers with peaked roofs, and a wide base set on a dirt and grass mound. Built mostly from stone, cobblestone and dirt with oak planks, oak logs and fences for trim, plus black and gray wool accents and glass windows. Roughly 54 wide, 64 high and 76 deep, with an interior holding a cauldron, chests, an enchanting table, signs and traps.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "castle",
+        "stone castle",
+        "keep",
+        "medieval castle",
+        "towers",
+        "fortress",
+        "dirt mound",
+        "enchanting room"
+      ]
+    },
+    "for": "e5868626fb4cbd13ceb85c800cfd993006f68547a7957888ea390596366c5d23",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

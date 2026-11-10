@@ -215,6 +215,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--collect", action="store_true", help="write what a pending batch brought, then stop")
     parser.add_argument("--now", type=int, default=20, help="up to this many go as plain requests; more go as a batch")
+    parser.add_argument("--max", type=int, help="describe at most this many as plain requests, the best rated first, and leave the rest for the next run")
     parser.add_argument("--texts", help="a JSON file of what each build's source page says, by id, read but never kept in the catalog")
     args = parser.parse_args()
     if args.collect:
@@ -227,6 +228,11 @@ def main() -> int:
     texts = json.load(open(args.texts, encoding="utf-8")) if args.texts else None
     if not entries:
         print("every schematic has its description")
+    elif args.max is not None:
+        # The builds players like most get found first.
+        entries.sort(key=lambda entry: -(entry[2].get("rating") or 0))
+        now(entries[: args.max], texts)
+        print(f"{max(0, len(entries) - args.max)} left for the next run")
     elif len(entries) <= args.now:
         now(entries, texts)
     else:

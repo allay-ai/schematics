@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/cloud-fortress/",
   "license": "unrestricted",
   "rating": 141,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Cloud Fortress",
+      "ru": "Облачная крепость",
+      "es": "Fortaleza de las Nubes",
+      "pt": "Fortaleza das Nuvens",
+      "de": "Wolkenfestung"
+    },
+    "description": "A floating fortress built almost entirely from snow blocks and stone slabs, with iron block walls, ice accents, black wool trim, and glass windows, rising into a snowy sky over a water basin. It is very large, about 207 wide by 128 high by 190 deep, with roughly 124,000 blocks, and its interior holds a chest, a record player, and signs.",
+    "tags": {
+      "type": [
+        "castle",
+        "other"
+      ],
+      "style": [
+        "fantasy",
+        "futuristic"
+      ],
+      "biome": [
+        "snowy"
+      ],
+      "keywords": [
+        "floating fortress",
+        "cloud castle",
+        "snow castle",
+        "sky fortress",
+        "ice fortress",
+        "iron",
+        "snow",
+        "large build"
+      ]
+    },
+    "for": "24baa677783251d6af6352e1b84ab6e631c14b23b8172caca378974976f76fcf",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

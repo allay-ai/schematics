@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/cocoa-castle/",
   "license": "unrestricted",
   "rating": 158,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Cocoa Castle",
+      "ru": "Замок Какао",
+      "es": "Castillo de Cacao",
+      "pt": "Castelo de Cacau",
+      "de": "Kakao-Burg"
+    },
+    "description": "A large medieval castle built from cobblestone walls, dark oak towers and roofs, and cyan terracotta accents, with snow blocks on parts of the top and a grass base plot. It measures about 102 by 105 blocks across and 99 blocks high, using roughly 30,900 blocks. The schematic includes a single sign, and the source does not describe any interior rooms.",
+    "tags": {
+      "type": [
+        "castle"
+      ],
+      "style": [
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "castle",
+        "medieval castle",
+        "cobblestone",
+        "dark oak",
+        "tower",
+        "large",
+        "schematic",
+        "snow"
+      ]
+    },
+    "for": "740c6c8a86ee25da7c785d631a65c1c9b44cb7ed784ea713ae3502e65063a7eb",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

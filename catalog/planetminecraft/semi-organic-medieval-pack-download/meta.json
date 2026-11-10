@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/semi-organic-medieval-pack--download-/",
   "license": "unrestricted",
   "rating": 170,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Semi-Organic Medieval Pack",
+      "ru": "Полуорганический средневековый набор",
+      "es": "Paquete Medieval Semiorgánico",
+      "pt": "Pacote Medieval Semiorgânico",
+      "de": "Semi-organisches Mittelalter-Paket"
+    },
+    "description": "A large medieval build pack of scattered structures on open grass, built mostly from spruce logs and planks, stone, cobblestone and white, gray and black wool, with spruce roofs and stone brick stairs. The footprint is about 246 by 321 blocks and 55 high, so it is a big, spread-out collection rather than one compact house. Some structures contain furnaces, music blocks, signs and traps.",
+    "tags": {
+      "type": [
+        "village",
+        "house"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "medieval",
+        "village",
+        "semi-organic",
+        "spruce",
+        "stone",
+        "pack",
+        "houses",
+        "large"
+      ]
+    },
+    "for": "6ecf2209cdf76feaabff10899b29f6995f9f26a4457bb06064d3bdbf09c72f1c",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

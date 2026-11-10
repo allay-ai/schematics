@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/teresas-demise/",
   "license": "unrestricted",
   "rating": 174,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Teresa's Demise",
+      "ru": "Гибель Терезы",
+      "es": "La perdición de Teresa",
+      "pt": "A ruína de Teresa",
+      "de": "Teresas Untergang"
+    },
+    "description": "A large, dark, asymmetric structure built mostly from spruce logs, black and white wool, oak planks, and obsidian, with iron blocks and soul sand, standing in a large body of water. It is about 29 blocks wide, 68 high, and 113 deep, and includes chests, furnaces, signs, a ladder, and glowstone lighting inside. The source gives no description, so its exact purpose is unstated.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "underwater",
+        "sunken",
+        "ocean build",
+        "spruce",
+        "obsidian",
+        "black wool",
+        "large structure",
+        "water"
+      ]
+    },
+    "for": "f89447a8a32a5099b5dbfc0488e2e46d597fd97d7157ecce154cc9b417009296",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

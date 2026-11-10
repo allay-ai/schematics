@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/18-creative-palace/",
   "license": "unrestricted",
   "rating": 165,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Sandstone Desert Palace",
+      "ru": "Песчаный дворец пустыни",
+      "es": "Palacio del desierto de arenisca",
+      "pt": "Palácio do deserto de arenito",
+      "de": "Sandstein-Wüstenpalast"
+    },
+    "description": "A large palace built mostly from sandstone, stone, and sand with a sandy, desert-style look and a central dome-like tower rising above rounded stone walls. It is very large at about 177 wide, 65 high, and 109 deep, made of roughly 196,000 blocks, with some water features, spruce and oak leaves, and a few netherrack and coal accents. Source description is empty, so the design is inferred from the materials and footprint.",
+    "tags": {
+      "type": [
+        "castle",
+        "other"
+      ],
+      "style": [
+        "desert",
+        "other"
+      ],
+      "biome": [
+        "desert",
+        "plains"
+      ],
+      "keywords": [
+        "palace",
+        "sandstone",
+        "desert palace",
+        "large castle",
+        "spawn",
+        "sand",
+        "worth 1000",
+        "statue"
+      ]
+    },
+    "for": "a45a5f3ff029ce846cb3a8d7803792bd463da3769178d237053adf69ba44ea56",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

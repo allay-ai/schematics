@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/high-rossferry-city---one-atlantic-centre/",
   "license": "unrestricted",
   "rating": 220,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "High Rossferry Tower",
+      "ru": "Башня Хай-Россферри",
+      "es": "Torre de High Rossferry",
+      "pt": "Torre de High Rossferry",
+      "de": "High Rossferry Turm"
+    },
+    "description": "A very tall tower-like city building named One Atlantic Centre, about 63 by 63 blocks across and 183 blocks high, far taller than it is wide. Its walls are mostly spruce planks and mossy stone bricks, with many glass panes and blue and gray wool accents, and it has nether brick stair details. It contains bookshelves and glowstone, and its layout appears stacked in floors.",
+    "tags": {
+      "type": [
+        "tower"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "any"
+      ],
+      "keywords": [
+        "tall tower",
+        "skyscraper",
+        "city building",
+        "mossy stone",
+        "spruce",
+        "glass windows",
+        "rossferry",
+        "atlantic centre"
+      ]
+    },
+    "for": "e6f25ac6e486fd76ec615cf558262152cce133722c6399f7d52d6a93dea564d0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

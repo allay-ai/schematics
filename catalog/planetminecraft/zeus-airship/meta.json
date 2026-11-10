@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/zeus---airship/",
   "license": "unrestricted",
   "rating": 148,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Zeus Airship",
+      "ru": "Воздушный корабль Зевса",
+      "es": "Dirigible de Zeus",
+      "pt": "Dirigível de Zeus",
+      "de": "Zeus Luftschiff"
+    },
+    "description": "A large floating airship named Zeus, built mostly from oak and spruce planks with stone brick hulls, wool sails, and iron block fittings. It is about 286 by 91 by 139 blocks, made of roughly 130,000 blocks, and includes chests, furnaces, hoppers, a music block, and signs inside its decks and cabins. The source gives no description, so the vessel's exact design is inferred from its materials and layout.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean",
+        "plains"
+      ],
+      "keywords": [
+        "airship",
+        "flying ship",
+        "zeus",
+        "sky ship",
+        "wooden airship",
+        "floating",
+        "stone brick",
+        "vehicle"
+      ]
+    },
+    "for": "1966011c9aaa6089fe372d36bc87f288b3dfe197a853a271e737c57abc54429f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/haunted-house-3131883/",
   "license": "unrestricted",
   "rating": 140,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Haunted House",
+      "ru": "Призрачный особняк",
+      "es": "Casa Embrujada",
+      "pt": "Casa Assombrada",
+      "de": "Spukhaus"
+    },
+    "description": "A large, dark haunted house built mostly from stone, cobblestone slabs, and bricks, with spruce and oak wood accents, podzol and dirt ground, and heavy vines creeping over the walls. Its footprint is roughly 149 by 141 blocks with a height of 54, making it a sprawling, multi-part mansion with a tall central tower and a grassy yard. Inside are chests, furnaces, flower pots, a record player, and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "gothic"
+      ],
+      "biome": [
+        "forest",
+        "plains"
+      ],
+      "keywords": [
+        "haunted house",
+        "spooky mansion",
+        "dark mansion",
+        "vines",
+        "stone",
+        "podzol",
+        "halloween",
+        "tower"
+      ]
+    },
+    "for": "e4720daa4f16f5d1e41a49d2c16eb8eb54d855e5bf570bfc26f8f9eaec63ada3",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

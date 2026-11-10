@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/survival-duplex/",
   "license": "unrestricted",
   "rating": 125,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Survival Duplex",
+      "ru": "Выживальный дуплекс",
+      "es": "Dúplex de Supervivencia",
+      "pt": "Duplex de Sobrevivência",
+      "de": "Survival-Duplex"
+    },
+    "description": "A two-unit survival house built from stone bricks, spruce, and dirt with grass roofs and a stone brick frame, sized about 29 by 18 by 15 blocks. The interior holds practical survival setups including a furnace, enchanting table, cauldron, chests, bookshelves, an ender chest, a record player, and flower pots. The source description is empty, so this summary is based on the materials and block-entity list.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "medieval",
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "survival",
+        "duplex",
+        "stone brick house",
+        "spruce house",
+        "two-family",
+        "enchanting room",
+        "survival base",
+        "grass roof"
+      ]
+    },
+    "for": "a0379f01b7c4408c9fe1766973e434d4b2f160e8b8835592bc02c5b10c7bd7e7",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

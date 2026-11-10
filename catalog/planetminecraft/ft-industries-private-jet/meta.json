@@ -4,5 +4,42 @@
   "source": "https://www.planetminecraft.com/project/-ft-industries-private-jet-/",
   "license": "unrestricted",
   "rating": 206,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Private Jet Airplane",
+      "ru": "Частный реактивный самолёт",
+      "es": "Avión Privado a Reacción",
+      "pt": "Jato Particular",
+      "de": "Privatjet Flugzeug"
+    },
+    "description": "A sleek private jet built mostly from quartz slabs, quartz blocks and gray terracotta, with a long swept-wing body and a rear tail section. It is about 44 blocks wide, 43 deep and 12 high, roughly 1,300 blocks in total. Inside are a few chests, signs, a daylight detector and a couple of beacons, with light blue and orange wool and carpet accents.",
+    "tags": {
+      "type": [
+        "other",
+        "ship"
+      ],
+      "style": [
+        "futuristic",
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "desert",
+        "snowy"
+      ],
+      "keywords": [
+        "airplane",
+        "jet",
+        "aircraft",
+        "private jet",
+        "quartz",
+        "flying vehicle",
+        "modern plane",
+        "airport"
+      ]
+    },
+    "for": "198df9ee73675f32ac7672e37ccc5a2deb2e204930821bdce070d2e330edc077",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

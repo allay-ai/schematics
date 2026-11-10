@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/modern-karma---superyacht-20-tropical-islands-/",
   "license": "unrestricted",
   "rating": 237,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Karma Modern Superyacht",
+      "ru": "Современная суперяхта Karma",
+      "es": "Superyate moderno Karma",
+      "pt": "Superiate moderno Karma",
+      "de": "Modern Superyacht Karma"
+    },
+    "description": "A large modern superyacht built mostly from white quartz blocks and slabs, with black and gray wool, stained glass windows, and iron bar railings. It measures 16 wide, 26 high and 88 deep, with about 13,300 blocks, and sits on a water-filled shallow area beside sandy and stone island terrain. Interior details include droppers, flower pots and signs; the source gives no description, so these details come from the block data alone.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "superyacht",
+        "yacht",
+        "boat",
+        "quartz ship",
+        "modern ship",
+        "luxury yacht",
+        "tropical island",
+        "water"
+      ]
+    },
+    "for": "751c4f397b8bbf6f826ba515c8dd5f88c2ec7efc1a754d5b12409965e5ad06a4",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

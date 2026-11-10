@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/aerowin-cruise-liner/",
   "license": "unrestricted",
   "rating": 205,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Aerowin Cruise Liner",
+      "ru": "Круизный лайнер Aerowin",
+      "es": "Crucero Aerowin",
+      "pt": "Transatlântico Aerowin",
+      "de": "Aerowin Kreuzfahrtschiff"
+    },
+    "description": "A very large white and light gray passenger cruise liner with red accents, blue trim, and rows of glass windows along its hull, with oak decks, stairs, and doors. It measures about 173 blocks long, 50 high, and 31 deep, and includes water blocks around the hull. Interior details include a furnace, a record player, and signs.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "ocean"
+      ],
+      "keywords": [
+        "cruise ship",
+        "ocean liner",
+        "passenger ship",
+        "large boat",
+        "vessel",
+        "white ship",
+        "yacht",
+        "sea"
+      ]
+    },
+    "for": "6121d4f8eae35593b0947776a7c6613092e8dff9dcd01c56853d263cb7b3f288",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

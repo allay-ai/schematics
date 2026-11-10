@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/sneek-peek-372072/",
   "license": "unrestricted",
   "rating": 144,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Midair Sandstone Playground",
+      "ru": "Воздушная песчаная площадка",
+      "es": "Parque aéreo de arenisca",
+      "pt": "Playground aéreo de arenito",
+      "de": "Luftiger Sandstein-Spielplatz"
+    },
+    "description": "A floating sandstone and sand island with a spruce-and-oak tower rising from its center, scattered with white wool, gold blocks, wall torches, and small platforms. It is large, about 147 by 123 by 114 blocks, built from roughly 49,000 blocks, with water pools and a bookshelf-filled tower top. The source has no description, so the look is inferred from the material list and layout views.",
+    "tags": {
+      "type": [
+        "other",
+        "garden"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "desert",
+        "ocean"
+      ],
+      "keywords": [
+        "floating island",
+        "sandstone",
+        "playground",
+        "midair",
+        "sky island",
+        "spruce tower",
+        "water pools",
+        "parkour"
+      ]
+    },
+    "for": "61f7b2d917819ae65ba32b0fd4874151f5803dd78582308b06729a4afc208c96",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

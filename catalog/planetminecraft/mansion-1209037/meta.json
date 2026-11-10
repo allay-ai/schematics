@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/mansion-1209037/",
   "license": "unrestricted",
   "rating": 329,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Large Mansion",
+      "ru": "Большой особняк",
+      "es": "Gran mansión",
+      "pt": "Grande mansão",
+      "de": "Großes Herrenhaus"
+    },
+    "description": "A large mansion built mainly from sandstone, jungle planks, and stone, with glass windows, iron bars, and glowstone lighting, set on a dirt and grass base with some water. It measures 88 wide, 34 high, and 72 deep, about 54,000 blocks. Inside are chests, furnaces, a cauldron, signs, a record player, and music blocks.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "jungle",
+        "forest"
+      ],
+      "keywords": [
+        "mansion",
+        "large house",
+        "sandstone",
+        "jungle wood",
+        "big build",
+        "dirt",
+        "record player",
+        "glowstone"
+      ]
+    },
+    "for": "9a63698414f02c0161e4294820129b23416476e77c86d581d263c81211996dc0",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

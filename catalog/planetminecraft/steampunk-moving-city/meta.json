@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/steampunk-moving-city/",
   "license": "unrestricted",
   "rating": 244,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Steampunk Moving City",
+      "ru": "Передвижной город в стиле стимпанк",
+      "es": "Ciudad móvil steampunk",
+      "pt": "Cidade móvel steampunk",
+      "de": "Steampunk-Wanderstadt"
+    },
+    "description": "A large steampunk city on wheels-style machinery, built mostly from spruce planks, stone bricks, iron and gold blocks, and red wool accents, with clay and redstone lamps adding detail. It is very big, about 139 wide, 71 high and 213 deep, with a dense cluster of towers and rooftops and a long hull-like base. No interior or block entities are included in the data.",
+    "tags": {
+      "type": [
+        "other",
+        "village"
+      ],
+      "style": [
+        "steampunk"
+      ],
+      "biome": [
+        "plains",
+        "desert"
+      ],
+      "keywords": [
+        "steampunk",
+        "moving city",
+        "mobile city",
+        "airship",
+        "machine city",
+        "spruce",
+        "iron",
+        "large build"
+      ]
+    },
+    "for": "7878dac4a1905b81163ad2209c5cce4329d52587de44099ed4dfe4df4ea4881e",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

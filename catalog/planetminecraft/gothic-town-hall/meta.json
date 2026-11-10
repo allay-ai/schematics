@@ -4,5 +4,41 @@
   "source": "https://www.planetminecraft.com/project/gothic-town-hall/",
   "license": "unrestricted",
   "rating": 137,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Gothic Town Hall",
+      "ru": "Готическая ратуша",
+      "es": "Ayuntamiento gótico",
+      "pt": "Prefeitura gótica",
+      "de": "Gotisches Rathaus"
+    },
+    "description": "A large gothic-style town hall built mostly from spruce planks, spruce stairs, and stone bricks, with tall pointed spires and a steep central tower rising from a wide stone-brick base. It measures about 51 blocks wide, 51 high, and 48 deep, with roughly 16,600 blocks in total. The interior contains bookshelves, chests, furnaces, an enchanting table, a beacon, and other functional block entities.",
+    "tags": {
+      "type": [
+        "house",
+        "village"
+      ],
+      "style": [
+        "gothic"
+      ],
+      "biome": [
+        "plains",
+        "forest",
+        "snowy"
+      ],
+      "keywords": [
+        "gothic town hall",
+        "spruce",
+        "stone brick",
+        "spire",
+        "tower",
+        "municipal building",
+        "large build",
+        "medieval hall"
+      ]
+    },
+    "for": "b036b4d2d5880a8cf95f43d46630cf3d9c114d2c0fbd2c1f7c43342389f26c6b",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

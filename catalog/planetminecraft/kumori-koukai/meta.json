@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/kumori-koukai/",
   "license": "unrestricted",
   "rating": 137,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Kumori Koukai",
+      "ru": "Кумори Коукай",
+      "es": "Kumori Koukai",
+      "pt": "Kumori Koukai",
+      "de": "Kumori Koukai"
+    },
+    "description": "A large, wide build about 138 by 76 by 57 blocks, with a long horizontal beam and a sloping, hull-like body that reads as a ship or vessel from the front. Its main materials are obsidian, oak planks, red wool, glass, spruce logs, glowstone and nether brick fences, with iron blocks and rails. The interior holds utility blocks such as an enchanting table, a record player, a jukebox, chests, furnaces, a cauldron and a dispenser. The source has no description, so the vessel reading is inferred from the shape.",
+    "tags": {
+      "type": [
+        "ship"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "ocean",
+        "plains"
+      ],
+      "keywords": [
+        "obsidian",
+        "large ship",
+        "red wool",
+        "glowstone",
+        "nether brick",
+        "enchanting room",
+        "record player",
+        "spruce"
+      ]
+    },
+    "for": "d8d28bf4fad42054cca743fe349b28ae5b629bf97baa6e16da79c279892413a2",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

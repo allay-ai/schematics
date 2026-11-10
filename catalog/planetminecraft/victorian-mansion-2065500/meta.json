@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/victorian-mansion-2065500/",
   "license": "unrestricted",
   "rating": 217,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Victorian Mansion",
+      "ru": "Викторианский особняк",
+      "es": "Mansión Victoriana",
+      "pt": "Mansão Vitoriana",
+      "de": "Viktorianisches Herrenhaus"
+    },
+    "description": "A large multi-storey Victorian-style mansion built mainly from red brick, stone brick, spruce and quartz, with white wool accents, glass panes and a grass-block lawn base. It measures about 39 blocks wide, 63 high and 69 deep, roughly 26,700 blocks in total. The interior holds chests, furnaces, hoppers, signs, a record player and music blocks, plus some redstone comparators and trapped chests.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "classical",
+        "medieval"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "victorian mansion",
+        "brick mansion",
+        "large house",
+        "spruce",
+        "quartz",
+        "manor",
+        "redstone",
+        "interior"
+      ]
+    },
+    "for": "b1e7feab19c85a8d0925e6b272bc165a2c7bdf4ee93239f02e9d175c05f5cdaa",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

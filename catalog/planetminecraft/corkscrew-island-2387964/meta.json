@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/corkscrew-island-2387964/",
   "license": "unrestricted",
   "rating": 161,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Corkscrew Island Cobweb Ruin",
+      "ru": "Остров Штопор с паутиной",
+      "es": "Isla Sacacorchos con telarañas",
+      "pt": "Ilha Saca-rolhas com teias",
+      "de": "Korkenzieher-Insel mit Spinnweben"
+    },
+    "description": "A tall, twisted floating-style island built mostly from cobweb, stone, and oak, with a spiraling corkscrew shape rising about 141 blocks high and spanning roughly 94 by 86 blocks. Its look mixes grassy ledges, a stone and brick core, white and red wool accents, and glass windows, and it contains a few chests, a furnace, and signs. The source gave no description, so the form and details come from the block data alone.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "fantasy"
+      ],
+      "biome": [
+        "plains"
+      ],
+      "keywords": [
+        "island",
+        "corkscrew",
+        "cobweb",
+        "twisted",
+        "floating",
+        "tall",
+        "spiral",
+        "oak"
+      ]
+    },
+    "for": "c75fb2a632f81762af9dc4f76eb2a2f6b9981410d3b833ec14d791ed0045c279",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

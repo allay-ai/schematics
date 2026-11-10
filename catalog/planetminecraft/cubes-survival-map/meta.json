@@ -4,5 +4,38 @@
   "source": "https://www.planetminecraft.com/project/cubes---survival-map/",
   "license": "unrestricted",
   "rating": 402,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Cubes Survival Map",
+      "ru": "Карта выживания «Кубы»",
+      "es": "Mapa de supervivencia de cubos",
+      "pt": "Mapa de sobrevivência de cubos",
+      "de": "Cubes Survival-Karte"
+    },
+    "description": "A solid 17×17×17 cube built mostly from glass and stone, with dirt, sand, grass, black wool, a water layer and several ore blocks. The front and top views are fully filled, so it reads as one closed block rather than an open structure. Inside it holds chests, a mob spawner and signs, and it is a survival map built around a cube shape.",
+    "tags": {
+      "type": [
+        "other"
+      ],
+      "style": [
+        "other"
+      ],
+      "biome": [
+        "any"
+      ],
+      "keywords": [
+        "cube",
+        "survival map",
+        "glass cube",
+        "mob spawner",
+        "chests",
+        "ore",
+        "17x17x17",
+        "solid cube"
+      ]
+    },
+    "for": "08b96c51efc987371d5be0820a0faed97daa1d99ca55f27b307ba160dfbc8b80",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

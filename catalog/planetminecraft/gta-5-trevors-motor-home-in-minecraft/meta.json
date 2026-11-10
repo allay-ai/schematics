@@ -4,5 +4,40 @@
   "source": "https://www.planetminecraft.com/project/gta-5---trevors-motor-home---in-minecraft/",
   "license": "unrestricted",
   "rating": 159,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Trevor's Desert Safehouse",
+      "ru": "Убежище Тревора в пустыне",
+      "es": "Refugio de Trevor en el desierto",
+      "pt": "Esconderijo do Trevor no deserto",
+      "de": "Trevors Wüstenunterschlupf"
+    },
+    "description": "A GTA 5 inspired motor home and safehouse built from sand, quartz, and iron bars, with a flat trailer-like body, stepped roof edges, and a long platform running across the top. It sits on a sand and grass base with acacia and jungle leaves, carpets, and sunflowers around it. Roughly 44 by 17 by 27 blocks with about 2,660 blocks; the interior has furnaces, hoppers, a cauldron, flower pots, and signs.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern",
+        "desert"
+      ],
+      "biome": [
+        "desert",
+        "plains"
+      ],
+      "keywords": [
+        "gta 5",
+        "trevor",
+        "safehouse",
+        "motor home",
+        "trailer",
+        "sand",
+        "quartz",
+        "showcase"
+      ]
+    },
+    "for": "c68c3415d14a544821c6968f04ccaba6b668e1bc9056aa1739f686c6928afb94",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }

@@ -4,5 +4,39 @@
   "source": "https://www.planetminecraft.com/project/contemporary-modern-house-3161376/",
   "license": "unrestricted",
   "rating": 150,
-  "imported": "rom1504/minecraft-schematics-dataset"
+  "imported": "rom1504/minecraft-schematics-dataset",
+  "generated": {
+    "title": {
+      "en": "Contemporary Modern House",
+      "ru": "Современный дом в стиле модерн",
+      "es": "Casa moderna contemporánea",
+      "pt": "Casa moderna contemporânea",
+      "de": "Zeitgenössisches modernes Haus"
+    },
+    "description": "A large modern house built mostly from white quartz blocks and slabs, with gray and green terracotta accents, green wool and carpet, and blue stained glass panes. It sits on a grass and dirt terrace above a water feature, with an oak and spruce tree nearby. The build spans about 121 by 124 blocks and is 23 blocks high, with 72,139 blocks total; the source has no description, and interior contents are not documented beyond a few sign and skull block entities.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "modern"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "modern house",
+        "contemporary",
+        "quartz",
+        "terracotta",
+        "glass",
+        "large house",
+        "water",
+        "terrace"
+      ]
+    },
+    "for": "fccec91dbd5d84af3ce16992e6b5272030a5e0e5b2f185de9b8a3bb2a397e84f",
+    "model": "anthropic/claude-haiku-5.5"
+  }
 }
