@@ -1,0 +1,41 @@
+{
+  "title": "Starter hut",
+  "description": "A sample that keeps the catalog's tools honest: a small plank hut on a cobblestone floor, with a doorway, a window, and a slab roof.",
+  "author": "Allay",
+  "source": "https://github.com/allay-ai/schematics",
+  "license": "CC0-1.0",
+  "generated": {
+    "title": {
+      "en": "Starter Oak Hut",
+      "ru": "Стартовая дубовая хижина",
+      "es": "Cabaña inicial de roble",
+      "pt": "Cabana inicial de carvalho",
+      "de": "Einfache Starthütte aus Eiche"
+    },
+    "description": "A small starter hut with oak plank walls, a cobblestone floor, a doorway, a single glass window, and a slab roof. It is a plain 5×5×5 block box with no interior furnishings or block entities. It is a catalog sample for testing the index rather than a finished showcase build.",
+    "tags": {
+      "type": [
+        "house"
+      ],
+      "style": [
+        "rustic"
+      ],
+      "biome": [
+        "plains",
+        "forest"
+      ],
+      "keywords": [
+        "starter hut",
+        "small house",
+        "oak house",
+        "simple house",
+        "beginner build",
+        "cabin",
+        "survival starter",
+        "sample"
+      ]
+    },
+    "for": "efab81985b757f3b828cdfe703b14da6e937a5a2f91c7496f2542e00136a1217",
+    "model": "anthropic/claude-haiku-5.5"
+  }
+}

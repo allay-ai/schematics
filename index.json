@@ -1,0 +1,72 @@
+{
+ "version": 1,
+ "schematics": [
+  {
+   "id": "samples/starter-hut",
+   "path": "catalog/samples/starter-hut/build.schem",
+   "sha256": "efab81985b757f3b828cdfe703b14da6e937a5a2f91c7496f2542e00136a1217",
+   "bytes": 289,
+   "size": {
+    "x": 5,
+    "y": 5,
+    "z": 5
+   },
+   "blocks": 96,
+   "kinds": 4,
+   "materials": [
+    {
+     "block": "minecraft:oak_planks",
+     "count": 45
+    },
+    {
+     "block": "minecraft:cobblestone",
+     "count": 25
+    },
+    {
+     "block": "minecraft:oak_slab",
+     "count": 25
+    },
+    {
+     "block": "minecraft:glass_pane",
+     "count": 1
+    }
+   ],
+   "data_version": 4440,
+   "block_entities": 0,
+   "entities": 0,
+   "author": "Allay",
+   "source": "https://github.com/allay-ai/schematics",
+   "license": "CC0-1.0",
+   "title": {
+    "en": "Starter Oak Hut",
+    "ru": "Стартовая дубовая хижина",
+    "es": "Cabaña inicial de roble",
+    "pt": "Cabana inicial de carvalho",
+    "de": "Einfache Starthütte aus Eiche"
+   },
+   "description": "A small starter hut with oak plank walls, a cobblestone floor, a doorway, a single glass window, and a slab roof. It is a plain 5×5×5 block box with no interior furnishings or block entities. It is a catalog sample for testing the index rather than a finished showcase build.",
+   "tags": {
+    "type": [
+     "house"
+    ],
+    "style": [
+     "rustic"
+    ],
+    "biome": [
+     "plains",
+     "forest"
+    ],
+    "keywords": [
+     "starter hut",
+     "small house",
+     "oak house",
+     "simple house",
+     "beginner build",
+     "cabin",
+     "survival starter",
+     "sample"
+    ]
+   }
+  }
+ ]
+}
