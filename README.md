@@ -9,13 +9,13 @@ Allay takes schematics from here only. A server can't add its own, since nobody 
 - `catalog/<section>/<name>/` is one build: its id is that path, like `houses/medieval-mill`.
   - `source.schem` (Sponge, WorldEdit 7 or newer) or `source.litematic` (Litematica), as its author published it.
   - `meta.json`: who made it and under what license, written by hand.
-  - `build.schem`: what Allay builds, made by CI from the source. A Sponge v3 schematic cut down to the blocks, with air in no corner.
+  - `build.schem`: what Allay builds, made by CI from the source. A Sponge v3 schematic cut down to the blocks, with air in no corner and none of the author's tools: command blocks, barriers, light, and structure blocks go.
 - `index.json` is everything the search reads: each build's size, block count, materials, titles in English, Russian, Spanish, Portuguese, and German, a description, and tags. CI makes it.
 - `tools/` holds the Python that makes them, with no dependencies, and `tests/` its tests.
 
 ## Where the builds come from
 
-- `planetminecraft/`: builds their authors published for download on [Planet Minecraft](https://www.planetminecraft.com), taken from [rom1504's dataset](https://gitlab.com/rom1504/minecraft-schematics-dataset) of them, best rated first, up to 200 000 blocks. A build whose page asks not to share it stays out. Each keeps its author and a link to its page; the catalog writes its own descriptions and copies no page's text or pictures. Their license reads `unrestricted`: the author published it without restricting sharing.
+- `planetminecraft/`: builds their authors published for download on [Planet Minecraft](https://www.planetminecraft.com), taken from [rom1504's dataset](https://gitlab.com/rom1504/minecraft-schematics-dataset) of them, best rated first, up to 200 000 blocks, then looked over one by one in the game: what didn't stand as a build to live in or to build in survival went out. A build whose page asks not to share it stays out. Each keeps its author and a link to its page; the catalog writes its own descriptions and copies no page's text or pictures. Their license reads `unrestricted`: the author published it without restricting sharing.
 - `samples/`: builds of Allay's own, which keep the tools honest.
 
 An author who wants their build out of the catalog opens an issue, and it goes.

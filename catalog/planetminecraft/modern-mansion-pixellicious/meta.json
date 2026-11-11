@@ -35,7 +35,7 @@
         "series 1"
       ]
     },
-    "for": "8f1c29a1da79a2eb5f3f445ac7bc00c80911525ae0acf7ecd16939e6a56139e1",
+    "for": "9a522b0f184c06a0c667dcf5333bb15d54f6663a3a048be4df51b4d70af8468e",
     "model": "anthropic/claude-haiku-5.5"
   }
 }
