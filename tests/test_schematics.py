@@ -66,6 +66,15 @@ class SchematicTest(unittest.TestCase):
             self.assertEqual(small.palette[0], "minecraft:air")
             self.assertEqual(schematic.counts(small)["minecraft:oak_planks"], 16 * 3 - 2 - 1)
 
+    def test_an_authors_tools_are_cut_with_what_they_held(self):
+        palette = ["minecraft:air", "minecraft:stone", "minecraft:command_block[conditional=false,facing=up]", "minecraft:barrier"]
+        cells = array.array("I", [1, 2, 3, 3])
+        entities = [{"pos": [1, 0, 0], "id": "minecraft:command_block", "data": {"Command": "/op someone"}}]
+        small = schematic.compact(schematic.Structure(4, 1, 1, palette, cells, 3953, entities))
+        self.assertEqual((small.width, small.height, small.length), (1, 1, 1))
+        self.assertEqual(small.palette, ["minecraft:stone"], "the box holds no air once they go")
+        self.assertEqual(small.block_entities, [])
+
     def test_sponge_v2_reads_its_palette_and_block_entities(self):
         palette = {"minecraft:air": 0, "minecraft:chest[facing=north]": 1}
         root = {"Version": 2, "DataVersion": 3465, "Width": Tag(SHORT, 2), "Height": Tag(SHORT, 1), "Length": Tag(SHORT, 1),

@@ -16,6 +16,12 @@ from nbt import BYTE_ARRAY, COMPOUND, DOUBLE, INT, INT_ARRAY, List, SHORT, STRIN
 AIR = "minecraft:air"
 # What counts as nothing to place: empty air, and the blank a structure block leaves alone.
 EMPTY = {"minecraft:air", "minecraft:cave_air", "minecraft:void_air", "minecraft:structure_void"}
+# What an author builds with but nobody lives with: command blocks, barriers, light, and the structure tools. A build
+# keeps none of them; Allay's plugin reads them as air too.
+TECHNICAL = {
+    "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:structure_block",
+    "minecraft:jigsaw", "minecraft:barrier", "minecraft:light", "minecraft:test_block", "minecraft:test_instance_block",
+}
 
 
 @dataclass
@@ -187,9 +193,10 @@ def read(path: str) -> Structure:
 
 
 def compact(structure: Structure) -> Structure:
-    """The same build in the smallest box that holds every block, with only the states it uses, air first."""
+    """The same build in the smallest box that holds every block, with only the states it uses, air first, and without
+    the author's tools ([TECHNICAL]) or what they held."""
     w, l = structure.width, structure.length
-    empty = [state in EMPTY for state in structure.palette]
+    empty = [state in EMPTY or block_id(state) in TECHNICAL for state in structure.palette]
     lo, hi = [w, structure.height, l], [-1, -1, -1]
     layer = w * l
     blocks = structure.blocks
@@ -228,9 +235,11 @@ def compact(structure: Structure) -> Structure:
         palette = [palette[old] for old in used]
         cells = array.array("I", (again[index] for index in cells))
     inside = lambda pos: all(0 <= pos[axis] - lo[axis] < size[axis] for axis in range(3))
+    # A block entity stays only on a block that stays: a command block's command goes with the block.
+    kept = lambda pos: inside(pos) and not empty[blocks[int(pos[1]) * layer + int(pos[2]) * w + int(pos[0])]]
     shift = lambda pos: [pos[axis] - lo[axis] for axis in range(3)]
     return Structure(size[0], size[1], size[2], palette, cells, structure.data_version,
-                     [dict(e, pos=shift(e["pos"])) for e in structure.block_entities if inside([int(p) for p in e["pos"]])],
+                     [dict(e, pos=shift(e["pos"])) for e in structure.block_entities if kept([int(p) for p in e["pos"]])],
                      [dict(e, pos=shift(e["pos"])) for e in structure.entities if inside([int(p // 1) for p in e["pos"]])],
                      structure.name, structure.author)
 
